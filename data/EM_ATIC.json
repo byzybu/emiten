@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ATIC",
+        "label": "ATIC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ARTHA_INVESTAMA_JAYA_PT",
+        "label": "ARTHA INVESTAMA JAYA PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARTONO_TJUATJA",
+        "label": "Hartono Tjuatja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SAM_INVESTAMA",
+        "label": "SAM INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TIS_INC",
+        "label": "TIS INC",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TIS_INC_JEPANG_",
+        "label": "TIS Inc (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HANDOKO_ANINDYA_TANUADJI",
+        "label": "HANDOKO ANINDYA TANUADJI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HANDOKO_ANINDYA_TANUADJI",
+        "label": "Handoko Anindya Tanuadji",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ATIC_SH_ARTHA_INVESTAMA_JAYA_PT",
+        "source": "EM_ATIC",
+        "target": "SH_ARTHA_INVESTAMA_JAYA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ATIC_KP_HARTONO_TJUATJA",
+        "source": "EM_ATIC",
+        "target": "KP_HARTONO_TJUATJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ATIC_SH_SAM_INVESTAMA",
+        "source": "EM_ATIC",
+        "target": "SH_SAM_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ATIC_KP_HARTONO_TJUATJA",
+        "source": "EM_ATIC",
+        "target": "KP_HARTONO_TJUATJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ATIC_SH_TIS_INC",
+        "source": "EM_ATIC",
+        "target": "SH_TIS_INC",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ATIC_KP_TIS_INC_JEPANG_",
+        "source": "EM_ATIC",
+        "target": "KP_TIS_INC_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ATIC_SH_HANDOKO_ANINDYA_TANUADJI",
+        "source": "EM_ATIC",
+        "target": "SH_HANDOKO_ANINDYA_TANUADJI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ATIC_KP_HANDOKO_ANINDYA_TANUADJI",
+        "source": "EM_ATIC",
+        "target": "KP_HANDOKO_ANINDYA_TANUADJI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

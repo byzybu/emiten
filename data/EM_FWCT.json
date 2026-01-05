@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_FWCT",
+        "label": "FWCT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FORTUNA_ANUGRAH_SUMBER",
+        "label": "FORTUNA ANUGRAH SUMBER",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ARIS_SUNARKO",
+        "label": "Aris Sunarko",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FIRST_FORTUNA_HOLDINGS",
+        "label": "FIRST FORTUNA HOLDINGS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_FWCT_SH_FORTUNA_ANUGRAH_SUMBER",
+        "source": "EM_FWCT",
+        "target": "SH_FORTUNA_ANUGRAH_SUMBER",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FWCT_KP_ARIS_SUNARKO",
+        "source": "EM_FWCT",
+        "target": "KP_ARIS_SUNARKO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FWCT_SH_FIRST_FORTUNA_HOLDINGS",
+        "source": "EM_FWCT",
+        "target": "SH_FIRST_FORTUNA_HOLDINGS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FWCT_KP_INVESTASI_ASING",
+        "source": "EM_FWCT",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

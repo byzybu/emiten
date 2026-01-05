@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ADRO",
+        "label": "ADRO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ADARO_STRATEGIC_INVESTMENTS",
+        "label": "ADARO STRATEGIC INVESTMENTS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GARIBALDI_THOHIR",
+        "label": "Garibaldi Thohir",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GARIBALDI_THOHIR",
+        "label": "GARIBALDI THOHIR",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ADRO_SH_ADARO_STRATEGIC_INVESTMENTS",
+        "source": "EM_ADRO",
+        "target": "SH_ADARO_STRATEGIC_INVESTMENTS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ADRO_KP_GARIBALDI_THOHIR",
+        "source": "EM_ADRO",
+        "target": "KP_GARIBALDI_THOHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ADRO_SH_GARIBALDI_THOHIR",
+        "source": "EM_ADRO",
+        "target": "SH_GARIBALDI_THOHIR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ADRO_KP_GARIBALDI_THOHIR",
+        "source": "EM_ADRO",
+        "target": "KP_GARIBALDI_THOHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

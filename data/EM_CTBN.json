@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CTBN",
+        "label": "CTBN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NIPPON_STEEL_CORPORATION",
+        "label": "NIPPON STEEL CORPORATION",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NIPPON_STEEL_JEPANG_",
+        "label": "Nippon Steel (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VALLOUREC_TUBES",
+        "label": "VALLOUREC TUBES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_VALLOUREC_S_A_PRANCIS_",
+        "label": "Vallourec S.A. (Prancis)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KESTREL_WAVE_INVESTMENT_LTD",
+        "label": "KESTREL WAVE INVESTMENT LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CTBN_SH_NIPPON_STEEL_CORPORATION",
+        "source": "EM_CTBN",
+        "target": "SH_NIPPON_STEEL_CORPORATION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CTBN_KP_NIPPON_STEEL_JEPANG_",
+        "source": "EM_CTBN",
+        "target": "KP_NIPPON_STEEL_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CTBN_SH_VALLOUREC_TUBES",
+        "source": "EM_CTBN",
+        "target": "SH_VALLOUREC_TUBES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CTBN_KP_VALLOUREC_S_A_PRANCIS_",
+        "source": "EM_CTBN",
+        "target": "KP_VALLOUREC_S_A_PRANCIS_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CTBN_SH_KESTREL_WAVE_INVESTMENT_LTD",
+        "source": "EM_CTBN",
+        "target": "SH_KESTREL_WAVE_INVESTMENT_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CTBN_KP_INVESTASI_ASING",
+        "source": "EM_CTBN",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

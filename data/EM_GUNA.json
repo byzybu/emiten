@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GUNA",
+        "label": "GUNA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CECILIA_LANNY_BUDIMAN",
+        "label": "CECILIA LANNY BUDIMAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CECILIA_LANNY_BUDIMAN",
+        "label": "Cecilia Lanny Budiman",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TJOKRO_GUNAWAN",
+        "label": "TJOKRO GUNAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJOKRO_GUNAWAN",
+        "label": "Tjokro Gunawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BERNICE_COKROSAPUTRO",
+        "label": "BERNICE COKROSAPUTRO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_COKROSAPUTRO",
+        "label": "Keluarga Cokrosaputro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IVAN_COKRO_SAPUTRA",
+        "label": "IVAN COKRO SAPUTRA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GUNA_SH_CECILIA_LANNY_BUDIMAN",
+        "source": "EM_GUNA",
+        "target": "SH_CECILIA_LANNY_BUDIMAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GUNA_KP_CECILIA_LANNY_BUDIMAN",
+        "source": "EM_GUNA",
+        "target": "KP_CECILIA_LANNY_BUDIMAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GUNA_SH_TJOKRO_GUNAWAN",
+        "source": "EM_GUNA",
+        "target": "SH_TJOKRO_GUNAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GUNA_KP_TJOKRO_GUNAWAN",
+        "source": "EM_GUNA",
+        "target": "KP_TJOKRO_GUNAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GUNA_SH_BERNICE_COKROSAPUTRO",
+        "source": "EM_GUNA",
+        "target": "SH_BERNICE_COKROSAPUTRO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GUNA_KP_KELUARGA_COKROSAPUTRO",
+        "source": "EM_GUNA",
+        "target": "KP_KELUARGA_COKROSAPUTRO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GUNA_SH_IVAN_COKRO_SAPUTRA",
+        "source": "EM_GUNA",
+        "target": "SH_IVAN_COKRO_SAPUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GUNA_KP_KELUARGA_COKROSAPUTRO",
+        "source": "EM_GUNA",
+        "target": "KP_KELUARGA_COKROSAPUTRO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

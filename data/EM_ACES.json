@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ACES",
+        "label": "ACES",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KAWAN_LAMA_SEJAHTERA",
+        "label": "KAWAN LAMA SEJAHTERA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KUNCORO_WIBOWO",
+        "label": "Kuncoro Wibowo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ACES_SH_KAWAN_LAMA_SEJAHTERA",
+        "source": "EM_ACES",
+        "target": "SH_KAWAN_LAMA_SEJAHTERA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ACES_KP_KUNCORO_WIBOWO",
+        "source": "EM_ACES",
+        "target": "KP_KUNCORO_WIBOWO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

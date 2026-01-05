@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BSIM",
+        "label": "BSIM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SINAR_MAS_MULTIARTHA_TBK_",
+        "label": "SINAR MAS MULTIARTHA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BSIM_SH_SINAR_MAS_MULTIARTHA_TBK_",
+        "source": "EM_BSIM",
+        "target": "SH_SINAR_MAS_MULTIARTHA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BSIM_KP_KELUARGA_WIDJAJA",
+        "source": "EM_BSIM",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

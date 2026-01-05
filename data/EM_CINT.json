@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CINT",
+        "label": "CINT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NIVEN_HOLDINGS_LIMITED",
+        "label": "NIVEN HOLDINGS LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KIKY_SUHERLAN",
+        "label": "KIKY SUHERLAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KIKY_SUHERLAN",
+        "label": "Kiky Suherlan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DEDIE_SUHERLAN",
+        "label": "DEDIE SUHERLAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DEDIE_SUHERLAN",
+        "label": "Dedie Suherlan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CINT_SH_NIVEN_HOLDINGS_LIMITED",
+        "source": "EM_CINT",
+        "target": "SH_NIVEN_HOLDINGS_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CINT_KP_INVESTASI_ASING",
+        "source": "EM_CINT",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CINT_SH_KIKY_SUHERLAN",
+        "source": "EM_CINT",
+        "target": "SH_KIKY_SUHERLAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CINT_KP_KIKY_SUHERLAN",
+        "source": "EM_CINT",
+        "target": "KP_KIKY_SUHERLAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CINT_SH_DEDIE_SUHERLAN",
+        "source": "EM_CINT",
+        "target": "SH_DEDIE_SUHERLAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CINT_KP_DEDIE_SUHERLAN",
+        "source": "EM_CINT",
+        "target": "KP_DEDIE_SUHERLAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

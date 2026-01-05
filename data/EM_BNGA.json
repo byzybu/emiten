@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BNGA",
+        "label": "BNGA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CIMB_GROUP_SDN_BHD",
+        "label": "CIMB GROUP SDN BHD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KHAZANAH_NASIONAL",
+        "label": "Khazanah Nasional",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BNGA_SH_CIMB_GROUP_SDN_BHD",
+        "source": "EM_BNGA",
+        "target": "SH_CIMB_GROUP_SDN_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BNGA_KP_KHAZANAH_NASIONAL",
+        "source": "EM_BNGA",
+        "target": "KP_KHAZANAH_NASIONAL",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

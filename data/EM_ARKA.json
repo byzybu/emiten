@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ARKA",
+        "label": "ARKA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_ARKHA_TANTO_PRIMA",
+        "label": "PT. ARKHA TANTO PRIMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAF_ASIA_INVESTMENT",
+        "label": "JAF ASIA INVESTMENT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ARKA_SH_PT_ARKHA_TANTO_PRIMA",
+        "source": "EM_ARKA",
+        "target": "SH_PT_ARKHA_TANTO_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARKA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_ARKA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARKA_SH_JAF_ASIA_INVESTMENT",
+        "source": "EM_ARKA",
+        "target": "SH_JAF_ASIA_INVESTMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARKA_KP_INVESTASI_ASING",
+        "source": "EM_ARKA",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

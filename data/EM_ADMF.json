@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ADMF",
+        "label": "ADMF",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_DANAMON_INDONESIA_TBK",
+        "label": "BANK DANAMON INDONESIA TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MUFG_BANK_JEPANG_",
+        "label": "MUFG Bank (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MUFG_BANK_LTD",
+        "label": "MUFG BANK, LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ADMF_SH_BANK_DANAMON_INDONESIA_TBK",
+        "source": "EM_ADMF",
+        "target": "SH_BANK_DANAMON_INDONESIA_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ADMF_KP_MUFG_BANK_JEPANG_",
+        "source": "EM_ADMF",
+        "target": "KP_MUFG_BANK_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ADMF_SH_MUFG_BANK_LTD",
+        "source": "EM_ADMF",
+        "target": "SH_MUFG_BANK_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ADMF_KP_INVESTOR_INSTITUSI",
+        "source": "EM_ADMF",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

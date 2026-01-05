@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CANI",
+        "label": "CANI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_ANUGRAH_SEMESTA_LANGGENG",
+        "label": "PT. ANUGRAH SEMESTA LANGGENG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_OCBC_SECURITIES_PRIVATE_LIMITED",
+        "label": "OCBC SECURITIES PRIVATE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CANI_SH_PT_ANUGRAH_SEMESTA_LANGGENG",
+        "source": "EM_CANI",
+        "target": "SH_PT_ANUGRAH_SEMESTA_LANGGENG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CANI_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_CANI",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CANI_SH_OCBC_SECURITIES_PRIVATE_LIMITED",
+        "source": "EM_CANI",
+        "target": "SH_OCBC_SECURITIES_PRIVATE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CANI_KP_INVESTOR_INSTITUSI",
+        "source": "EM_CANI",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ASDM",
+        "label": "ASDM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_ARTHAVEST_TBK",
+        "label": "PT. ARTHAVEST TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LUCAS_S_H_C_N_",
+        "label": "Lucas, S.H., C.N.",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PRIMA_TUNAS_INVESTAMA",
+        "label": "PRIMA TUNAS INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HUSNI_ALI",
+        "label": "Husni Ali",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TOMMY_GOZALI",
+        "label": "Tommy Gozali",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ASDM_SH_PT_ARTHAVEST_TBK",
+        "source": "EM_ASDM",
+        "target": "SH_PT_ARTHAVEST_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASDM_KP_LUCAS_S_H_C_N_",
+        "source": "EM_ASDM",
+        "target": "KP_LUCAS_S_H_C_N_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASDM_SH_PRIMA_TUNAS_INVESTAMA",
+        "source": "EM_ASDM",
+        "target": "SH_PRIMA_TUNAS_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASDM_KP_HUSNI_ALI",
+        "source": "EM_ASDM",
+        "target": "KP_HUSNI_ALI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASDM_SH_PRIMA_TUNAS_INVESTAMA",
+        "source": "EM_ASDM",
+        "target": "SH_PRIMA_TUNAS_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASDM_KP_TOMMY_GOZALI",
+        "source": "EM_ASDM",
+        "target": "KP_TOMMY_GOZALI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

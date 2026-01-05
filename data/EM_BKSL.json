@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BKSL",
+        "label": "BKSL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SAMUEL_SEKURITAS_INDONESIA",
+        "label": "SAMUEL SEKURITAS INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BKSL_SH_SAMUEL_SEKURITAS_INDONESIA",
+        "source": "EM_BKSL",
+        "target": "SH_SAMUEL_SEKURITAS_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BKSL_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BKSL",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

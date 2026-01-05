@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CBRE",
+        "label": "CBRE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_REPUBLIK_CAPITAL_INDONESIA",
+        "label": "REPUBLIK CAPITAL INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HERU_HIDAYAT_TERSANGKA_",
+        "label": "Heru Hidayat (Tersangka)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_OMUDAS_INVESTMENT_HOLDCO",
+        "label": "OMUDAS INVESTMENT HOLDCO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MITSUI_CO_JEPANG_",
+        "label": "Mitsui & Co (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDRY_HAKIM",
+        "label": "ANDRY HAKIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANDRY_HAKIM",
+        "label": "Andry Hakim",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CBRE_SH_REPUBLIK_CAPITAL_INDONESIA",
+        "source": "EM_CBRE",
+        "target": "SH_REPUBLIK_CAPITAL_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBRE_KP_HERU_HIDAYAT_TERSANGKA_",
+        "source": "EM_CBRE",
+        "target": "KP_HERU_HIDAYAT_TERSANGKA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBRE_SH_OMUDAS_INVESTMENT_HOLDCO",
+        "source": "EM_CBRE",
+        "target": "SH_OMUDAS_INVESTMENT_HOLDCO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBRE_KP_MITSUI_CO_JEPANG_",
+        "source": "EM_CBRE",
+        "target": "KP_MITSUI_CO_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBRE_SH_ANDRY_HAKIM",
+        "source": "EM_CBRE",
+        "target": "SH_ANDRY_HAKIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBRE_KP_ANDRY_HAKIM",
+        "source": "EM_CBRE",
+        "target": "KP_ANDRY_HAKIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

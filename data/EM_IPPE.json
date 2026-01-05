@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_IPPE",
+        "label": "IPPE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LEMBUR_SADAYA_INVESTAMA",
+        "label": "LEMBUR SADAYA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ASEP_SULAEMAN_SABANDA",
+        "label": "Asep Sulaeman Sabanda",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMBER_SENTOSA_ADIKARYA",
+        "label": "SUMBER SENTOSA ADIKARYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASEP_SULAEMAN_SABANDA",
+        "label": "ASEP SULAEMAN SABANDA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_IPPE_SH_LEMBUR_SADAYA_INVESTAMA",
+        "source": "EM_IPPE",
+        "target": "SH_LEMBUR_SADAYA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IPPE_KP_ASEP_SULAEMAN_SABANDA",
+        "source": "EM_IPPE",
+        "target": "KP_ASEP_SULAEMAN_SABANDA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IPPE_SH_SUMBER_SENTOSA_ADIKARYA",
+        "source": "EM_IPPE",
+        "target": "SH_SUMBER_SENTOSA_ADIKARYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IPPE_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_IPPE",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IPPE_SH_ASEP_SULAEMAN_SABANDA",
+        "source": "EM_IPPE",
+        "target": "SH_ASEP_SULAEMAN_SABANDA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IPPE_KP_ASEP_SULAEMAN_SABANDA",
+        "source": "EM_IPPE",
+        "target": "KP_ASEP_SULAEMAN_SABANDA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
