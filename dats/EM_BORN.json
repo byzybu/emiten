@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BORN",
+        "label": "BORN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MORGAN_STANLEY_CLIENT_ACC",
+        "label": "MORGAN STANLEY CLIENT ACC",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SYAHRIAL",
+        "label": "Keluarga Syahrial",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDO_ALAM_RESOURCES_PTE",
+        "label": "INDO ALAM RESOURCES PTE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUGIANTO_KUSUMA",
+        "label": "Sugianto Kusuma",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BORN_SH_MORGAN_STANLEY_CLIENT_ACC",
+        "source": "EM_BORN",
+        "target": "SH_MORGAN_STANLEY_CLIENT_ACC",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BORN_KP_KELUARGA_SYAHRIAL",
+        "source": "EM_BORN",
+        "target": "KP_KELUARGA_SYAHRIAL",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BORN_SH_INDO_ALAM_RESOURCES_PTE",
+        "source": "EM_BORN",
+        "target": "SH_INDO_ALAM_RESOURCES_PTE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BORN_KP_SUGIANTO_KUSUMA",
+        "source": "EM_BORN",
+        "target": "KP_SUGIANTO_KUSUMA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

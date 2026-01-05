@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BRIS",
+        "label": "BRIS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_MANDIRI_PERSERO_",
+        "label": "BANK MANDIRI (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_NEGARA_INDONESIA",
+        "label": "BANK NEGARA INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_RAKYAT_INDONESIA",
+        "label": "BANK RAKYAT INDONESIA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BRIS_SH_BANK_MANDIRI_PERSERO_",
+        "source": "EM_BRIS",
+        "target": "SH_BANK_MANDIRI_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRIS_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_BRIS",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRIS_SH_BANK_NEGARA_INDONESIA",
+        "source": "EM_BRIS",
+        "target": "SH_BANK_NEGARA_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRIS_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_BRIS",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRIS_SH_BANK_RAKYAT_INDONESIA",
+        "source": "EM_BRIS",
+        "target": "SH_BANK_RAKYAT_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRIS_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_BRIS",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

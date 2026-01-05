@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AMMS",
+        "label": "AMMS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MANDARA_MAS_SEMESTA",
+        "label": "MANDARA MAS SEMESTA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AMMS_SH_MANDARA_MAS_SEMESTA",
+        "source": "EM_AMMS",
+        "target": "SH_MANDARA_MAS_SEMESTA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMMS_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_AMMS",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ANJT",
+        "label": "ANJT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FIRST_RESOURCES_LIMITED",
+        "label": "FIRST RESOURCES LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_FANGIONO",
+        "label": "Keluarga Fangiono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ANJT_SH_FIRST_RESOURCES_LIMITED",
+        "source": "EM_ANJT",
+        "target": "SH_FIRST_RESOURCES_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ANJT_KP_KELUARGA_FANGIONO",
+        "source": "EM_ANJT",
+        "target": "KP_KELUARGA_FANGIONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

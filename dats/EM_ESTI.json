@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ESTI",
+        "label": "ESTI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CAHAYA_INTERKONTINENTAL_PT",
+        "label": "CAHAYA INTERKONTINENTAL. PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SUNG",
+        "label": "Keluarga Sung",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ESTI_SH_CAHAYA_INTERKONTINENTAL_PT",
+        "source": "EM_ESTI",
+        "target": "SH_CAHAYA_INTERKONTINENTAL_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ESTI_KP_KELUARGA_SUNG",
+        "source": "EM_ESTI",
+        "target": "KP_KELUARGA_SUNG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CASH",
+        "label": "CASH",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HASIM_SUTIONO",
+        "label": "HASIM SUTIONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HASIM_SUTIONO",
+        "label": "Hasim Sutiono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDRI_WIJONO_SUTIONO",
+        "label": "ANDRI WIJONO SUTIONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANDRI_WIJONO_SUTIONO",
+        "label": "Andri Wijono Sutiono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CASH_SH_HASIM_SUTIONO",
+        "source": "EM_CASH",
+        "target": "SH_HASIM_SUTIONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CASH_KP_HASIM_SUTIONO",
+        "source": "EM_CASH",
+        "target": "KP_HASIM_SUTIONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CASH_SH_ANDRI_WIJONO_SUTIONO",
+        "source": "EM_CASH",
+        "target": "SH_ANDRI_WIJONO_SUTIONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CASH_KP_ANDRI_WIJONO_SUTIONO",
+        "source": "EM_CASH",
+        "target": "KP_ANDRI_WIJONO_SUTIONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

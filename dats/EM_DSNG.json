@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DSNG",
+        "label": "DSNG",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRIPUTRA_INVESTINDO_ARYA",
+        "label": "TRIPUTRA INVESTINDO ARYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TP_RACHMAT",
+        "label": "TP Rachmat",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDRIANTO_OETOMO",
+        "label": "ANDRIANTO OETOMO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANDRIANTO_OETOMO",
+        "label": "Andrianto Oetomo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DSNG_SH_TRIPUTRA_INVESTINDO_ARYA",
+        "source": "EM_DSNG",
+        "target": "SH_TRIPUTRA_INVESTINDO_ARYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DSNG_KP_TP_RACHMAT",
+        "source": "EM_DSNG",
+        "target": "KP_TP_RACHMAT",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DSNG_SH_ANDRIANTO_OETOMO",
+        "source": "EM_DSNG",
+        "target": "SH_ANDRIANTO_OETOMO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DSNG_KP_ANDRIANTO_OETOMO",
+        "source": "EM_DSNG",
+        "target": "KP_ANDRIANTO_OETOMO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

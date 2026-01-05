@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_COIN",
+        "label": "COIN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MEGAH_PERKASA_INVESTINDO",
+        "label": "MEGAH PERKASA INVESTINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANDREW_HIDAYAT",
+        "label": "Andrew Hidayat",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TEKNOLOGI_ANAK_NUSANTARA",
+        "label": "TEKNOLOGI ANAK NUSANTARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KRESNA_GROUP_MCAS_",
+        "label": "Kresna Group (MCAS)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BAHANA_NUSANTARA_INDOJAYA",
+        "label": "BAHANA NUSANTARA INDOJAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_HIDAYAT",
+        "label": "Keluarga Hidayat",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BUDI_MARDIONO",
+        "label": "BUDI MARDIONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BUDI_MARDIONO",
+        "label": "Budi Mardiono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_COIN_SH_MEGAH_PERKASA_INVESTINDO",
+        "source": "EM_COIN",
+        "target": "SH_MEGAH_PERKASA_INVESTINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COIN_KP_ANDREW_HIDAYAT",
+        "source": "EM_COIN",
+        "target": "KP_ANDREW_HIDAYAT",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COIN_SH_TEKNOLOGI_ANAK_NUSANTARA",
+        "source": "EM_COIN",
+        "target": "SH_TEKNOLOGI_ANAK_NUSANTARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COIN_KP_KRESNA_GROUP_MCAS_",
+        "source": "EM_COIN",
+        "target": "KP_KRESNA_GROUP_MCAS_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COIN_SH_BAHANA_NUSANTARA_INDOJAYA",
+        "source": "EM_COIN",
+        "target": "SH_BAHANA_NUSANTARA_INDOJAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COIN_KP_KELUARGA_HIDAYAT",
+        "source": "EM_COIN",
+        "target": "KP_KELUARGA_HIDAYAT",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COIN_SH_BUDI_MARDIONO",
+        "source": "EM_COIN",
+        "target": "SH_BUDI_MARDIONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COIN_KP_BUDI_MARDIONO",
+        "source": "EM_COIN",
+        "target": "KP_BUDI_MARDIONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

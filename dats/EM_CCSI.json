@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CCSI",
+        "label": "CCSI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LINGKAR_MATRA",
+        "label": "LINGKAR MATRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_KALLA",
+        "label": "Keluarga Kalla",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GRAHATAMA_KREASIBARU",
+        "label": "GRAHATAMA KREASIBARU",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AFILIASI_PROPERTI",
+        "label": "Afiliasi Properti",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CENTRAL_BUSINESS_ALLIANCE",
+        "label": "CENTRAL BUSINESS ALLIANCE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PETER_DJATMIKO",
+        "label": "PETER DJATMIKO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PETER_DJATMIKO",
+        "label": "Peter Djatmiko",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CCSI_SH_LINGKAR_MATRA",
+        "source": "EM_CCSI",
+        "target": "SH_LINGKAR_MATRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CCSI_KP_KELUARGA_KALLA",
+        "source": "EM_CCSI",
+        "target": "KP_KELUARGA_KALLA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CCSI_SH_GRAHATAMA_KREASIBARU",
+        "source": "EM_CCSI",
+        "target": "SH_GRAHATAMA_KREASIBARU",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CCSI_KP_AFILIASI_PROPERTI",
+        "source": "EM_CCSI",
+        "target": "KP_AFILIASI_PROPERTI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CCSI_SH_CENTRAL_BUSINESS_ALLIANCE",
+        "source": "EM_CCSI",
+        "target": "SH_CENTRAL_BUSINESS_ALLIANCE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CCSI_KP_INVESTASI_ASING",
+        "source": "EM_CCSI",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CCSI_SH_PETER_DJATMIKO",
+        "source": "EM_CCSI",
+        "target": "SH_PETER_DJATMIKO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CCSI_KP_PETER_DJATMIKO",
+        "source": "EM_CCSI",
+        "target": "KP_PETER_DJATMIKO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_COWL",
+        "label": "COWL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_GAMA_NUSAPALA",
+        "label": "PT. GAMA NUSAPALA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FRANSISCUS_SUCIYANTO",
+        "label": "Fransiscus Suciyanto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FERAL_INVESTMENT_INC",
+        "label": "FERAL INVESTMENT INC",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BAKRIE_GROUP",
+        "label": "Bakrie Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EARVIN_LIMITED",
+        "label": "EARVIN LIMITED",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_COWL_SH_PT_GAMA_NUSAPALA",
+        "source": "EM_COWL",
+        "target": "SH_PT_GAMA_NUSAPALA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COWL_KP_FRANSISCUS_SUCIYANTO",
+        "source": "EM_COWL",
+        "target": "KP_FRANSISCUS_SUCIYANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COWL_SH_FERAL_INVESTMENT_INC",
+        "source": "EM_COWL",
+        "target": "SH_FERAL_INVESTMENT_INC",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COWL_KP_BAKRIE_GROUP",
+        "source": "EM_COWL",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COWL_SH_EARVIN_LIMITED",
+        "source": "EM_COWL",
+        "target": "SH_EARVIN_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COWL_KP_BAKRIE_GROUP",
+        "source": "EM_COWL",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

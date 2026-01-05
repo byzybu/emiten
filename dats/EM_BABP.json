@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BABP",
+        "label": "BABP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MNC_TOURISM_INDONESIA",
+        "label": "MNC TOURISM INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARY_TANOESOEDIBJO",
+        "label": "Hary Tanoesoedibjo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MNC_KAPITAL_INDONESIA_TBK_",
+        "label": "MNC KAPITAL INDONESIA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLOBAL_MEDIACOM_TBK_",
+        "label": "GLOBAL MEDIACOM TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WINFLY_LTD",
+        "label": "WINFLY LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LOW_TUCK_KWONG",
+        "label": "Low Tuck Kwong",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BABP_SH_MNC_TOURISM_INDONESIA",
+        "source": "EM_BABP",
+        "target": "SH_MNC_TOURISM_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABP_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_BABP",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABP_SH_MNC_KAPITAL_INDONESIA_TBK_",
+        "source": "EM_BABP",
+        "target": "SH_MNC_KAPITAL_INDONESIA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABP_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_BABP",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABP_SH_GLOBAL_MEDIACOM_TBK_",
+        "source": "EM_BABP",
+        "target": "SH_GLOBAL_MEDIACOM_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABP_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_BABP",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABP_SH_WINFLY_LTD",
+        "source": "EM_BABP",
+        "target": "SH_WINFLY_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABP_KP_LOW_TUCK_KWONG",
+        "source": "EM_BABP",
+        "target": "KP_LOW_TUCK_KWONG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

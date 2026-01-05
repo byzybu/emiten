@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BUMI",
+        "label": "BUMI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TREASURE_GLOBAL_INVESTMENTS",
+        "label": "TREASURE GLOBAL INVESTMENTS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MACH_ENERGY_HONGKONG_LTD",
+        "label": "MACH ENERGY (HONGKONG) LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BAKRIE_GROUP",
+        "label": "Bakrie Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UBS_SWITZERLAND_AG",
+        "label": "UBS SWITZERLAND AG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HSBC_FUND_SVS_A_C_CHENGDONG",
+        "label": "HSBC-FUND SVS A/C CHENGDONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CIC_CHINA_INVESTMENT_CORP_",
+        "label": "CIC (China Investment Corp)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BUMI_SH_TREASURE_GLOBAL_INVESTMENTS",
+        "source": "EM_BUMI",
+        "target": "SH_TREASURE_GLOBAL_INVESTMENTS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUMI_KP_INVESTASI_ASING",
+        "source": "EM_BUMI",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUMI_SH_MACH_ENERGY_HONGKONG_LTD",
+        "source": "EM_BUMI",
+        "target": "SH_MACH_ENERGY_HONGKONG_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUMI_KP_BAKRIE_GROUP",
+        "source": "EM_BUMI",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUMI_SH_UBS_SWITZERLAND_AG",
+        "source": "EM_BUMI",
+        "target": "SH_UBS_SWITZERLAND_AG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUMI_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BUMI",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUMI_SH_HSBC_FUND_SVS_A_C_CHENGDONG",
+        "source": "EM_BUMI",
+        "target": "SH_HSBC_FUND_SVS_A_C_CHENGDONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUMI_KP_CIC_CHINA_INVESTMENT_CORP_",
+        "source": "EM_BUMI",
+        "target": "KP_CIC_CHINA_INVESTMENT_CORP_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
