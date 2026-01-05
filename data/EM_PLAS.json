@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PLAS",
+        "label": "PLAS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UBS_AG_LONDON_A_C_DELTA_1",
+        "label": "UBS AG LONDON A/C DELTA 1",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PLAS_SH_UBS_AG_LONDON_A_C_DELTA_1",
+        "source": "EM_PLAS",
+        "target": "SH_UBS_AG_LONDON_A_C_DELTA_1",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PLAS_KP_INVESTOR_INSTITUSI",
+        "source": "EM_PLAS",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

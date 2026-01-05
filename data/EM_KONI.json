@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KONI",
+        "label": "KONI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LUKMAN_KOLIM",
+        "label": "LUKMAN KOLIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LUKMAN_KOLIM",
+        "label": "Lukman Kolim",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SYLVIA_LUKMAN",
+        "label": "SYLVIA LUKMAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SYLVIA_LUKMAN",
+        "label": "Sylvia Lukman",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_L_ROSWITA",
+        "label": "L. ROSWITA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_L_ROSWITA",
+        "label": "L. Roswita",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EVELYN",
+        "label": "EVELYN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_EVELYN",
+        "label": "Evelyn",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUGIANTO_KOLIM",
+        "label": "SUGIANTO KOLIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUGIANTO_KOLIM",
+        "label": "Sugianto Kolim",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUSANTO_KOLIM",
+        "label": "SUSANTO KOLIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUSANTO_KOLIM",
+        "label": "Susanto Kolim",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KONI_SH_LUKMAN_KOLIM",
+        "source": "EM_KONI",
+        "target": "SH_LUKMAN_KOLIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_KP_LUKMAN_KOLIM",
+        "source": "EM_KONI",
+        "target": "KP_LUKMAN_KOLIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_SH_SYLVIA_LUKMAN",
+        "source": "EM_KONI",
+        "target": "SH_SYLVIA_LUKMAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_KP_SYLVIA_LUKMAN",
+        "source": "EM_KONI",
+        "target": "KP_SYLVIA_LUKMAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_SH_L_ROSWITA",
+        "source": "EM_KONI",
+        "target": "SH_L_ROSWITA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_KP_L_ROSWITA",
+        "source": "EM_KONI",
+        "target": "KP_L_ROSWITA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_SH_EVELYN",
+        "source": "EM_KONI",
+        "target": "SH_EVELYN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_KP_EVELYN",
+        "source": "EM_KONI",
+        "target": "KP_EVELYN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_SH_SUGIANTO_KOLIM",
+        "source": "EM_KONI",
+        "target": "SH_SUGIANTO_KOLIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_KP_SUGIANTO_KOLIM",
+        "source": "EM_KONI",
+        "target": "KP_SUGIANTO_KOLIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_SH_SUSANTO_KOLIM",
+        "source": "EM_KONI",
+        "target": "SH_SUSANTO_KOLIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KONI_KP_SUSANTO_KOLIM",
+        "source": "EM_KONI",
+        "target": "KP_SUSANTO_KOLIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SSMS",
+        "label": "SSMS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WEALTH_TRACK_TECHNOLOGY_LTD",
+        "label": "WEALTH TRACK TECHNOLOGY LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PATRICK_WALUJO",
+        "label": "Patrick Walujo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_DOMPET_KARYA_ANAK_BANGSA",
+        "label": "PT DOMPET KARYA ANAK BANGSA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GOTO_GROUP",
+        "label": "GoTo Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SSMS_SH_WEALTH_TRACK_TECHNOLOGY_LTD",
+        "source": "EM_SSMS",
+        "target": "SH_WEALTH_TRACK_TECHNOLOGY_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SSMS_KP_PATRICK_WALUJO",
+        "source": "EM_SSMS",
+        "target": "KP_PATRICK_WALUJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SSMS_SH_PT_DOMPET_KARYA_ANAK_BANGSA",
+        "source": "EM_SSMS",
+        "target": "SH_PT_DOMPET_KARYA_ANAK_BANGSA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SSMS_KP_GOTO_GROUP",
+        "source": "EM_SSMS",
+        "target": "KP_GOTO_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

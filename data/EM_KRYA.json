@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KRYA",
+        "label": "KRYA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FIRST_MEDIA_TBK",
+        "label": "FIRST MEDIA TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LIPPO_GROUP",
+        "label": "Lippo Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASIA_LINK_DEWA_PTE_LTD",
+        "label": "ASIA LINK DEWA PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CITIBANK_SINGAPORE",
+        "label": "CITIBANK SINGAPORE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KRYA_SH_FIRST_MEDIA_TBK",
+        "source": "EM_KRYA",
+        "target": "SH_FIRST_MEDIA_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRYA_KP_LIPPO_GROUP",
+        "source": "EM_KRYA",
+        "target": "KP_LIPPO_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRYA_SH_ASIA_LINK_DEWA_PTE_LTD",
+        "source": "EM_KRYA",
+        "target": "SH_ASIA_LINK_DEWA_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRYA_KP_INVESTASI_ASING",
+        "source": "EM_KRYA",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRYA_SH_CITIBANK_SINGAPORE",
+        "source": "EM_KRYA",
+        "target": "SH_CITIBANK_SINGAPORE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRYA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_KRYA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

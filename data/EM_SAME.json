@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SAME",
+        "label": "SAME",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ELANG_MAHKOTA_TEKNOLOGI",
+        "label": "ELANG MAHKOTA TEKNOLOGI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_EDDY_SARIAATMADJA",
+        "label": "Keluarga Eddy Sariaatmadja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SAME_SH_ELANG_MAHKOTA_TEKNOLOGI",
+        "source": "EM_SAME",
+        "target": "SH_ELANG_MAHKOTA_TEKNOLOGI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAME_KP_KELUARGA_EDDY_SARIAATMADJA",
+        "source": "EM_SAME",
+        "target": "KP_KELUARGA_EDDY_SARIAATMADJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_STTP",
+        "label": "STTP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SAPTA_PUSAKA_NUSANTARA",
+        "label": "SAPTA PUSAKA NUSANTARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SURIADJAJA",
+        "label": "Keluarga Suriadjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SURYA_SEMESTA_INTERNUSA",
+        "label": "SURYA SEMESTA INTERNUSA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BINA_PUTRA_SUMBER_SARANA",
+        "label": "BINA PUTRA SUMBER SARANA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_STTP_SH_SAPTA_PUSAKA_NUSANTARA",
+        "source": "EM_STTP",
+        "target": "SH_SAPTA_PUSAKA_NUSANTARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STTP_KP_KELUARGA_SURIADJAJA",
+        "source": "EM_STTP",
+        "target": "KP_KELUARGA_SURIADJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STTP_SH_SURYA_SEMESTA_INTERNUSA",
+        "source": "EM_STTP",
+        "target": "SH_SURYA_SEMESTA_INTERNUSA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STTP_KP_KELUARGA_SURIADJAJA",
+        "source": "EM_STTP",
+        "target": "KP_KELUARGA_SURIADJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STTP_SH_BINA_PUTRA_SUMBER_SARANA",
+        "source": "EM_STTP",
+        "target": "SH_BINA_PUTRA_SUMBER_SARANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STTP_KP_KELUARGA_SURIADJAJA",
+        "source": "EM_STTP",
+        "target": "KP_KELUARGA_SURIADJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

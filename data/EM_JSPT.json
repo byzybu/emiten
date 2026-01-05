@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_JSPT",
+        "label": "JSPT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAN_DARMADI_INVESTINDO",
+        "label": "JAN DARMADI INVESTINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_JAN_DARMADI",
+        "label": "Keluarga Jan Darmadi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_STIBER_INVESTMENTS_S_A_R_L",
+        "label": "STIBER INVESTMENTS S.A.R.L",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUZANNA_TANOJO",
+        "label": "SUZANNA TANOJO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUZANNA_TANOJO",
+        "label": "Suzanna Tanojo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JPMORGAN_CHASE_BANK",
+        "label": "JPMORGAN CHASE BANK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_JSPT_SH_JAN_DARMADI_INVESTINDO",
+        "source": "EM_JSPT",
+        "target": "SH_JAN_DARMADI_INVESTINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSPT_KP_KELUARGA_JAN_DARMADI",
+        "source": "EM_JSPT",
+        "target": "KP_KELUARGA_JAN_DARMADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSPT_SH_STIBER_INVESTMENTS_S_A_R_L",
+        "source": "EM_JSPT",
+        "target": "SH_STIBER_INVESTMENTS_S_A_R_L",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSPT_KP_INVESTASI_ASING",
+        "source": "EM_JSPT",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSPT_SH_SUZANNA_TANOJO",
+        "source": "EM_JSPT",
+        "target": "SH_SUZANNA_TANOJO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSPT_KP_SUZANNA_TANOJO",
+        "source": "EM_JSPT",
+        "target": "KP_SUZANNA_TANOJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSPT_SH_JPMORGAN_CHASE_BANK",
+        "source": "EM_JSPT",
+        "target": "SH_JPMORGAN_CHASE_BANK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSPT_KP_INVESTOR_INSTITUSI",
+        "source": "EM_JSPT",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

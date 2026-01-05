@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KEEN",
+        "label": "KEEN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PARAMATA_INDAH_LESTARI",
+        "label": "PARAMATA INDAH LESTARI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TEPCO_RENEWABLE_POWER",
+        "label": "TEPCO RENEWABLE POWER",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TEPCO_JEPANG_",
+        "label": "TEPCO (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JEANNY_MAKNAWI_JOE",
+        "label": "JEANNY MAKNAWI JOE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JEANNY_MAKNAWI_JOE",
+        "label": "Jeanny Maknawi Joe",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENRY_MAKNAWI",
+        "label": "HENRY MAKNAWI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENRY_MAKNAWI",
+        "label": "Henry Maknawi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KEEN_SH_PARAMATA_INDAH_LESTARI",
+        "source": "EM_KEEN",
+        "target": "SH_PARAMATA_INDAH_LESTARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KEEN_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KEEN",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KEEN_SH_TEPCO_RENEWABLE_POWER",
+        "source": "EM_KEEN",
+        "target": "SH_TEPCO_RENEWABLE_POWER",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KEEN_KP_TEPCO_JEPANG_",
+        "source": "EM_KEEN",
+        "target": "KP_TEPCO_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KEEN_SH_JEANNY_MAKNAWI_JOE",
+        "source": "EM_KEEN",
+        "target": "SH_JEANNY_MAKNAWI_JOE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KEEN_KP_JEANNY_MAKNAWI_JOE",
+        "source": "EM_KEEN",
+        "target": "KP_JEANNY_MAKNAWI_JOE",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KEEN_SH_HENRY_MAKNAWI",
+        "source": "EM_KEEN",
+        "target": "SH_HENRY_MAKNAWI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KEEN_KP_HENRY_MAKNAWI",
+        "source": "EM_KEEN",
+        "target": "KP_HENRY_MAKNAWI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

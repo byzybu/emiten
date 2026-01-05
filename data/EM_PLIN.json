@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PLIN",
+        "label": "PLIN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_PLAZA_INDONESIA_INVESTAMA",
+        "label": "PT PLAZA INDONESIA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ROSANO_BARACK",
+        "label": "Rosano Barack",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PLIN_SH_PT_PLAZA_INDONESIA_INVESTAMA",
+        "source": "EM_PLIN",
+        "target": "SH_PT_PLAZA_INDONESIA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PLIN_KP_ROSANO_BARACK",
+        "source": "EM_PLIN",
+        "target": "KP_ROSANO_BARACK",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MTFN",
+        "label": "MTFN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DWI_DAYA_INVESTAMA",
+        "label": "DWI DAYA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DWINA_NATURA",
+        "label": "DWINA NATURA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EXPRESS_PROFITABLE_INV_",
+        "label": "EXPRESS PROFITABLE INV.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ROULETTE_CAPITAL_INV_",
+        "label": "ROULETTE CAPITAL INV.",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MTFN_SH_DWI_DAYA_INVESTAMA",
+        "source": "EM_MTFN",
+        "target": "SH_DWI_DAYA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTFN_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MTFN",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTFN_SH_DWINA_NATURA",
+        "source": "EM_MTFN",
+        "target": "SH_DWINA_NATURA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTFN_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MTFN",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTFN_SH_EXPRESS_PROFITABLE_INV_",
+        "source": "EM_MTFN",
+        "target": "SH_EXPRESS_PROFITABLE_INV_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTFN_KP_INVESTASI_ASING",
+        "source": "EM_MTFN",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTFN_SH_ROULETTE_CAPITAL_INV_",
+        "source": "EM_MTFN",
+        "target": "SH_ROULETTE_CAPITAL_INV_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTFN_KP_INVESTASI_ASING",
+        "source": "EM_MTFN",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MENN",
+        "label": "MENN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JORA_NILAM_JUDGE",
+        "label": "JORA NILAM JUDGE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JORA_NILAM_JUDGE",
+        "label": "Jora Nilam Judge",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DJONI",
+        "label": "DJONI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DJONI",
+        "label": "Djoni",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MENN_SH_JORA_NILAM_JUDGE",
+        "source": "EM_MENN",
+        "target": "SH_JORA_NILAM_JUDGE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MENN_KP_JORA_NILAM_JUDGE",
+        "source": "EM_MENN",
+        "target": "KP_JORA_NILAM_JUDGE",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MENN_SH_DJONI",
+        "source": "EM_MENN",
+        "target": "SH_DJONI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MENN_KP_DJONI",
+        "source": "EM_MENN",
+        "target": "KP_DJONI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_OASA",
+        "label": "OASA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAHARAKSA_BIRU_ENERGI",
+        "label": "MAHARAKSA BIRU ENERGI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GAFUR_SULISTYO_UMAR",
+        "label": "Gafur Sulistyo Umar",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AND_INDONESIA_KAPITAL",
+        "label": "AND INDONESIA KAPITAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IR_GAFUR_SULISTYO_UMAR",
+        "label": "IR.GAFUR SULISTYO UMAR",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_OASA_SH_MAHARAKSA_BIRU_ENERGI",
+        "source": "EM_OASA",
+        "target": "SH_MAHARAKSA_BIRU_ENERGI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OASA_KP_GAFUR_SULISTYO_UMAR",
+        "source": "EM_OASA",
+        "target": "KP_GAFUR_SULISTYO_UMAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OASA_SH_AND_INDONESIA_KAPITAL",
+        "source": "EM_OASA",
+        "target": "SH_AND_INDONESIA_KAPITAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OASA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_OASA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OASA_SH_IR_GAFUR_SULISTYO_UMAR",
+        "source": "EM_OASA",
+        "target": "SH_IR_GAFUR_SULISTYO_UMAR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OASA_KP_GAFUR_SULISTYO_UMAR",
+        "source": "EM_OASA",
+        "target": "KP_GAFUR_SULISTYO_UMAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

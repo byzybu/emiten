@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PZZA",
+        "label": "PZZA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SRIBOGA_RATURAYA",
+        "label": "SRIBOGA RATURAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_ALWIN_ARIFIN",
+        "label": "Keluarga Alwin Arifin",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JPMCB_NA_AIF_CLT_RE",
+        "label": "JPMCB NA AIF CLT RE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PEMBERTON_ASIAN_OPP_FUND",
+        "label": "PEMBERTON ASIAN OPP. FUND",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FUND_MANAGER",
+        "label": "Fund Manager",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PZZA_SH_SRIBOGA_RATURAYA",
+        "source": "EM_PZZA",
+        "target": "SH_SRIBOGA_RATURAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PZZA_KP_KELUARGA_ALWIN_ARIFIN",
+        "source": "EM_PZZA",
+        "target": "KP_KELUARGA_ALWIN_ARIFIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PZZA_SH_JPMCB_NA_AIF_CLT_RE",
+        "source": "EM_PZZA",
+        "target": "SH_JPMCB_NA_AIF_CLT_RE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PZZA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_PZZA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PZZA_SH_PEMBERTON_ASIAN_OPP_FUND",
+        "source": "EM_PZZA",
+        "target": "SH_PEMBERTON_ASIAN_OPP_FUND",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PZZA_KP_FUND_MANAGER",
+        "source": "EM_PZZA",
+        "target": "KP_FUND_MANAGER",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

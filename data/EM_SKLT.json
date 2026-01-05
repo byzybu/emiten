@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SKLT",
+        "label": "SKLT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SEKAR_LAUT_TBK",
+        "label": "SEKAR LAUT TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SUSILO",
+        "label": "Keluarga Susilo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANEKA_AGRO_FOOD",
+        "label": "ANEKA AGRO FOOD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VISI_INTI_PELANGI",
+        "label": "VISI INTI PELANGI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ESWHUANG",
+        "label": "ESWHUANG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ESWHUANG",
+        "label": "Eswhuang",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GREEN_RESOURCES_INVESTMENTS",
+        "label": "GREEN RESOURCES INVESTMENTS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FJ_CAPITAL_PTE_LTD",
+        "label": "FJ CAPITAL PTE LTD",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SKLT_SH_SEKAR_LAUT_TBK",
+        "source": "EM_SKLT",
+        "target": "SH_SEKAR_LAUT_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_KP_KELUARGA_SUSILO",
+        "source": "EM_SKLT",
+        "target": "KP_KELUARGA_SUSILO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_SH_ANEKA_AGRO_FOOD",
+        "source": "EM_SKLT",
+        "target": "SH_ANEKA_AGRO_FOOD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SKLT",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_SH_VISI_INTI_PELANGI",
+        "source": "EM_SKLT",
+        "target": "SH_VISI_INTI_PELANGI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SKLT",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_SH_ESWHUANG",
+        "source": "EM_SKLT",
+        "target": "SH_ESWHUANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_KP_ESWHUANG",
+        "source": "EM_SKLT",
+        "target": "KP_ESWHUANG",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_SH_GREEN_RESOURCES_INVESTMENTS",
+        "source": "EM_SKLT",
+        "target": "SH_GREEN_RESOURCES_INVESTMENTS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_KP_INVESTASI_ASING",
+        "source": "EM_SKLT",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_SH_FJ_CAPITAL_PTE_LTD",
+        "source": "EM_SKLT",
+        "target": "SH_FJ_CAPITAL_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKLT_KP_INVESTASI_ASING",
+        "source": "EM_SKLT",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

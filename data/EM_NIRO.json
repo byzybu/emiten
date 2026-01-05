@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_NIRO",
+        "label": "NIRO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ORION_GLOBAL_DEVELOPMENT",
+        "label": "ORION GLOBAL DEVELOPMENT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_NIRO_SH_ORION_GLOBAL_DEVELOPMENT",
+        "source": "EM_NIRO",
+        "target": "SH_ORION_GLOBAL_DEVELOPMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIRO_KP_INVESTASI_ASING",
+        "source": "EM_NIRO",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

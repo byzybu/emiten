@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MAPI",
+        "label": "MAPI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SATYA_MULIA_GEMA_GEMILANG",
+        "label": "SATYA MULIA GEMA GEMILANG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MAPI_SH_SATYA_MULIA_GEMA_GEMILANG",
+        "source": "EM_MAPI",
+        "target": "SH_SATYA_MULIA_GEMA_GEMILANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAPI_KP_KELUARGA_WIDJAJA",
+        "source": "EM_MAPI",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SNLK",
+        "label": "SNLK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UNILINK_VENTURES_INC_",
+        "label": "UNILINK VENTURES INC.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SAPTO_UTOMO_HIDAJAT",
+        "label": "Sapto Utomo Hidajat",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SNLK_SH_UNILINK_VENTURES_INC_",
+        "source": "EM_SNLK",
+        "target": "SH_UNILINK_VENTURES_INC_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SNLK_KP_INVESTASI_ASING",
+        "source": "EM_SNLK",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SNLK_KP_SAPTO_UTOMO_HIDAJAT",
+        "source": "EM_SNLK",
+        "target": "KP_SAPTO_UTOMO_HIDAJAT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SNLK_KP_SAPTO_UTOMO_HIDAJAT",
+        "source": "EM_SNLK",
+        "target": "KP_SAPTO_UTOMO_HIDAJAT",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

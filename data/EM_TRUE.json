@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TRUE",
+        "label": "TRUE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AGUNG_PERKASA_INVESTINDO",
+        "label": "AGUNG PERKASA INVESTINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DJONI",
+        "label": "DJONI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DJONI",
+        "label": "Djoni",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TRUE_SH_AGUNG_PERKASA_INVESTINDO",
+        "source": "EM_TRUE",
+        "target": "SH_AGUNG_PERKASA_INVESTINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUE_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_TRUE",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUE_SH_DJONI",
+        "source": "EM_TRUE",
+        "target": "SH_DJONI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUE_KP_DJONI",
+        "source": "EM_TRUE",
+        "target": "KP_DJONI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

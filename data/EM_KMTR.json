@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KMTR",
+        "label": "KMTR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRIPUTRA_PERSADA_MEGATARA",
+        "label": "TRIPUTRA PERSADA MEGATARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TP_RACHMAT",
+        "label": "TP Rachmat",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HSF_S_PTE_LTD",
+        "label": "HSF (S) PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KMTR_SH_TRIPUTRA_PERSADA_MEGATARA",
+        "source": "EM_KMTR",
+        "target": "SH_TRIPUTRA_PERSADA_MEGATARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KMTR_KP_TP_RACHMAT",
+        "source": "EM_KMTR",
+        "target": "KP_TP_RACHMAT",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KMTR_SH_HSF_S_PTE_LTD",
+        "source": "EM_KMTR",
+        "target": "SH_HSF_S_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KMTR_KP_INVESTASI_ASING",
+        "source": "EM_KMTR",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
