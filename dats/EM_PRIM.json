@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PRIM",
+        "label": "PRIM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_I_NYOMAN_EHRICH_LISTER_DR",
+        "label": "I NYOMAN EHRICH LISTER DR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DR_I_NYOMAN_EHRICH_LISTER",
+        "label": "Dr. I Nyoman Ehrich Lister",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ROBIN",
+        "label": "ROBIN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ROBIN",
+        "label": "Robin",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PRIM_SH_I_NYOMAN_EHRICH_LISTER_DR",
+        "source": "EM_PRIM",
+        "target": "SH_I_NYOMAN_EHRICH_LISTER_DR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRIM_KP_DR_I_NYOMAN_EHRICH_LISTER",
+        "source": "EM_PRIM",
+        "target": "KP_DR_I_NYOMAN_EHRICH_LISTER",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRIM_SH_ROBIN",
+        "source": "EM_PRIM",
+        "target": "SH_ROBIN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRIM_KP_ROBIN",
+        "source": "EM_PRIM",
+        "target": "KP_ROBIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

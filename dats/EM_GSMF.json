@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GSMF",
+        "label": "GSMF",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EQUITY_GLOBAL_INTERNATIONAL",
+        "label": "EQUITY GLOBAL INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SAMIN_TAN",
+        "label": "Samin Tan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GSMF_SH_EQUITY_GLOBAL_INTERNATIONAL",
+        "source": "EM_GSMF",
+        "target": "SH_EQUITY_GLOBAL_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GSMF_KP_SAMIN_TAN",
+        "source": "EM_GSMF",
+        "target": "KP_SAMIN_TAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

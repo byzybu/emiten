@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_FIMP",
+        "label": "FIMP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANGUN_BUMI_UTAMA",
+        "label": "BANGUN BUMI UTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MOHAMAD_MULKY_THALIB",
+        "label": "Mohamad Mulky Thalib",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KARYA_BERKAH_INVESTAMA",
+        "label": "KARYA BERKAH INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FARIED_THALIB",
+        "label": "Faried Thalib",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HERRY_WIBOWO",
+        "label": "HERRY WIBOWO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HERRY_WIBOWO",
+        "label": "Herry Wibowo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FERRY_TEJA",
+        "label": "FERRY TEJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FERRY_TEJA",
+        "label": "Ferry Teja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_FIMP_SH_BANGUN_BUMI_UTAMA",
+        "source": "EM_FIMP",
+        "target": "SH_BANGUN_BUMI_UTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FIMP_KP_MOHAMAD_MULKY_THALIB",
+        "source": "EM_FIMP",
+        "target": "KP_MOHAMAD_MULKY_THALIB",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FIMP_SH_KARYA_BERKAH_INVESTAMA",
+        "source": "EM_FIMP",
+        "target": "SH_KARYA_BERKAH_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FIMP_KP_FARIED_THALIB",
+        "source": "EM_FIMP",
+        "target": "KP_FARIED_THALIB",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FIMP_SH_HERRY_WIBOWO",
+        "source": "EM_FIMP",
+        "target": "SH_HERRY_WIBOWO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FIMP_KP_HERRY_WIBOWO",
+        "source": "EM_FIMP",
+        "target": "KP_HERRY_WIBOWO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FIMP_SH_FERRY_TEJA",
+        "source": "EM_FIMP",
+        "target": "SH_FERRY_TEJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FIMP_KP_FERRY_TEJA",
+        "source": "EM_FIMP",
+        "target": "KP_FERRY_TEJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

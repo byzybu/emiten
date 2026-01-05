@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_FLMC",
+        "label": "FLMC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_THERESIA_INDRA_WIRAWAN",
+        "label": "THERESIA INDRA WIRAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_THERESIA_INDRA_WIRAWAN",
+        "label": "Theresia Indra Wirawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ROSALINA_INDRA_WIRAWATI",
+        "label": "ROSALINA INDRA WIRAWATI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ROSALINA_INDRA_WIRAWATI",
+        "label": "Rosalina Indra Wirawati",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_FLMC_SH_THERESIA_INDRA_WIRAWAN",
+        "source": "EM_FLMC",
+        "target": "SH_THERESIA_INDRA_WIRAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FLMC_KP_THERESIA_INDRA_WIRAWAN",
+        "source": "EM_FLMC",
+        "target": "KP_THERESIA_INDRA_WIRAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FLMC_SH_ROSALINA_INDRA_WIRAWATI",
+        "source": "EM_FLMC",
+        "target": "SH_ROSALINA_INDRA_WIRAWATI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FLMC_KP_ROSALINA_INDRA_WIRAWATI",
+        "source": "EM_FLMC",
+        "target": "KP_ROSALINA_INDRA_WIRAWATI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

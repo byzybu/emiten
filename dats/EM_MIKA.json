@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MIKA",
+        "label": "MIKA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GRIYAINSANI_CAKRASADAYA",
+        "label": "GRIYAINSANI CAKRASADAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MIKA_SH_GRIYAINSANI_CAKRASADAYA",
+        "source": "EM_MIKA",
+        "target": "SH_GRIYAINSANI_CAKRASADAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MIKA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MIKA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

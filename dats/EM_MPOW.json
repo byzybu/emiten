@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MPOW",
+        "label": "MPOW",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BINA_PURI_POWER_SDN_BHD",
+        "label": "BINA PURI POWER SDN BHD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BINA_PURI_HOLDINGS_MALAYSIA_",
+        "label": "Bina Puri Holdings (Malaysia)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LEE_SUHARLIE",
+        "label": "LEE SUHARLIE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LEE_SUHARLIE",
+        "label": "Lee Suharlie",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KANG_JIMMI",
+        "label": "KANG JIMMI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KANG_JIMMI",
+        "label": "Kang Jimmi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANG_KIAM_CHAI",
+        "label": "ANG KIAM CHAI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANG_KIAM_CHAI",
+        "label": "Ang Kiam Chai",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PHILLIP_SECURITIES_PTE_LTD",
+        "label": "PHILLIP SECURITIES PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MPOW_SH_BINA_PURI_POWER_SDN_BHD",
+        "source": "EM_MPOW",
+        "target": "SH_BINA_PURI_POWER_SDN_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_KP_BINA_PURI_HOLDINGS_MALAYSIA_",
+        "source": "EM_MPOW",
+        "target": "KP_BINA_PURI_HOLDINGS_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_SH_LEE_SUHARLIE",
+        "source": "EM_MPOW",
+        "target": "SH_LEE_SUHARLIE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_KP_LEE_SUHARLIE",
+        "source": "EM_MPOW",
+        "target": "KP_LEE_SUHARLIE",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_SH_KANG_JIMMI",
+        "source": "EM_MPOW",
+        "target": "SH_KANG_JIMMI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_KP_KANG_JIMMI",
+        "source": "EM_MPOW",
+        "target": "KP_KANG_JIMMI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_SH_ANG_KIAM_CHAI",
+        "source": "EM_MPOW",
+        "target": "SH_ANG_KIAM_CHAI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_KP_ANG_KIAM_CHAI",
+        "source": "EM_MPOW",
+        "target": "KP_ANG_KIAM_CHAI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_SH_PHILLIP_SECURITIES_PTE_LTD",
+        "source": "EM_MPOW",
+        "target": "SH_PHILLIP_SECURITIES_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPOW_KP_INVESTOR_INSTITUSI",
+        "source": "EM_MPOW",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

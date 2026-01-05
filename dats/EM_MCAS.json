@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MCAS",
+        "label": "MCAS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_1_INTI_DOT_COM",
+        "label": "1 INTI DOT COM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KRESNA_GROUP_MCAS_",
+        "label": "Kresna Group (MCAS)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KARYA_KARUNIA_PERSADA",
+        "label": "KARYA KARUNIA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ABELL_TECHNOLOGY_GLOBAL",
+        "label": "ABELL TECHNOLOGY GLOBAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ABEL_ANG_SINGAPURA_",
+        "label": "Abel Ang (Singapura)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "label": "BANK OF SINGAPORE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MARTIN_SUHARLIE",
+        "label": "MARTIN SUHARLIE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MARTIN_SUHARLIE",
+        "label": "Martin Suharlie",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_QUANTUM_CLOVERA_INVESTAMA",
+        "label": "QUANTUM CLOVERA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INDERA_HIDAYAT_KRESNA_GROUP_",
+        "label": "Indera Hidayat (Kresna Group)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MCAS_SH_1_INTI_DOT_COM",
+        "source": "EM_MCAS",
+        "target": "SH_1_INTI_DOT_COM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_KP_KRESNA_GROUP_MCAS_",
+        "source": "EM_MCAS",
+        "target": "KP_KRESNA_GROUP_MCAS_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_SH_KARYA_KARUNIA_PERSADA",
+        "source": "EM_MCAS",
+        "target": "SH_KARYA_KARUNIA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MCAS",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_SH_ABELL_TECHNOLOGY_GLOBAL",
+        "source": "EM_MCAS",
+        "target": "SH_ABELL_TECHNOLOGY_GLOBAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_KP_ABEL_ANG_SINGAPURA_",
+        "source": "EM_MCAS",
+        "target": "KP_ABEL_ANG_SINGAPURA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_SH_BANK_OF_SINGAPORE_LIMITED",
+        "source": "EM_MCAS",
+        "target": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_KP_INVESTOR_INSTITUSI",
+        "source": "EM_MCAS",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_SH_MARTIN_SUHARLIE",
+        "source": "EM_MCAS",
+        "target": "SH_MARTIN_SUHARLIE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_KP_MARTIN_SUHARLIE",
+        "source": "EM_MCAS",
+        "target": "KP_MARTIN_SUHARLIE",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_SH_QUANTUM_CLOVERA_INVESTAMA",
+        "source": "EM_MCAS",
+        "target": "SH_QUANTUM_CLOVERA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MCAS_KP_INDERA_HIDAYAT_KRESNA_GROUP_",
+        "source": "EM_MCAS",
+        "target": "KP_INDERA_HIDAYAT_KRESNA_GROUP_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

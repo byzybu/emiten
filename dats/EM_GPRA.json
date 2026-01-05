@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GPRA",
+        "label": "GPRA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ABADIMUKTI_GUNALESTARI",
+        "label": "ABADIMUKTI GUNALESTARI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_MARGOTO",
+        "label": "Keluarga Margoto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ADITYA_ANTONIUS",
+        "label": "ADITYA ANTONIUS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ADITYA_ANTONIUS",
+        "label": "Aditya Antonius",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GPRA_SH_ABADIMUKTI_GUNALESTARI",
+        "source": "EM_GPRA",
+        "target": "SH_ABADIMUKTI_GUNALESTARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GPRA_KP_KELUARGA_MARGOTO",
+        "source": "EM_GPRA",
+        "target": "KP_KELUARGA_MARGOTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GPRA_SH_ADITYA_ANTONIUS",
+        "source": "EM_GPRA",
+        "target": "SH_ADITYA_ANTONIUS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GPRA_KP_ADITYA_ANTONIUS",
+        "source": "EM_GPRA",
+        "target": "KP_ADITYA_ANTONIUS",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

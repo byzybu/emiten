@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MDRN",
+        "label": "MDRN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BUKIT_HEDAMA_PERMAI_PT",
+        "label": "BUKIT HEDAMA PERMAI, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASIALINK_ELECTRONICS_PTE_LTD",
+        "label": "ASIALINK ELECTRONICS PTE.LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CIMB_PRIVATE_EQUITY_SDN_BHD",
+        "label": "CIMB PRIVATE EQUITY SDN BHD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CIMB_GROUP_MALAYSIA_",
+        "label": "CIMB Group (Malaysia)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUNGKONO_HONORIS",
+        "label": "SUNGKONO HONORIS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUNGKONO_HONORIS",
+        "label": "Sungkono Honoris",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MDRN_SH_BUKIT_HEDAMA_PERMAI_PT",
+        "source": "EM_MDRN",
+        "target": "SH_BUKIT_HEDAMA_PERMAI_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDRN_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MDRN",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDRN_SH_ASIALINK_ELECTRONICS_PTE_LTD",
+        "source": "EM_MDRN",
+        "target": "SH_ASIALINK_ELECTRONICS_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDRN_KP_INVESTASI_ASING",
+        "source": "EM_MDRN",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDRN_SH_CIMB_PRIVATE_EQUITY_SDN_BHD",
+        "source": "EM_MDRN",
+        "target": "SH_CIMB_PRIVATE_EQUITY_SDN_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDRN_KP_CIMB_GROUP_MALAYSIA_",
+        "source": "EM_MDRN",
+        "target": "KP_CIMB_GROUP_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDRN_SH_SUNGKONO_HONORIS",
+        "source": "EM_MDRN",
+        "target": "SH_SUNGKONO_HONORIS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDRN_KP_SUNGKONO_HONORIS",
+        "source": "EM_MDRN",
+        "target": "KP_SUNGKONO_HONORIS",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

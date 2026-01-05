@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_NCKL",
+        "label": "NCKL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLENCORE_INTERNATIONAL",
+        "label": "GLENCORE INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GLENCORE_PLC",
+        "label": "Glencore plc",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_NCKL_SH_GLENCORE_INTERNATIONAL",
+        "source": "EM_NCKL",
+        "target": "SH_GLENCORE_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NCKL_KP_GLENCORE_PLC",
+        "source": "EM_NCKL",
+        "target": "KP_GLENCORE_PLC",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

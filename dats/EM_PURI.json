@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PURI",
+        "label": "PURI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ONG_YICK_SING",
+        "label": "ONG YICK SING",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ONG_YICK_SING",
+        "label": "Ong Yick Sing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PURI_SH_ONG_YICK_SING",
+        "source": "EM_PURI",
+        "target": "SH_ONG_YICK_SING",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PURI_KP_ONG_YICK_SING",
+        "source": "EM_PURI",
+        "target": "KP_ONG_YICK_SING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

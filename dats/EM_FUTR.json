@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_FUTR",
+        "label": "FUTR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AURORA_DHANA_NUSANTARA",
+        "label": "AURORA DHANA NUSANTARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_BARU_FUTR",
+        "label": "Investor Baru FUTR",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VINCENT_IE_KOK_HUI",
+        "label": "VINCENT IE KOK HUI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_VINCENT_IE_KOK_HUI",
+        "label": "Vincent Ie Kok Hui",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_FUTR_SH_AURORA_DHANA_NUSANTARA",
+        "source": "EM_FUTR",
+        "target": "SH_AURORA_DHANA_NUSANTARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FUTR_KP_INVESTOR_BARU_FUTR",
+        "source": "EM_FUTR",
+        "target": "KP_INVESTOR_BARU_FUTR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FUTR_SH_VINCENT_IE_KOK_HUI",
+        "source": "EM_FUTR",
+        "target": "SH_VINCENT_IE_KOK_HUI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FUTR_KP_VINCENT_IE_KOK_HUI",
+        "source": "EM_FUTR",
+        "target": "KP_VINCENT_IE_KOK_HUI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

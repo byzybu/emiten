@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_LPPF",
+        "label": "LPPF",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULTIPOLAR_TBK_",
+        "label": "MULTIPOLAR TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_RIADY",
+        "label": "Keluarga Riady",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AURIC_DIGITAL_RETAIL",
+        "label": "AURIC DIGITAL RETAIL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AURIC_CAPITAL_SINGAPURA_",
+        "label": "Auric Capital (Singapura)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_LPPF_SH_MULTIPOLAR_TBK_",
+        "source": "EM_LPPF",
+        "target": "SH_MULTIPOLAR_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LPPF_KP_KELUARGA_RIADY",
+        "source": "EM_LPPF",
+        "target": "KP_KELUARGA_RIADY",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LPPF_SH_AURIC_DIGITAL_RETAIL",
+        "source": "EM_LPPF",
+        "target": "SH_AURIC_DIGITAL_RETAIL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LPPF_KP_AURIC_CAPITAL_SINGAPURA_",
+        "source": "EM_LPPF",
+        "target": "KP_AURIC_CAPITAL_SINGAPURA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LPPF_SH_AURIC_DIGITAL_RETAIL",
+        "source": "EM_LPPF",
+        "target": "SH_AURIC_DIGITAL_RETAIL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LPPF_KP_AURIC_CAPITAL_SINGAPURA_",
+        "source": "EM_LPPF",
+        "target": "KP_AURIC_CAPITAL_SINGAPURA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

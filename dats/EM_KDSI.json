@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KDSI",
+        "label": "KDSI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KITASUBUR_UTAMA",
+        "label": "KITASUBUR UTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PERMADI_AL_SUHARTO_BSC",
+        "label": "PERMADI AL SUHARTO BSC",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERMADI_AL_SUHARTO",
+        "label": "Permadi Al Suharto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KDSI_SH_KITASUBUR_UTAMA",
+        "source": "EM_KDSI",
+        "target": "SH_KITASUBUR_UTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KDSI_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KDSI",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KDSI_SH_PERMADI_AL_SUHARTO_BSC",
+        "source": "EM_KDSI",
+        "target": "SH_PERMADI_AL_SUHARTO_BSC",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KDSI_KP_PERMADI_AL_SUHARTO",
+        "source": "EM_KDSI",
+        "target": "KP_PERMADI_AL_SUHARTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

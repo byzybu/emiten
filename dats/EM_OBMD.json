@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_OBMD",
+        "label": "OBMD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENDRA",
+        "label": "HENDRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENDRA",
+        "label": "Hendra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MOHAMAD_AS_AD",
+        "label": "MOHAMAD AS AD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MOHAMAD_AS_AD",
+        "label": "Mohamad As Ad",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_OBMD_SH_HENDRA",
+        "source": "EM_OBMD",
+        "target": "SH_HENDRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OBMD_KP_HENDRA",
+        "source": "EM_OBMD",
+        "target": "KP_HENDRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OBMD_SH_MOHAMAD_AS_AD",
+        "source": "EM_OBMD",
+        "target": "SH_MOHAMAD_AS_AD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OBMD_KP_MOHAMAD_AS_AD",
+        "source": "EM_OBMD",
+        "target": "KP_MOHAMAD_AS_AD",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

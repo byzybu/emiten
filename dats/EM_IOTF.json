@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_IOTF",
+        "label": "IOTF",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALAMSYAH",
+        "label": "ALAMSYAH",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ALAMSYAH",
+        "label": "Alamsyah",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_IOTF_SH_ALAMSYAH",
+        "source": "EM_IOTF",
+        "target": "SH_ALAMSYAH",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IOTF_KP_ALAMSYAH",
+        "source": "EM_IOTF",
+        "target": "KP_ALAMSYAH",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

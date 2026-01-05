@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_NATO",
+        "label": "NATO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMBER_USAHA_KARYAJAYA",
+        "label": "SUMBER USAHA KARYAJAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SUKSES_MAKMUR_JAYAPRATAMA",
+        "label": "PT SUKSES MAKMUR JAYAPRATAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLENWOOD_CORPORATION",
+        "label": "GLENWOOD CORPORATION",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_NATO_SH_SUMBER_USAHA_KARYAJAYA",
+        "source": "EM_NATO",
+        "target": "SH_SUMBER_USAHA_KARYAJAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NATO_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_NATO",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NATO_SH_PT_SUKSES_MAKMUR_JAYAPRATAMA",
+        "source": "EM_NATO",
+        "target": "SH_PT_SUKSES_MAKMUR_JAYAPRATAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NATO_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_NATO",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NATO_SH_GLENWOOD_CORPORATION",
+        "source": "EM_NATO",
+        "target": "SH_GLENWOOD_CORPORATION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NATO_KP_INVESTASI_ASING",
+        "source": "EM_NATO",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
