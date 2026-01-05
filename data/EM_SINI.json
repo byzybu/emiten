@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SINI",
+        "label": "SINI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AUTUM_PRIMA_INDONESIA",
+        "label": "AUTUM PRIMA INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BATUBARA_DEVELOPMENT_PTE",
+        "label": "BATUBARA DEVELOPMENT PTE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HAPSORO",
+        "label": "HAPSORO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAPSORO_SUKMONOHADI",
+        "label": "Hapsoro Sukmonohadi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SINI_SH_AUTUM_PRIMA_INDONESIA",
+        "source": "EM_SINI",
+        "target": "SH_AUTUM_PRIMA_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SINI_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SINI",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SINI_SH_BATUBARA_DEVELOPMENT_PTE",
+        "source": "EM_SINI",
+        "target": "SH_BATUBARA_DEVELOPMENT_PTE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SINI_KP_INVESTASI_ASING",
+        "source": "EM_SINI",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SINI_SH_HAPSORO",
+        "source": "EM_SINI",
+        "target": "SH_HAPSORO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SINI_KP_HAPSORO_SUKMONOHADI",
+        "source": "EM_SINI",
+        "target": "KP_HAPSORO_SUKMONOHADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

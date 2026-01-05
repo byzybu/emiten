@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PNIN",
+        "label": "PNIN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DANA_PENSIUN_KARYAWAN_PANIN",
+        "label": "DANA PENSIUN KARYAWAN PANIN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DANA_PENSIUN",
+        "label": "Dana Pensiun",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PNIN_SH_DANA_PENSIUN_KARYAWAN_PANIN",
+        "source": "EM_PNIN",
+        "target": "SH_DANA_PENSIUN_KARYAWAN_PANIN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNIN_KP_DANA_PENSIUN",
+        "source": "EM_PNIN",
+        "target": "KP_DANA_PENSIUN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

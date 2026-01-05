@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_VKTR",
+        "label": "VKTR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BAKRIE_METAL_INDUSTRIES",
+        "label": "BAKRIE METAL INDUSTRIES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BAKRIE_GROUP",
+        "label": "Bakrie Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BAKRIE_BROTHERS_TBK_",
+        "label": "BAKRIE & BROTHERS TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KUANTUM_AKSELERASI_INDONESIA",
+        "label": "KUANTUM AKSELERASI INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_VKTR_SH_BAKRIE_METAL_INDUSTRIES",
+        "source": "EM_VKTR",
+        "target": "SH_BAKRIE_METAL_INDUSTRIES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VKTR_KP_BAKRIE_GROUP",
+        "source": "EM_VKTR",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VKTR_SH_BAKRIE_BROTHERS_TBK_",
+        "source": "EM_VKTR",
+        "target": "SH_BAKRIE_BROTHERS_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VKTR_KP_BAKRIE_GROUP",
+        "source": "EM_VKTR",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VKTR_SH_KUANTUM_AKSELERASI_INDONESIA",
+        "source": "EM_VKTR",
+        "target": "SH_KUANTUM_AKSELERASI_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VKTR_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_VKTR",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

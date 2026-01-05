@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MKPI",
+        "label": "MKPI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_BUDITAMA_NIRWANA",
+        "label": "PT BUDITAMA NIRWANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MKPI_SH_PT_BUDITAMA_NIRWANA",
+        "source": "EM_MKPI",
+        "target": "SH_PT_BUDITAMA_NIRWANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MKPI_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MKPI",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

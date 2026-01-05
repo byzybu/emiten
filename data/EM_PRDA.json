@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PRDA",
+        "label": "PRDA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PRODIA_WIDYAHUSADA_TBK_",
+        "label": "PRODIA WIDYAHUSADA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SULISTYO",
+        "label": "Keluarga Sulistyo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EFG_BANK_AG_BIO_MAJESTY",
+        "label": "EFG BANK AG - BIO MAJESTY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PRDA_SH_PRODIA_WIDYAHUSADA_TBK_",
+        "source": "EM_PRDA",
+        "target": "SH_PRODIA_WIDYAHUSADA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRDA_KP_KELUARGA_SULISTYO",
+        "source": "EM_PRDA",
+        "target": "KP_KELUARGA_SULISTYO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRDA_SH_EFG_BANK_AG_BIO_MAJESTY",
+        "source": "EM_PRDA",
+        "target": "SH_EFG_BANK_AG_BIO_MAJESTY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRDA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_PRDA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

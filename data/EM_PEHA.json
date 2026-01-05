@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PEHA",
+        "label": "PEHA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_KIMIA_FARMA_PERSERO_",
+        "label": "PT KIMIA FARMA (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_MASRIZAL_A_S_",
+        "label": "DRS.MASRIZAL.A.S.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DRS_MASRIZAL_A_S_",
+        "label": "Drs. Masrizal A.S.",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PEHA_SH_PT_KIMIA_FARMA_PERSERO_",
+        "source": "EM_PEHA",
+        "target": "SH_PT_KIMIA_FARMA_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEHA_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_PEHA",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEHA_SH_PT_KIMIA_FARMA_PERSERO_",
+        "source": "EM_PEHA",
+        "target": "SH_PT_KIMIA_FARMA_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEHA_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_PEHA",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEHA_SH_DRS_MASRIZAL_A_S_",
+        "source": "EM_PEHA",
+        "target": "SH_DRS_MASRIZAL_A_S_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEHA_KP_DRS_MASRIZAL_A_S_",
+        "source": "EM_PEHA",
+        "target": "KP_DRS_MASRIZAL_A_S_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

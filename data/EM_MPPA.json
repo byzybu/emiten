@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MPPA",
+        "label": "MPPA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULTIPOLAR_TBK_",
+        "label": "MULTIPOLAR TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_RIADY",
+        "label": "Keluarga Riady",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CONSILIUM_FRONTIER_EQUITY",
+        "label": "CONSILIUM FRONTIER EQUITY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FUND_MANAGER",
+        "label": "Fund Manager",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MPPA_SH_MULTIPOLAR_TBK_",
+        "source": "EM_MPPA",
+        "target": "SH_MULTIPOLAR_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPPA_KP_KELUARGA_RIADY",
+        "source": "EM_MPPA",
+        "target": "KP_KELUARGA_RIADY",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPPA_SH_CONSILIUM_FRONTIER_EQUITY",
+        "source": "EM_MPPA",
+        "target": "SH_CONSILIUM_FRONTIER_EQUITY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPPA_KP_FUND_MANAGER",
+        "source": "EM_MPPA",
+        "target": "KP_FUND_MANAGER",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

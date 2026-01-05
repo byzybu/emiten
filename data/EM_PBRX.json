@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PBRX",
+        "label": "PBRX",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRISETIJO_MANUNGGAL_UTAMA",
+        "label": "TRISETIJO MANUNGGAL UTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UBS_AG_SINGAPORE_S_A_BURLINGHAM",
+        "label": "UBS AG SINGAPORE S/A BURLINGHAM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BURLINGHAM_INTERNATIONAL",
+        "label": "Burlingham International",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PBRX_SH_TRISETIJO_MANUNGGAL_UTAMA",
+        "source": "EM_PBRX",
+        "target": "SH_TRISETIJO_MANUNGGAL_UTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBRX_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PBRX",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBRX_SH_UBS_AG_SINGAPORE_S_A_BURLINGHAM",
+        "source": "EM_PBRX",
+        "target": "SH_UBS_AG_SINGAPORE_S_A_BURLINGHAM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBRX_KP_BURLINGHAM_INTERNATIONAL",
+        "source": "EM_PBRX",
+        "target": "KP_BURLINGHAM_INTERNATIONAL",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

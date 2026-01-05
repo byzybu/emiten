@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TIRA",
+        "label": "TIRA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WIDJAJATUNGGAL_SEJAHTERA",
+        "label": "WIDJAJATUNGGAL SEJAHTERA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA_LAUTANDHANA_",
+        "label": "Keluarga Widjaja (Lautandhana)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MARTENSITE_UNGGUL",
+        "label": "MARTENSITE UNGGUL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_LIM_HARIYANTO",
+        "label": "Keluarga Lim Hariyanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TIRA_SH_WIDJAJATUNGGAL_SEJAHTERA",
+        "source": "EM_TIRA",
+        "target": "SH_WIDJAJATUNGGAL_SEJAHTERA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TIRA_KP_KELUARGA_WIDJAJA_LAUTANDHANA_",
+        "source": "EM_TIRA",
+        "target": "KP_KELUARGA_WIDJAJA_LAUTANDHANA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TIRA_SH_MARTENSITE_UNGGUL",
+        "source": "EM_TIRA",
+        "target": "SH_MARTENSITE_UNGGUL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TIRA_KP_KELUARGA_LIM_HARIYANTO",
+        "source": "EM_TIRA",
+        "target": "KP_KELUARGA_LIM_HARIYANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

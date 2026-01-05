@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_OBAT",
+        "label": "OBAT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_SURONO_SUBEKTI",
+        "label": "DRS SURONO SUBEKTI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SURONO_SUBEKTI",
+        "label": "Surono Subekti",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_OBAT_SH_DRS_SURONO_SUBEKTI",
+        "source": "EM_OBAT",
+        "target": "SH_DRS_SURONO_SUBEKTI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OBAT_KP_SURONO_SUBEKTI",
+        "source": "EM_OBAT",
+        "target": "KP_SURONO_SUBEKTI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

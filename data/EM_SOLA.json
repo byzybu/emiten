@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SOLA",
+        "label": "SOLA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASHA_RAHARJA_PERSADA",
+        "label": "ASHA RAHARJA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_XOLABIT_TERMINAL_BITUMEN",
+        "label": "XOLABIT TERMINAL BITUMEN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ENERGI_HIJAU_INVESTAMA",
+        "label": "ENERGI HIJAU INVESTAMA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SOLA_SH_ASHA_RAHARJA_PERSADA",
+        "source": "EM_SOLA",
+        "target": "SH_ASHA_RAHARJA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SOLA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SOLA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SOLA_SH_XOLABIT_TERMINAL_BITUMEN",
+        "source": "EM_SOLA",
+        "target": "SH_XOLABIT_TERMINAL_BITUMEN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SOLA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SOLA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SOLA_SH_ENERGI_HIJAU_INVESTAMA",
+        "source": "EM_SOLA",
+        "target": "SH_ENERGI_HIJAU_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SOLA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SOLA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

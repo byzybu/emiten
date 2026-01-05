@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_WSBP",
+        "label": "WSBP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INTINIAGA_SUKSES_ABADI",
+        "label": "INTINIAGA SUKSES ABADI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_WSBP_SH_INTINIAGA_SUKSES_ABADI",
+        "source": "EM_WSBP",
+        "target": "SH_INTINIAGA_SUKSES_ABADI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WSBP_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_WSBP",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

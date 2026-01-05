@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RIMO",
+        "label": "RIMO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UBS_SWITZERLAND_AG",
+        "label": "UBS SWITZERLAND AG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASABRI_PERSERO_",
+        "label": "ASABRI (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "label": "JAKSA AGUNG MUDA (KEJAGUNG)",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RIMO_SH_UBS_SWITZERLAND_AG",
+        "source": "EM_RIMO",
+        "target": "SH_UBS_SWITZERLAND_AG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RIMO_KP_INVESTOR_INSTITUSI",
+        "source": "EM_RIMO",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RIMO_SH_ASABRI_PERSERO_",
+        "source": "EM_RIMO",
+        "target": "SH_ASABRI_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RIMO_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_RIMO",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RIMO_SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "source": "EM_RIMO",
+        "target": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RIMO_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_RIMO",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

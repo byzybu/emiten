@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SLIS",
+        "label": "SLIS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SELIS_INVESTAMA_INDONESIA",
+        "label": "SELIS INVESTAMA INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SETIADI",
+        "label": "Keluarga Setiadi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TJOA_KING_HOA",
+        "label": "TJOA KING HOA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJOA_KING_HOA",
+        "label": "Tjoa King Hoa",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SLIS_SH_SELIS_INVESTAMA_INDONESIA",
+        "source": "EM_SLIS",
+        "target": "SH_SELIS_INVESTAMA_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SLIS_KP_KELUARGA_SETIADI",
+        "source": "EM_SLIS",
+        "target": "KP_KELUARGA_SETIADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SLIS_SH_TJOA_KING_HOA",
+        "source": "EM_SLIS",
+        "target": "SH_TJOA_KING_HOA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SLIS_KP_TJOA_KING_HOA",
+        "source": "EM_SLIS",
+        "target": "KP_TJOA_KING_HOA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

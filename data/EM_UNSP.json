@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_UNSP",
+        "label": "UNSP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BAKRIE_CAPITAL_INDONESIA",
+        "label": "BAKRIE CAPITAL INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BAKRIE_GROUP",
+        "label": "Bakrie Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PARADISO_RESOURCES_LTD",
+        "label": "PARADISO RESOURCES LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ERNAWATI_ALI",
+        "label": "ERNAWATI ALI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ERNAWATI_ALI",
+        "label": "Ernawati Ali",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_STEFANIE_DJAJALI",
+        "label": "STEFANIE DJAJALI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_STEFANIE_DJAJALI",
+        "label": "Stefanie Djajali",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_UNSP_SH_BAKRIE_CAPITAL_INDONESIA",
+        "source": "EM_UNSP",
+        "target": "SH_BAKRIE_CAPITAL_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNSP_KP_BAKRIE_GROUP",
+        "source": "EM_UNSP",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNSP_SH_PARADISO_RESOURCES_LTD",
+        "source": "EM_UNSP",
+        "target": "SH_PARADISO_RESOURCES_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNSP_KP_INVESTASI_ASING",
+        "source": "EM_UNSP",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNSP_SH_ERNAWATI_ALI",
+        "source": "EM_UNSP",
+        "target": "SH_ERNAWATI_ALI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNSP_KP_ERNAWATI_ALI",
+        "source": "EM_UNSP",
+        "target": "KP_ERNAWATI_ALI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNSP_SH_STEFANIE_DJAJALI",
+        "source": "EM_UNSP",
+        "target": "SH_STEFANIE_DJAJALI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNSP_KP_STEFANIE_DJAJALI",
+        "source": "EM_UNSP",
+        "target": "KP_STEFANIE_DJAJALI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MEDC",
+        "label": "MEDC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MEDCO_DAYA_ABADI_LESTARI",
+        "label": "MEDCO DAYA ABADI LESTARI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_PANIGORO",
+        "label": "Keluarga Panigoro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DIAMOND_BRIDGE_PTE_LTD",
+        "label": "DIAMOND BRIDGE PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MEDC_SH_MEDCO_DAYA_ABADI_LESTARI",
+        "source": "EM_MEDC",
+        "target": "SH_MEDCO_DAYA_ABADI_LESTARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MEDC_KP_KELUARGA_PANIGORO",
+        "source": "EM_MEDC",
+        "target": "KP_KELUARGA_PANIGORO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MEDC_SH_DIAMOND_BRIDGE_PTE_LTD",
+        "source": "EM_MEDC",
+        "target": "SH_DIAMOND_BRIDGE_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MEDC_KP_INVESTASI_ASING",
+        "source": "EM_MEDC",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

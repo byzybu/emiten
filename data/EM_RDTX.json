@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RDTX",
+        "label": "RDTX",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TURNIADY_WIDJAJA",
+        "label": "TURNIADY WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TURNIADY_WIDJAJA",
+        "label": "Turniady Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUTIADI_WIDJAJA",
+        "label": "SUTIADI WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUTIADI_WIDJAJA",
+        "label": "Sutiadi Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WIRIADY_WIDJAJA",
+        "label": "WIRIADY WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WIRIADY_WIDJAJA",
+        "label": "Wiriady Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KARTA_WIDJAJA",
+        "label": "KARTA WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KARTA_WIDJAJA",
+        "label": "Karta Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RDTX_SH_TURNIADY_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "SH_TURNIADY_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RDTX_KP_TURNIADY_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "KP_TURNIADY_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RDTX_SH_SUTIADI_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "SH_SUTIADI_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RDTX_KP_SUTIADI_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "KP_SUTIADI_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RDTX_SH_WIRIADY_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "SH_WIRIADY_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RDTX_KP_WIRIADY_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "KP_WIRIADY_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RDTX_SH_KARTA_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "SH_KARTA_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RDTX_KP_KARTA_WIDJAJA",
+        "source": "EM_RDTX",
+        "target": "KP_KARTA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

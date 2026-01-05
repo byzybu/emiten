@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_VISI",
+        "label": "VISI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DAVID_DWIPUTRA",
+        "label": "DAVID DWIPUTRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DAVID_DWIPUTRA",
+        "label": "David Dwiputra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FARREL_YONATHAN",
+        "label": "FARREL YONATHAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FARREL_YONATHAN",
+        "label": "Farrel Yonathan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_VISI_SH_DAVID_DWIPUTRA",
+        "source": "EM_VISI",
+        "target": "SH_DAVID_DWIPUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VISI_KP_DAVID_DWIPUTRA",
+        "source": "EM_VISI",
+        "target": "KP_DAVID_DWIPUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VISI_SH_FARREL_YONATHAN",
+        "source": "EM_VISI",
+        "target": "SH_FARREL_YONATHAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VISI_KP_FARREL_YONATHAN",
+        "source": "EM_VISI",
+        "target": "KP_FARREL_YONATHAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

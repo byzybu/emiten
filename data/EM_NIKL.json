@@ -1,0 +1,179 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_NIKL",
+        "label": "NIKL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NIPPON_STEEL_CORPORATION",
+        "label": "NIPPON STEEL CORPORATION",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NIPPON_STEEL_JEPANG_",
+        "label": "Nippon Steel (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NIPPON_STEEL_TRADING",
+        "label": "NIPPON STEEL TRADING",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_METAL_ONE_CORPORATION",
+        "label": "METAL ONE CORPORATION",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MITSUBISHI",
+        "label": "Mitsubishi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SOJITZ_JEPANG_",
+        "label": "Sojitz (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MITSUI_CO_LTD_",
+        "label": "MITSUI & CO., LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MITSUI_GROUP_JEPANG_",
+        "label": "Mitsui Group (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASABRI_PERSERO_",
+        "label": "ASABRI (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_NIKL_SH_NIPPON_STEEL_CORPORATION",
+        "source": "EM_NIKL",
+        "target": "SH_NIPPON_STEEL_CORPORATION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_KP_NIPPON_STEEL_JEPANG_",
+        "source": "EM_NIKL",
+        "target": "KP_NIPPON_STEEL_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_SH_NIPPON_STEEL_TRADING",
+        "source": "EM_NIKL",
+        "target": "SH_NIPPON_STEEL_TRADING",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_KP_NIPPON_STEEL_JEPANG_",
+        "source": "EM_NIKL",
+        "target": "KP_NIPPON_STEEL_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_SH_METAL_ONE_CORPORATION",
+        "source": "EM_NIKL",
+        "target": "SH_METAL_ONE_CORPORATION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_KP_MITSUBISHI",
+        "source": "EM_NIKL",
+        "target": "KP_MITSUBISHI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_SH_METAL_ONE_CORPORATION",
+        "source": "EM_NIKL",
+        "target": "SH_METAL_ONE_CORPORATION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_KP_SOJITZ_JEPANG_",
+        "source": "EM_NIKL",
+        "target": "KP_SOJITZ_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_SH_MITSUI_CO_LTD_",
+        "source": "EM_NIKL",
+        "target": "SH_MITSUI_CO_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_KP_MITSUI_GROUP_JEPANG_",
+        "source": "EM_NIKL",
+        "target": "KP_MITSUI_GROUP_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_SH_ASABRI_PERSERO_",
+        "source": "EM_NIKL",
+        "target": "SH_ASABRI_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NIKL_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_NIKL",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

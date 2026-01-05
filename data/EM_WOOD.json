@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_WOOD",
+        "label": "WOOD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_INTEGRA_INDO_LESTARI",
+        "label": "PT INTEGRA INDO LESTARI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HALIM_RUSLI",
+        "label": "Halim Rusli",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_WOOD_SH_PT_INTEGRA_INDO_LESTARI",
+        "source": "EM_WOOD",
+        "target": "SH_PT_INTEGRA_INDO_LESTARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WOOD_KP_HALIM_RUSLI",
+        "source": "EM_WOOD",
+        "target": "KP_HALIM_RUSLI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

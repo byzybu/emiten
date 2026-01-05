@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_POLY",
+        "label": "POLY",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BNYM_RE_DAMIANO_INV_",
+        "label": "BNYM RE DAMIANO INV.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_POLY_SH_BNYM_RE_DAMIANO_INV_",
+        "source": "EM_POLY",
+        "target": "SH_BNYM_RE_DAMIANO_INV_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLY_KP_INVESTOR_INSTITUSI",
+        "source": "EM_POLY",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

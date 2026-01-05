@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SAPX",
+        "label": "SAPX",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SATRIA_INVESTAMA_PERDANA",
+        "label": "SATRIA INVESTAMA PERDANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GD_EXPRESS_CARRIER_BHD",
+        "label": "GD EXPRESS CARRIER BHD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TEONG_TECK_LEAN_MALAYSIA_",
+        "label": "Teong Teck Lean (Malaysia)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GD_VALUEGUARD_SDN_BHD",
+        "label": "GD VALUEGUARD SDN BHD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GD_EXPRESS_MALAYSIA_",
+        "label": "GD Express (Malaysia)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GDEX_SEA_SDN_BHD",
+        "label": "GDEX SEA SDN BHD",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SAPX_SH_SATRIA_INVESTAMA_PERDANA",
+        "source": "EM_SAPX",
+        "target": "SH_SATRIA_INVESTAMA_PERDANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAPX_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SAPX",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAPX_SH_GD_EXPRESS_CARRIER_BHD",
+        "source": "EM_SAPX",
+        "target": "SH_GD_EXPRESS_CARRIER_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAPX_KP_TEONG_TECK_LEAN_MALAYSIA_",
+        "source": "EM_SAPX",
+        "target": "KP_TEONG_TECK_LEAN_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAPX_SH_GD_VALUEGUARD_SDN_BHD",
+        "source": "EM_SAPX",
+        "target": "SH_GD_VALUEGUARD_SDN_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAPX_KP_GD_EXPRESS_MALAYSIA_",
+        "source": "EM_SAPX",
+        "target": "KP_GD_EXPRESS_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAPX_SH_GDEX_SEA_SDN_BHD",
+        "source": "EM_SAPX",
+        "target": "SH_GDEX_SEA_SDN_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAPX_KP_GD_EXPRESS_MALAYSIA_",
+        "source": "EM_SAPX",
+        "target": "KP_GD_EXPRESS_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
