@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_NEST",
+        "label": "NEST",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_XIAMEN_YAN_PALACE_BIRD_S_NEST",
+        "label": "XIAMEN YAN PALACE BIRD'S NEST",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_CHINA",
+        "label": "Investor China",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PBG_CLIENTS_SG",
+        "label": "PBG CLIENTS SG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HOO_ANTON_SISWANTO",
+        "label": "HOO ANTON SISWANTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HOO_ANTON_SISWANTO",
+        "label": "Hoo Anton Siswanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_NEST_SH_XIAMEN_YAN_PALACE_BIRD_S_NEST",
+        "source": "EM_NEST",
+        "target": "SH_XIAMEN_YAN_PALACE_BIRD_S_NEST",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NEST_KP_INVESTOR_CHINA",
+        "source": "EM_NEST",
+        "target": "KP_INVESTOR_CHINA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NEST_SH_PBG_CLIENTS_SG",
+        "source": "EM_NEST",
+        "target": "SH_PBG_CLIENTS_SG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NEST_KP_INVESTOR_INSTITUSI",
+        "source": "EM_NEST",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NEST_SH_HOO_ANTON_SISWANTO",
+        "source": "EM_NEST",
+        "target": "SH_HOO_ANTON_SISWANTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NEST_KP_HOO_ANTON_SISWANTO",
+        "source": "EM_NEST",
+        "target": "KP_HOO_ANTON_SISWANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

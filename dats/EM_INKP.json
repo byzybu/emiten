@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INKP",
+        "label": "INKP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_APP_PURINUSA_EKAPERSADA",
+        "label": "APP PURINUSA EKAPERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INKP_SH_APP_PURINUSA_EKAPERSADA",
+        "source": "EM_INKP",
+        "target": "SH_APP_PURINUSA_EKAPERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INKP_KP_KELUARGA_WIDJAJA",
+        "source": "EM_INKP",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

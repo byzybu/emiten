@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INCO",
+        "label": "INCO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MIND_ID_MINERAL_INDUSTRI_INDONESIA_",
+        "label": "MIND ID (MINERAL INDUSTRI INDONESIA)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VALE_CANADA_LIMITED",
+        "label": "VALE CANADA LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_VALE_S_A_BRAZIL_",
+        "label": "Vale S.A. (Brazil)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMITOMO_METAL_MINING",
+        "label": "SUMITOMO METAL MINING",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUMITOMO_GROUP_JEPANG_",
+        "label": "Sumitomo Group (Jepang)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INCO_SH_MIND_ID_MINERAL_INDUSTRI_INDONESIA_",
+        "source": "EM_INCO",
+        "target": "SH_MIND_ID_MINERAL_INDUSTRI_INDONESIA_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCO_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_INCO",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCO_SH_VALE_CANADA_LIMITED",
+        "source": "EM_INCO",
+        "target": "SH_VALE_CANADA_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCO_KP_VALE_S_A_BRAZIL_",
+        "source": "EM_INCO",
+        "target": "KP_VALE_S_A_BRAZIL_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCO_SH_SUMITOMO_METAL_MINING",
+        "source": "EM_INCO",
+        "target": "SH_SUMITOMO_METAL_MINING",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCO_KP_SUMITOMO_GROUP_JEPANG_",
+        "source": "EM_INCO",
+        "target": "KP_SUMITOMO_GROUP_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

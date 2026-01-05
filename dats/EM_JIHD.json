@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_JIHD",
+        "label": "JIHD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_KRESNA_AJI_SEMBADA",
+        "label": "PT KRESNA AJI SEMBADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KRESNA_GROUP",
+        "label": "Kresna Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUKARDI_TANDIJONO_TANG",
+        "label": "SUKARDI TANDIJONO TANG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUKARDI_TANDIJONO_TANG",
+        "label": "Sukardi Tandijono Tang",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_JIHD_SH_PT_KRESNA_AJI_SEMBADA",
+        "source": "EM_JIHD",
+        "target": "SH_PT_KRESNA_AJI_SEMBADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JIHD_KP_KRESNA_GROUP",
+        "source": "EM_JIHD",
+        "target": "KP_KRESNA_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JIHD_SH_SUKARDI_TANDIJONO_TANG",
+        "source": "EM_JIHD",
+        "target": "SH_SUKARDI_TANDIJONO_TANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JIHD_KP_SUKARDI_TANDIJONO_TANG",
+        "source": "EM_JIHD",
+        "target": "KP_SUKARDI_TANDIJONO_TANG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

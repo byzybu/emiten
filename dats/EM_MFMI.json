@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MFMI",
+        "label": "MFMI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IRON_MOUNTAIN_HONG_KONG",
+        "label": "IRON MOUNTAIN HONG KONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_IRON_MOUNTAIN_INC_USA_",
+        "label": "Iron Mountain Inc (USA)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MFMI_SH_IRON_MOUNTAIN_HONG_KONG",
+        "source": "EM_MFMI",
+        "target": "SH_IRON_MOUNTAIN_HONG_KONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MFMI_KP_IRON_MOUNTAIN_INC_USA_",
+        "source": "EM_MFMI",
+        "target": "KP_IRON_MOUNTAIN_INC_USA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

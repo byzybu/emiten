@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DSSA",
+        "label": "DSSA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DIAN_SWASTATIKA_SENTOSA_TBK",
+        "label": "DIAN SWASTATIKA SENTOSA, TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DSSA_SH_DIAN_SWASTATIKA_SENTOSA_TBK",
+        "source": "EM_DSSA",
+        "target": "SH_DIAN_SWASTATIKA_SENTOSA_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DSSA_KP_KELUARGA_WIDJAJA",
+        "source": "EM_DSSA",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

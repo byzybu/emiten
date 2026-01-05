@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_OLIV",
+        "label": "OLIV",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_OLIVE_POWER_INVEST",
+        "label": "OLIVE POWER INVEST",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_OLIV_SH_OLIVE_POWER_INVEST",
+        "source": "EM_OLIV",
+        "target": "SH_OLIVE_POWER_INVEST",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_OLIV_KP_INVESTASI_ASING",
+        "source": "EM_OLIV",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

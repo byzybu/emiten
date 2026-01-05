@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_IMPC",
+        "label": "IMPC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HARIMAS_TUNGGAL_PERKASA",
+        "label": "HARIMAS TUNGGAL PERKASA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TUNGGAL_JAYA_INVESTAMA",
+        "label": "TUNGGAL JAYA INVESTAMA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_IMPC_SH_HARIMAS_TUNGGAL_PERKASA",
+        "source": "EM_IMPC",
+        "target": "SH_HARIMAS_TUNGGAL_PERKASA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IMPC_KP_SALIM_GROUP",
+        "source": "EM_IMPC",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IMPC_SH_TUNGGAL_JAYA_INVESTAMA",
+        "source": "EM_IMPC",
+        "target": "SH_TUNGGAL_JAYA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IMPC_KP_SALIM_GROUP",
+        "source": "EM_IMPC",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CPRO",
+        "label": "CPRO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CENTRAL_PANGAN_PRIMA",
+        "label": "CENTRAL PANGAN PRIMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_JIARAVANON_THAILAND_",
+        "label": "Keluarga Jiaravanon (Thailand)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CPRO_SH_CENTRAL_PANGAN_PRIMA",
+        "source": "EM_CPRO",
+        "target": "SH_CENTRAL_PANGAN_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CPRO_KP_KELUARGA_JIARAVANON_THAILAND_",
+        "source": "EM_CPRO",
+        "target": "KP_KELUARGA_JIARAVANON_THAILAND_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

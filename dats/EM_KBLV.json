@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KBLV",
+        "label": "KBLV",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_REKSA_PUSPITA_KARYA",
+        "label": "REKSA PUSPITA KARYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KBLV_SH_REKSA_PUSPITA_KARYA",
+        "source": "EM_KBLV",
+        "target": "SH_REKSA_PUSPITA_KARYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KBLV_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KBLV",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

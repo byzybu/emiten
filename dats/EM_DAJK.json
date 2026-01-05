@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DAJK",
+        "label": "DAJK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANUGERAH_PRATAMA_INT_",
+        "label": "ANUGERAH PRATAMA INT.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LIPPO_GROUP",
+        "label": "Lippo Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DANA_PENSIUN_PUPUK_KALTIM",
+        "label": "DANA PENSIUN PUPUK KALTIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DANA_PENSIUN",
+        "label": "Dana Pensiun",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DAJK_SH_ANUGERAH_PRATAMA_INT_",
+        "source": "EM_DAJK",
+        "target": "SH_ANUGERAH_PRATAMA_INT_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAJK_KP_LIPPO_GROUP",
+        "source": "EM_DAJK",
+        "target": "KP_LIPPO_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAJK_SH_DANA_PENSIUN_PUPUK_KALTIM",
+        "source": "EM_DAJK",
+        "target": "SH_DANA_PENSIUN_PUPUK_KALTIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAJK_KP_DANA_PENSIUN",
+        "source": "EM_DAJK",
+        "target": "KP_DANA_PENSIUN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

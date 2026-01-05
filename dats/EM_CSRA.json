@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CSRA",
+        "label": "CSRA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_VERDAN_SAWIT_LESTARI",
+        "label": "PT. VERDAN SAWIT LESTARI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_COKRO_CIENTURI_SUHENDRA",
+        "label": "Cokro Cienturi Suhendra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SAPTA_SAWIT_LESTARI",
+        "label": "SAPTA SAWIT LESTARI",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CSRA_SH_PT_VERDAN_SAWIT_LESTARI",
+        "source": "EM_CSRA",
+        "target": "SH_PT_VERDAN_SAWIT_LESTARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSRA_KP_COKRO_CIENTURI_SUHENDRA",
+        "source": "EM_CSRA",
+        "target": "KP_COKRO_CIENTURI_SUHENDRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSRA_SH_SAPTA_SAWIT_LESTARI",
+        "source": "EM_CSRA",
+        "target": "SH_SAPTA_SAWIT_LESTARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSRA_KP_COKRO_CIENTURI_SUHENDRA",
+        "source": "EM_CSRA",
+        "target": "KP_COKRO_CIENTURI_SUHENDRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

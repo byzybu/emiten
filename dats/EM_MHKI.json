@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MHKI",
+        "label": "MHKI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULTI_HANNA_SINERGITAMA",
+        "label": "MULTI HANNA SINERGITAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_BUDIARDJO",
+        "label": "Keluarga Budiardjo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MHKI_SH_MULTI_HANNA_SINERGITAMA",
+        "source": "EM_MHKI",
+        "target": "SH_MULTI_HANNA_SINERGITAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MHKI_KP_KELUARGA_BUDIARDJO",
+        "source": "EM_MHKI",
+        "target": "KP_KELUARGA_BUDIARDJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

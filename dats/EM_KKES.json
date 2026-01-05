@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KKES",
+        "label": "KKES",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_KIKI_RUSMIN_SADRACH",
+        "label": "DRS KIKI RUSMIN SADRACH",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KIKI_RUSMIN_SADRACH",
+        "label": "Kiki Rusmin Sadrach",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KKES_SH_DRS_KIKI_RUSMIN_SADRACH",
+        "source": "EM_KKES",
+        "target": "SH_DRS_KIKI_RUSMIN_SADRACH",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KKES_KP_KIKI_RUSMIN_SADRACH",
+        "source": "EM_KKES",
+        "target": "KP_KIKI_RUSMIN_SADRACH",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

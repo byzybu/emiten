@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_IFSH",
+        "label": "IFSH",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IFISHDECO_TBK",
+        "label": "IFISHDECO TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SUTANTO",
+        "label": "Keluarga Sutanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_IFSH_SH_IFISHDECO_TBK",
+        "source": "EM_IFSH",
+        "target": "SH_IFISHDECO_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IFSH_KP_KELUARGA_SUTANTO",
+        "source": "EM_IFSH",
+        "target": "KP_KELUARGA_SUTANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

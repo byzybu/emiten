@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KMDS",
+        "label": "KMDS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MIKI_OJISAN_INDOMITRA",
+        "label": "MIKI OJISAN INDOMITRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DIMA_INVESTINDO",
+        "label": "DIMA INVESTINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_IRMAN_DWIYANTO",
+        "label": "Irman Dwiyanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KMDS_SH_MIKI_OJISAN_INDOMITRA",
+        "source": "EM_KMDS",
+        "target": "SH_MIKI_OJISAN_INDOMITRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KMDS_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KMDS",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KMDS_SH_DIMA_INVESTINDO",
+        "source": "EM_KMDS",
+        "target": "SH_DIMA_INVESTINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KMDS_KP_IRMAN_DWIYANTO",
+        "source": "EM_KMDS",
+        "target": "KP_IRMAN_DWIYANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

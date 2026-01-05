@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ESIP",
+        "label": "ESIP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ERIC_BUDISETIO_KURNIAWAN",
+        "label": "ERIC BUDISETIO KURNIAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ERIC_BUDISETIO_KURNIAWAN",
+        "label": "Eric Budisetio Kurniawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ESIP_SH_ERIC_BUDISETIO_KURNIAWAN",
+        "source": "EM_ESIP",
+        "target": "SH_ERIC_BUDISETIO_KURNIAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ESIP_KP_ERIC_BUDISETIO_KURNIAWAN",
+        "source": "EM_ESIP",
+        "target": "KP_ERIC_BUDISETIO_KURNIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

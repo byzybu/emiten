@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DOID",
+        "label": "DOID",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SIX_SIS_LTD",
+        "label": "SIX SIS LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NORTHSTAR_TAMBANG_PERSADA",
+        "label": "NORTHSTAR TAMBANG PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PATRICK_WALUJO",
+        "label": "Patrick Walujo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRIMEGAH_SEKURITAS_INDONESIA",
+        "label": "TRIMEGAH SEKURITAS INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GARIBALDI_THOHIR",
+        "label": "Garibaldi Thohir",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DOID_SH_SIX_SIS_LTD",
+        "source": "EM_DOID",
+        "target": "SH_SIX_SIS_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOID_KP_INVESTOR_INSTITUSI",
+        "source": "EM_DOID",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOID_SH_NORTHSTAR_TAMBANG_PERSADA",
+        "source": "EM_DOID",
+        "target": "SH_NORTHSTAR_TAMBANG_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOID_KP_PATRICK_WALUJO",
+        "source": "EM_DOID",
+        "target": "KP_PATRICK_WALUJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOID_SH_TRIMEGAH_SEKURITAS_INDONESIA",
+        "source": "EM_DOID",
+        "target": "SH_TRIMEGAH_SEKURITAS_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOID_KP_GARIBALDI_THOHIR",
+        "source": "EM_DOID",
+        "target": "KP_GARIBALDI_THOHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MEDS",
+        "label": "MEDS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JEMMY_KURNIAWAN",
+        "label": "JEMMY KURNIAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JEMMY_KURNIAWAN",
+        "label": "Jemmy Kurniawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MEDS_SH_JEMMY_KURNIAWAN",
+        "source": "EM_MEDS",
+        "target": "SH_JEMMY_KURNIAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MEDS_KP_JEMMY_KURNIAWAN",
+        "source": "EM_MEDS",
+        "target": "KP_JEMMY_KURNIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

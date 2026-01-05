@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MYRXP",
+        "label": "MYRXP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LILI_SOMANTRY",
+        "label": "LILI SOMANTRY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LILI_SOMANTRY",
+        "label": "Lili Somantry",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NATHANIEL_TANAYA",
+        "label": "NATHANIEL TANAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NATHANIEL_TANAYA",
+        "label": "Nathaniel Tanaya",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PITRICIA_LINARDY",
+        "label": "PITRICIA LINARDY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PITRICIA_LINARDY",
+        "label": "Pitricia Linardy",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "label": "JAKSA AGUNG MUDA (KEJAGUNG)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MYRXP_SH_LILI_SOMANTRY",
+        "source": "EM_MYRXP",
+        "target": "SH_LILI_SOMANTRY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MYRXP_KP_LILI_SOMANTRY",
+        "source": "EM_MYRXP",
+        "target": "KP_LILI_SOMANTRY",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MYRXP_SH_NATHANIEL_TANAYA",
+        "source": "EM_MYRXP",
+        "target": "SH_NATHANIEL_TANAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MYRXP_KP_NATHANIEL_TANAYA",
+        "source": "EM_MYRXP",
+        "target": "KP_NATHANIEL_TANAYA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MYRXP_SH_PITRICIA_LINARDY",
+        "source": "EM_MYRXP",
+        "target": "SH_PITRICIA_LINARDY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MYRXP_KP_PITRICIA_LINARDY",
+        "source": "EM_MYRXP",
+        "target": "KP_PITRICIA_LINARDY",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MYRXP_SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "source": "EM_MYRXP",
+        "target": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MYRXP_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_MYRXP",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

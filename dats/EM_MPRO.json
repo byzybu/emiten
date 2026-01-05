@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MPRO",
+        "label": "MPRO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BINTANG_EXPRESS_SARANA",
+        "label": "BINTANG EXPRESS SARANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TAHIR",
+        "label": "TAHIR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DATO_SRI_TAHIR",
+        "label": "Dato' Sri Tahir",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MPRO_SH_BINTANG_EXPRESS_SARANA",
+        "source": "EM_MPRO",
+        "target": "SH_BINTANG_EXPRESS_SARANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPRO_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MPRO",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPRO_SH_TAHIR",
+        "source": "EM_MPRO",
+        "target": "SH_TAHIR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MPRO_KP_DATO_SRI_TAHIR",
+        "source": "EM_MPRO",
+        "target": "KP_DATO_SRI_TAHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

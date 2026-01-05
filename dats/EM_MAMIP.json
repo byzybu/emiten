@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MAMIP",
+        "label": "MAMIP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ING_WIBISONO_DARMAWAN",
+        "label": "ING WIBISONO DARMAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ING_WIBISONO_DARMAWAN",
+        "label": "Ing Wibisono Darmawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENTO",
+        "label": "HENTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENTO",
+        "label": "Hento",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EVI_MANURUNG",
+        "label": "EVI MANURUNG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_EVI_MANURUNG",
+        "label": "Evi Manurung",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WELLY_ANDRY",
+        "label": "WELLY ANDRY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WELLY_ANDRY",
+        "label": "Welly Andry",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ONGKO_DARMAWAN",
+        "label": "ONGKO DARMAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ONGKO_DARMAWAN",
+        "label": "Ongko Darmawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MAMIP_SH_ING_WIBISONO_DARMAWAN",
+        "source": "EM_MAMIP",
+        "target": "SH_ING_WIBISONO_DARMAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_KP_ING_WIBISONO_DARMAWAN",
+        "source": "EM_MAMIP",
+        "target": "KP_ING_WIBISONO_DARMAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_SH_HENTO",
+        "source": "EM_MAMIP",
+        "target": "SH_HENTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_KP_HENTO",
+        "source": "EM_MAMIP",
+        "target": "KP_HENTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_SH_EVI_MANURUNG",
+        "source": "EM_MAMIP",
+        "target": "SH_EVI_MANURUNG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_KP_EVI_MANURUNG",
+        "source": "EM_MAMIP",
+        "target": "KP_EVI_MANURUNG",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_SH_WELLY_ANDRY",
+        "source": "EM_MAMIP",
+        "target": "SH_WELLY_ANDRY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_KP_WELLY_ANDRY",
+        "source": "EM_MAMIP",
+        "target": "KP_WELLY_ANDRY",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_SH_ONGKO_DARMAWAN",
+        "source": "EM_MAMIP",
+        "target": "SH_ONGKO_DARMAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAMIP_KP_ONGKO_DARMAWAN",
+        "source": "EM_MAMIP",
+        "target": "KP_ONGKO_DARMAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
