@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BHAT",
+        "label": "BHAT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BHAKTI_ARTHA_GLOBAL",
+        "label": "BHAKTI ARTHA GLOBAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SURYAWIJAYA",
+        "label": "Keluarga Suryawijaya",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SURYA_DUTA_MAS",
+        "label": "PT. SURYA DUTA MAS",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BHAT_SH_BHAKTI_ARTHA_GLOBAL",
+        "source": "EM_BHAT",
+        "target": "SH_BHAKTI_ARTHA_GLOBAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BHAT_KP_KELUARGA_SURYAWIJAYA",
+        "source": "EM_BHAT",
+        "target": "KP_KELUARGA_SURYAWIJAYA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BHAT_SH_PT_SURYA_DUTA_MAS",
+        "source": "EM_BHAT",
+        "target": "SH_PT_SURYA_DUTA_MAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BHAT_KP_KELUARGA_SURYAWIJAYA",
+        "source": "EM_BHAT",
+        "target": "KP_KELUARGA_SURYAWIJAYA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

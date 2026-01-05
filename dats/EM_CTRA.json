@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CTRA",
+        "label": "CTRA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SANG_PELOPOR",
+        "label": "SANG PELOPOR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_CIPUTRA",
+        "label": "Keluarga Ciputra",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CTRA_SH_SANG_PELOPOR",
+        "source": "EM_CTRA",
+        "target": "SH_SANG_PELOPOR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CTRA_KP_KELUARGA_CIPUTRA",
+        "source": "EM_CTRA",
+        "target": "KP_KELUARGA_CIPUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BBLD",
+        "label": "BBLD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SARI_DASA_KARSA",
+        "label": "PT. SARI DASA KARSA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIRAATMADJA",
+        "label": "Keluarga Wiraatmadja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "label": "BANK OF SINGAPORE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BBLD_SH_PT_SARI_DASA_KARSA",
+        "source": "EM_BBLD",
+        "target": "SH_PT_SARI_DASA_KARSA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BBLD_KP_KELUARGA_WIRAATMADJA",
+        "source": "EM_BBLD",
+        "target": "KP_KELUARGA_WIRAATMADJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BBLD_SH_BANK_OF_SINGAPORE_LIMITED",
+        "source": "EM_BBLD",
+        "target": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BBLD_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BBLD",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

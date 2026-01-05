@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SMRA",
+        "label": "SMRA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SEMAROP_AGUNG",
+        "label": "SEMAROP AGUNG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_NAGARIA",
+        "label": "Keluarga Nagaria",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LILIAWATI_RAHARDJO",
+        "label": "LILIAWATI RAHARDJO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LILIAWATI_RAHARDJO",
+        "label": "Liliawati Rahardjo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SMRA_SH_SEMAROP_AGUNG",
+        "source": "EM_SMRA",
+        "target": "SH_SEMAROP_AGUNG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMRA_KP_KELUARGA_NAGARIA",
+        "source": "EM_SMRA",
+        "target": "KP_KELUARGA_NAGARIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMRA_SH_LILIAWATI_RAHARDJO",
+        "source": "EM_SMRA",
+        "target": "SH_LILIAWATI_RAHARDJO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMRA_KP_LILIAWATI_RAHARDJO",
+        "source": "EM_SMRA",
+        "target": "KP_LILIAWATI_RAHARDJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

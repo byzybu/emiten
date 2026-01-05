@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_COAL",
+        "label": "COAL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SELUAS_LAUTAN_INDONESIA",
+        "label": "SELUAS LAUTAN INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TUAN_SING_HOLDINGS",
+        "label": "Tuan Sing Holdings",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ARIE_RINALDI",
+        "label": "ARIE RINALDI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ARIE_RINALDI",
+        "label": "Arie Rinaldi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUJAKA_LAYS",
+        "label": "SUJAKA LAYS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUJAKA_LAYS",
+        "label": "Sujaka Lays",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_COAL_SH_SELUAS_LAUTAN_INDONESIA",
+        "source": "EM_COAL",
+        "target": "SH_SELUAS_LAUTAN_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COAL_KP_TUAN_SING_HOLDINGS",
+        "source": "EM_COAL",
+        "target": "KP_TUAN_SING_HOLDINGS",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COAL_SH_ARIE_RINALDI",
+        "source": "EM_COAL",
+        "target": "SH_ARIE_RINALDI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COAL_KP_ARIE_RINALDI",
+        "source": "EM_COAL",
+        "target": "KP_ARIE_RINALDI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COAL_SH_SUJAKA_LAYS",
+        "source": "EM_COAL",
+        "target": "SH_SUJAKA_LAYS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COAL_KP_SUJAKA_LAYS",
+        "source": "EM_COAL",
+        "target": "KP_SUJAKA_LAYS",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

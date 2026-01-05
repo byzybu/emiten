@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BMTR",
+        "label": "BMTR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MNC_ASIA_HOLDING_TBK",
+        "label": "MNC ASIA HOLDING TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARY_TANOESOEDIBJO",
+        "label": "Hary Tanoesoedibjo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_LO_KHENG_HONG",
+        "label": "DRS LO KHENG HONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LO_KHENG_HONG",
+        "label": "Lo Kheng Hong",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BMTR_SH_MNC_ASIA_HOLDING_TBK",
+        "source": "EM_BMTR",
+        "target": "SH_MNC_ASIA_HOLDING_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BMTR_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_BMTR",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BMTR_SH_DRS_LO_KHENG_HONG",
+        "source": "EM_BMTR",
+        "target": "SH_DRS_LO_KHENG_HONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BMTR_KP_LO_KHENG_HONG",
+        "source": "EM_BMTR",
+        "target": "KP_LO_KHENG_HONG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

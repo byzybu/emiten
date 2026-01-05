@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SUGI",
+        "label": "SUGI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CHANDRA_ADISUSANTO",
+        "label": "CHANDRA ADISUSANTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CHANDRA_ADISUSANTO",
+        "label": "Chandra Adisusanto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TEOH_OON_KIAN",
+        "label": "TEOH OON KIAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TEOH_OON_KIAN",
+        "label": "Teoh Oon Kian",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SUPER_ENERGY_TBK",
+        "label": "PT. SUPER ENERGY TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUGIONO_WIYONO",
+        "label": "Sugiono Wiyono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KOJEK_PRAMONO",
+        "label": "KOJEK PRAMONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KOJEK_PRAMONO",
+        "label": "Kojek Pramono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SUGI_SH_CHANDRA_ADISUSANTO",
+        "source": "EM_SUGI",
+        "target": "SH_CHANDRA_ADISUSANTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SUGI_KP_CHANDRA_ADISUSANTO",
+        "source": "EM_SUGI",
+        "target": "KP_CHANDRA_ADISUSANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SUGI_SH_TEOH_OON_KIAN",
+        "source": "EM_SUGI",
+        "target": "SH_TEOH_OON_KIAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SUGI_KP_TEOH_OON_KIAN",
+        "source": "EM_SUGI",
+        "target": "KP_TEOH_OON_KIAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SUGI_SH_PT_SUPER_ENERGY_TBK",
+        "source": "EM_SUGI",
+        "target": "SH_PT_SUPER_ENERGY_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SUGI_KP_SUGIONO_WIYONO",
+        "source": "EM_SUGI",
+        "target": "KP_SUGIONO_WIYONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SUGI_SH_KOJEK_PRAMONO",
+        "source": "EM_SUGI",
+        "target": "SH_KOJEK_PRAMONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SUGI_KP_KOJEK_PRAMONO",
+        "source": "EM_SUGI",
+        "target": "KP_KOJEK_PRAMONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SBAT",
+        "label": "SBAT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDUSTRI_TELEKOMUNIKASI_IND_",
+        "label": "INDUSTRI TELEKOMUNIKASI IND.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TAN_HENG_LOK",
+        "label": "TAN HENG LOK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TAN_HENG_LOK",
+        "label": "Tan Heng Lok",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SBAT_SH_INDUSTRI_TELEKOMUNIKASI_IND_",
+        "source": "EM_SBAT",
+        "target": "SH_INDUSTRI_TELEKOMUNIKASI_IND_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SBAT_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_SBAT",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SBAT_SH_TAN_HENG_LOK",
+        "source": "EM_SBAT",
+        "target": "SH_TAN_HENG_LOK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SBAT_KP_TAN_HENG_LOK",
+        "source": "EM_SBAT",
+        "target": "KP_TAN_HENG_LOK",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

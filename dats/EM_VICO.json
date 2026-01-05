@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_VICO",
+        "label": "VICO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_GRATAMULIA_PRATAMA",
+        "label": "PT GRATAMULIA PRATAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUZANNA_TANOJO",
+        "label": "SUZANNA TANOJO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUZANNA_TANOJO",
+        "label": "Suzanna Tanojo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_VICO_SH_PT_GRATAMULIA_PRATAMA",
+        "source": "EM_VICO",
+        "target": "SH_PT_GRATAMULIA_PRATAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VICO_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_VICO",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VICO_SH_SUZANNA_TANOJO",
+        "source": "EM_VICO",
+        "target": "SH_SUZANNA_TANOJO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VICO_KP_SUZANNA_TANOJO",
+        "source": "EM_VICO",
+        "target": "KP_SUZANNA_TANOJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CMPP",
+        "label": "CMPP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_FERSINDO_NUSAPERKASA",
+        "label": "PT FERSINDO NUSAPERKASA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUSIWIJONO",
+        "label": "Susiwijono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AIRASIA_AVIATION_GROUP",
+        "label": "AIRASIA AVIATION GROUP",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TONY_FERNANDES",
+        "label": "Tony Fernandes",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CMPP_SH_PT_FERSINDO_NUSAPERKASA",
+        "source": "EM_CMPP",
+        "target": "SH_PT_FERSINDO_NUSAPERKASA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CMPP_KP_SUSIWIJONO",
+        "source": "EM_CMPP",
+        "target": "KP_SUSIWIJONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CMPP_SH_AIRASIA_AVIATION_GROUP",
+        "source": "EM_CMPP",
+        "target": "SH_AIRASIA_AVIATION_GROUP",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CMPP_KP_TONY_FERNANDES",
+        "source": "EM_CMPP",
+        "target": "KP_TONY_FERNANDES",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

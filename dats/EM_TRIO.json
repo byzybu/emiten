@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TRIO",
+        "label": "TRIO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TIGADARI_FIESTA_PT",
+        "label": "TIGADARI FIESTA .PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_POLARIS_LTD",
+        "label": "POLARIS LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "label": "UOB KAY HIAN PRIVATE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TRIO_SH_TIGADARI_FIESTA_PT",
+        "source": "EM_TRIO",
+        "target": "SH_TIGADARI_FIESTA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIO_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_TRIO",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIO_SH_POLARIS_LTD",
+        "source": "EM_TRIO",
+        "target": "SH_POLARIS_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIO_KP_INVESTASI_ASING",
+        "source": "EM_TRIO",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIO_SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "source": "EM_TRIO",
+        "target": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIO_KP_INVESTOR_INSTITUSI",
+        "source": "EM_TRIO",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

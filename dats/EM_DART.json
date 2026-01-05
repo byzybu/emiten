@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DART",
+        "label": "DART",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_DUTA_ANGGADA",
+        "label": "PT.DUTA ANGGADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_ANGKOSUBROTO",
+        "label": "Keluarga Angkosubroto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HARTADI_ANGKOSUBROTO",
+        "label": "HARTADI ANGKOSUBROTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARTADI_ANGKOSUBROTO",
+        "label": "Hartadi Angkosubroto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DART_SH_PT_DUTA_ANGGADA",
+        "source": "EM_DART",
+        "target": "SH_PT_DUTA_ANGGADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DART_KP_KELUARGA_ANGKOSUBROTO",
+        "source": "EM_DART",
+        "target": "KP_KELUARGA_ANGKOSUBROTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DART_SH_HARTADI_ANGKOSUBROTO",
+        "source": "EM_DART",
+        "target": "SH_HARTADI_ANGKOSUBROTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DART_KP_HARTADI_ANGKOSUBROTO",
+        "source": "EM_DART",
+        "target": "KP_HARTADI_ANGKOSUBROTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

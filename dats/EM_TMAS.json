@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TMAS",
+        "label": "TMAS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TEMAS_LESTARI",
+        "label": "TEMAS LESTARI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_HARTOTO",
+        "label": "Keluarga Hartoto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TMAS_SH_TEMAS_LESTARI",
+        "source": "EM_TMAS",
+        "target": "SH_TEMAS_LESTARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TMAS_KP_KELUARGA_HARTOTO",
+        "source": "EM_TMAS",
+        "target": "KP_KELUARGA_HARTOTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

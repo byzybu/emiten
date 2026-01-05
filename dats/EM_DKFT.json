@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DKFT",
+        "label": "DKFT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JINSHENG_MINING",
+        "label": "JINSHENG MINING",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_CHINA",
+        "label": "Investor China",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DKFT_SH_JINSHENG_MINING",
+        "source": "EM_DKFT",
+        "target": "SH_JINSHENG_MINING",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DKFT_KP_INVESTOR_CHINA",
+        "source": "EM_DKFT",
+        "target": "KP_INVESTOR_CHINA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SOFA",
+        "label": "SOFA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASIA_INVESTMENT_CAPITAL",
+        "label": "ASIA INVESTMENT CAPITAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SOFA_SH_ASIA_INVESTMENT_CAPITAL",
+        "source": "EM_SOFA",
+        "target": "SH_ASIA_INVESTMENT_CAPITAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SOFA_KP_INVESTASI_ASING",
+        "source": "EM_SOFA",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

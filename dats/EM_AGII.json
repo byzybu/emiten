@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AGII",
+        "label": "AGII",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SARATOGA_INVESTAMA_SEDAYA_TBK",
+        "label": "SARATOGA INVESTAMA SEDAYA TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_EDWIN_SOERYADJAYA",
+        "label": "Edwin Soeryadjaya",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SANDIAGA_UNO",
+        "label": "Sandiaga Uno",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SAMATOR",
+        "label": "PT SAMATOR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_HARSONO",
+        "label": "Keluarga Harsono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MATRIX_COMPANY_LIMITED",
+        "label": "MATRIX COMPANY LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AGII_SH_SARATOGA_INVESTAMA_SEDAYA_TBK",
+        "source": "EM_AGII",
+        "target": "SH_SARATOGA_INVESTAMA_SEDAYA_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGII_KP_EDWIN_SOERYADJAYA",
+        "source": "EM_AGII",
+        "target": "KP_EDWIN_SOERYADJAYA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGII_SH_SARATOGA_INVESTAMA_SEDAYA_TBK",
+        "source": "EM_AGII",
+        "target": "SH_SARATOGA_INVESTAMA_SEDAYA_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGII_KP_SANDIAGA_UNO",
+        "source": "EM_AGII",
+        "target": "KP_SANDIAGA_UNO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGII_SH_PT_SAMATOR",
+        "source": "EM_AGII",
+        "target": "SH_PT_SAMATOR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGII_KP_KELUARGA_HARSONO",
+        "source": "EM_AGII",
+        "target": "KP_KELUARGA_HARSONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGII_SH_MATRIX_COMPANY_LIMITED",
+        "source": "EM_AGII",
+        "target": "SH_MATRIX_COMPANY_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGII_KP_KELUARGA_WIDJAJA",
+        "source": "EM_AGII",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
