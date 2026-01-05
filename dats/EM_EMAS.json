@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_EMAS",
+        "label": "EMAS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MERDEKA_COPPER_GOLD_TBK",
+        "label": "MERDEKA COPPER GOLD TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SARATOGA",
+        "label": "Saratoga",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MERDEKA_GOLD_RESOURCES",
+        "label": "MERDEKA GOLD RESOURCES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MERDEKA_GROUP",
+        "label": "Merdeka Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_EMAS_SH_MERDEKA_COPPER_GOLD_TBK",
+        "source": "EM_EMAS",
+        "target": "SH_MERDEKA_COPPER_GOLD_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EMAS_KP_SARATOGA",
+        "source": "EM_EMAS",
+        "target": "KP_SARATOGA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EMAS_SH_MERDEKA_GOLD_RESOURCES",
+        "source": "EM_EMAS",
+        "target": "SH_MERDEKA_GOLD_RESOURCES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EMAS_KP_MERDEKA_GROUP",
+        "source": "EM_EMAS",
+        "target": "KP_MERDEKA_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

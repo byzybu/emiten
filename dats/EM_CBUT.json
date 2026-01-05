@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CBUT",
+        "label": "CBUT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SAWIT_SUMBERMAS_SARANA",
+        "label": "SAWIT SUMBERMAS SARANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_H_ABDUL_RASYID",
+        "label": "H. Abdul Rasyid",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAYBANK_GLOBAL_GROWTH_FUND",
+        "label": "MAYBANK GLOBAL GROWTH FUND",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MAYBANK_ASSET_MGMT",
+        "label": "Maybank Asset Mgmt",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CBUT_SH_SAWIT_SUMBERMAS_SARANA",
+        "source": "EM_CBUT",
+        "target": "SH_SAWIT_SUMBERMAS_SARANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBUT_KP_H_ABDUL_RASYID",
+        "source": "EM_CBUT",
+        "target": "KP_H_ABDUL_RASYID",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBUT_SH_MAYBANK_GLOBAL_GROWTH_FUND",
+        "source": "EM_CBUT",
+        "target": "SH_MAYBANK_GLOBAL_GROWTH_FUND",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CBUT_KP_MAYBANK_ASSET_MGMT",
+        "source": "EM_CBUT",
+        "target": "KP_MAYBANK_ASSET_MGMT",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

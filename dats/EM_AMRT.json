@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AMRT",
+        "label": "AMRT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SIGMANTARA_ALFINDO",
+        "label": "SIGMANTARA ALFINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DJOKO_SUSANTO",
+        "label": "Djoko Susanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AMRT_SH_SIGMANTARA_ALFINDO",
+        "source": "EM_AMRT",
+        "target": "SH_SIGMANTARA_ALFINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMRT_KP_DJOKO_SUSANTO",
+        "source": "EM_AMRT",
+        "target": "KP_DJOKO_SUSANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

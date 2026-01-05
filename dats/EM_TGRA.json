@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TGRA",
+        "label": "TGRA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TERREGRA_ASIA_EQUITY_PT",
+        "label": "TERREGRA ASIA EQUITY,PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_LO_DJANA_MOELJADI_",
+        "label": "Keluarga Lo (Djana Moeljadi)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TGRA_SH_TERREGRA_ASIA_EQUITY_PT",
+        "source": "EM_TGRA",
+        "target": "SH_TERREGRA_ASIA_EQUITY_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TGRA_KP_KELUARGA_LO_DJANA_MOELJADI_",
+        "source": "EM_TGRA",
+        "target": "KP_KELUARGA_LO_DJANA_MOELJADI_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

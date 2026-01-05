@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_EDJSB",
+        "label": "EDJSB",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KOPERASI_KARYAWAN_SIMPATIK",
+        "label": "KOPERASI KARYAWAN SIMPATIK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANGGOTA_KOPERASI",
+        "label": "Anggota Koperasi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_EDJSB_SH_KOPERASI_KARYAWAN_SIMPATIK",
+        "source": "EM_EDJSB",
+        "target": "SH_KOPERASI_KARYAWAN_SIMPATIK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EDJSB_KP_ANGGOTA_KOPERASI",
+        "source": "EM_EDJSB",
+        "target": "KP_ANGGOTA_KOPERASI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

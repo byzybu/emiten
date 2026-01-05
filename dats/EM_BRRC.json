@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BRRC",
+        "label": "BRRC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GRANADA_GLOBAL_INDUSTRI",
+        "label": "GRANADA GLOBAL INDUSTRI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NOPRIAN_FADLI",
+        "label": "NOPRIAN FADLI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NOPRIAN_FADLI",
+        "label": "Noprian Fadli",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AGUS_SUMARJITO",
+        "label": "AGUS SUMARJITO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AGUS_SUMARJITO",
+        "label": "Agus Sumarjito",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ARI_SUDARSONO",
+        "label": "ARI SUDARSONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ARI_SUDARSONO",
+        "label": "Ari Sudarsono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BRRC_SH_GRANADA_GLOBAL_INDUSTRI",
+        "source": "EM_BRRC",
+        "target": "SH_GRANADA_GLOBAL_INDUSTRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRRC_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_BRRC",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRRC_SH_NOPRIAN_FADLI",
+        "source": "EM_BRRC",
+        "target": "SH_NOPRIAN_FADLI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRRC_KP_NOPRIAN_FADLI",
+        "source": "EM_BRRC",
+        "target": "KP_NOPRIAN_FADLI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRRC_SH_AGUS_SUMARJITO",
+        "source": "EM_BRRC",
+        "target": "SH_AGUS_SUMARJITO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRRC_KP_AGUS_SUMARJITO",
+        "source": "EM_BRRC",
+        "target": "KP_AGUS_SUMARJITO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRRC_SH_ARI_SUDARSONO",
+        "source": "EM_BRRC",
+        "target": "SH_ARI_SUDARSONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRRC_KP_ARI_SUDARSONO",
+        "source": "EM_BRRC",
+        "target": "KP_ARI_SUDARSONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

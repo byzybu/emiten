@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BAYU",
+        "label": "BAYU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GRAHA_SENTOSA_PERSADA",
+        "label": "GRAHA SENTOSA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJOKRO_GROUP",
+        "label": "Tjokro Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UNION_BANCAIRE_PRIVEE_UBP_",
+        "label": "UNION BANCAIRE PRIVEE (UBP)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_JULIUS_BAER_CO_LTD",
+        "label": "BANK JULIUS BAER & CO. LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "label": "BANK OF SINGAPORE LIMITED",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BAYU_SH_GRAHA_SENTOSA_PERSADA",
+        "source": "EM_BAYU",
+        "target": "SH_GRAHA_SENTOSA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAYU_KP_TJOKRO_GROUP",
+        "source": "EM_BAYU",
+        "target": "KP_TJOKRO_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAYU_SH_UNION_BANCAIRE_PRIVEE_UBP_",
+        "source": "EM_BAYU",
+        "target": "SH_UNION_BANCAIRE_PRIVEE_UBP_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAYU_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BAYU",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAYU_SH_BANK_JULIUS_BAER_CO_LTD",
+        "source": "EM_BAYU",
+        "target": "SH_BANK_JULIUS_BAER_CO_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAYU_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BAYU",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAYU_SH_BANK_OF_SINGAPORE_LIMITED",
+        "source": "EM_BAYU",
+        "target": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAYU_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BAYU",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

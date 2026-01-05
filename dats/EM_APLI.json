@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_APLI",
+        "label": "APLI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MACO_AMANGRAHA",
+        "label": "MACO AMANGRAHA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALEXANDER_AGUNG_PRANOTO",
+        "label": "ALEXANDER AGUNG PRANOTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ALEXANDER_AGUNG_PRANOTO",
+        "label": "Alexander Agung Pranoto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_APLI_SH_MACO_AMANGRAHA",
+        "source": "EM_APLI",
+        "target": "SH_MACO_AMANGRAHA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APLI_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_APLI",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APLI_SH_ALEXANDER_AGUNG_PRANOTO",
+        "source": "EM_APLI",
+        "target": "SH_ALEXANDER_AGUNG_PRANOTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APLI_KP_ALEXANDER_AGUNG_PRANOTO",
+        "source": "EM_APLI",
+        "target": "KP_ALEXANDER_AGUNG_PRANOTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

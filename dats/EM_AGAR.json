@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AGAR",
+        "label": "AGAR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SINAR_TERANG_ASIA_RAYA",
+        "label": "PT. SINAR TERANG ASIA RAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_INDO_KREASI_PRATAMA",
+        "label": "PT. INDO KREASI PRATAMA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AGAR_SH_PT_SINAR_TERANG_ASIA_RAYA",
+        "source": "EM_AGAR",
+        "target": "SH_PT_SINAR_TERANG_ASIA_RAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGAR_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_AGAR",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGAR_SH_PT_INDO_KREASI_PRATAMA",
+        "source": "EM_AGAR",
+        "target": "SH_PT_INDO_KREASI_PRATAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGAR_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_AGAR",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

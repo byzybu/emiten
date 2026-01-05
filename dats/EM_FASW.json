@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_FASW",
+        "label": "FASW",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SIAM_KRAFT_INDUSTRY",
+        "label": "SIAM KRAFT INDUSTRY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SIAM_CEMENT_GROUP_THAILAND_",
+        "label": "Siam Cement Group (Thailand)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SCGP_SOLUTIONS_SINGAPORE_",
+        "label": "SCGP SOLUTIONS (SINGAPORE)",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_FASW_SH_SIAM_KRAFT_INDUSTRY",
+        "source": "EM_FASW",
+        "target": "SH_SIAM_KRAFT_INDUSTRY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FASW_KP_SIAM_CEMENT_GROUP_THAILAND_",
+        "source": "EM_FASW",
+        "target": "KP_SIAM_CEMENT_GROUP_THAILAND_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FASW_SH_SCGP_SOLUTIONS_SINGAPORE_",
+        "source": "EM_FASW",
+        "target": "SH_SCGP_SOLUTIONS_SINGAPORE_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FASW_KP_SIAM_CEMENT_GROUP_THAILAND_",
+        "source": "EM_FASW",
+        "target": "KP_SIAM_CEMENT_GROUP_THAILAND_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

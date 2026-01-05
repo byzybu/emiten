@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ASSA",
+        "label": "ASSA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ADI_DINAMIKA_INVESTINDO_PT",
+        "label": "ADI DINAMIKA INVESTINDO, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TP_RACHMAT_THEODORE_PERMADI_",
+        "label": "TP Rachmat (Theodore Permadi)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DAYA_ADICIPTA_MUSTIKA",
+        "label": "DAYA ADICIPTA MUSTIKA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_PRODJO_SUNARJANTO_SP",
+        "label": "DRS PRODJO SUNARJANTO SP",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PRODJO_SUNARJANTO",
+        "label": "Prodjo Sunarjanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ASSA_SH_ADI_DINAMIKA_INVESTINDO_PT",
+        "source": "EM_ASSA",
+        "target": "SH_ADI_DINAMIKA_INVESTINDO_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASSA_KP_TP_RACHMAT_THEODORE_PERMADI_",
+        "source": "EM_ASSA",
+        "target": "KP_TP_RACHMAT_THEODORE_PERMADI_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASSA_SH_DAYA_ADICIPTA_MUSTIKA",
+        "source": "EM_ASSA",
+        "target": "SH_DAYA_ADICIPTA_MUSTIKA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASSA_KP_TP_RACHMAT_THEODORE_PERMADI_",
+        "source": "EM_ASSA",
+        "target": "KP_TP_RACHMAT_THEODORE_PERMADI_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASSA_SH_DRS_PRODJO_SUNARJANTO_SP",
+        "source": "EM_ASSA",
+        "target": "SH_DRS_PRODJO_SUNARJANTO_SP",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASSA_KP_PRODJO_SUNARJANTO",
+        "source": "EM_ASSA",
+        "target": "KP_PRODJO_SUNARJANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

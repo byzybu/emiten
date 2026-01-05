@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_EDJSA",
+        "label": "EDJSA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRI_DHARMA_MADYA_PT",
+        "label": "TRI DHARMA MADYA, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASTRINDO_INTAN_WIJAYA_PT",
+        "label": "ASTRINDO INTAN WIJAYA, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ASTRINDO_GROUP",
+        "label": "Astrindo Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EKA_DHARMA_JAYA_SAKTI",
+        "label": "EKA DHARMA JAYA SAKTI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_EKA_DHARMA_GROUP",
+        "label": "Eka Dharma Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_EDJSA_SH_TRI_DHARMA_MADYA_PT",
+        "source": "EM_EDJSA",
+        "target": "SH_TRI_DHARMA_MADYA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EDJSA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_EDJSA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EDJSA_SH_ASTRINDO_INTAN_WIJAYA_PT",
+        "source": "EM_EDJSA",
+        "target": "SH_ASTRINDO_INTAN_WIJAYA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EDJSA_KP_ASTRINDO_GROUP",
+        "source": "EM_EDJSA",
+        "target": "KP_ASTRINDO_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EDJSA_SH_EKA_DHARMA_JAYA_SAKTI",
+        "source": "EM_EDJSA",
+        "target": "SH_EKA_DHARMA_JAYA_SAKTI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EDJSA_KP_EKA_DHARMA_GROUP",
+        "source": "EM_EDJSA",
+        "target": "KP_EKA_DHARMA_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

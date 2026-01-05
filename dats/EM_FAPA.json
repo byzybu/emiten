@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_FAPA",
+        "label": "FAPA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FANGIONO_PERKASA_SEJATI",
+        "label": "FANGIONO PERKASA SEJATI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_FANGIONO",
+        "label": "Keluarga Fangiono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PRINSEP_MANAGEMENT_LIMITED",
+        "label": "PRINSEP MANAGEMENT LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WIRASTUTY_FANGIONO",
+        "label": "Wirastuty Fangiono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_FAPA_SH_FANGIONO_PERKASA_SEJATI",
+        "source": "EM_FAPA",
+        "target": "SH_FANGIONO_PERKASA_SEJATI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FAPA_KP_KELUARGA_FANGIONO",
+        "source": "EM_FAPA",
+        "target": "KP_KELUARGA_FANGIONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FAPA_SH_PRINSEP_MANAGEMENT_LIMITED",
+        "source": "EM_FAPA",
+        "target": "SH_PRINSEP_MANAGEMENT_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_FAPA_KP_WIRASTUTY_FANGIONO",
+        "source": "EM_FAPA",
+        "target": "KP_WIRASTUTY_FANGIONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

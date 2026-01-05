@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_WGSH",
+        "label": "WGSH",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WALDEN_GLOBAL_SERVICES",
+        "label": "WALDEN GLOBAL SERVICES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WGS_HUB",
+        "label": "WGS Hub",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SILICON_VALLEY_CONNECTION",
+        "label": "SILICON VALLEY CONNECTION",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WYNFIELD_GLOBAL_VENTURES",
+        "label": "WYNFIELD GLOBAL VENTURES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PUSAKA_MAS_PERSADA",
+        "label": "PUSAKA MAS PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IKIN_WIRAWAN",
+        "label": "IKIN WIRAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_IKIN_WIRAWAN",
+        "label": "Ikin Wirawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_WGSH_SH_WALDEN_GLOBAL_SERVICES",
+        "source": "EM_WGSH",
+        "target": "SH_WALDEN_GLOBAL_SERVICES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_KP_WGS_HUB",
+        "source": "EM_WGSH",
+        "target": "KP_WGS_HUB",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_SH_SILICON_VALLEY_CONNECTION",
+        "source": "EM_WGSH",
+        "target": "SH_SILICON_VALLEY_CONNECTION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_KP_INVESTASI_ASING",
+        "source": "EM_WGSH",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_SH_WYNFIELD_GLOBAL_VENTURES",
+        "source": "EM_WGSH",
+        "target": "SH_WYNFIELD_GLOBAL_VENTURES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_KP_INVESTASI_ASING",
+        "source": "EM_WGSH",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_SH_PUSAKA_MAS_PERSADA",
+        "source": "EM_WGSH",
+        "target": "SH_PUSAKA_MAS_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_WGSH",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_SH_IKIN_WIRAWAN",
+        "source": "EM_WGSH",
+        "target": "SH_IKIN_WIRAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WGSH_KP_IKIN_WIRAWAN",
+        "source": "EM_WGSH",
+        "target": "KP_IKIN_WIRAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

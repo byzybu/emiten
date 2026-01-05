@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BESS",
+        "label": "BESS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MEGA_ASTA_RAYA",
+        "label": "MEGA ASTA RAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BESS_SH_MEGA_ASTA_RAYA",
+        "source": "EM_BESS",
+        "target": "SH_MEGA_ASTA_RAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BESS_KP_KELUARGA_WIDJAJA",
+        "source": "EM_BESS",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

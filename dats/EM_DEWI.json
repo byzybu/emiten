@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DEWI",
+        "label": "DEWI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FERRY_SAPUTRA",
+        "label": "FERRY SAPUTRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FERRY_SAPUTRA",
+        "label": "Ferry Saputra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUJITO_NGATIMAN",
+        "label": "SUJITO NGATIMAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUJITO_NGATIMAN",
+        "label": "Sujito Ngatiman",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENRY_SAPUTRA",
+        "label": "HENRY SAPUTRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENRY_SAPUTRA",
+        "label": "Henry Saputra",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DEWI_SH_FERRY_SAPUTRA",
+        "source": "EM_DEWI",
+        "target": "SH_FERRY_SAPUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWI_KP_FERRY_SAPUTRA",
+        "source": "EM_DEWI",
+        "target": "KP_FERRY_SAPUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWI_SH_SUJITO_NGATIMAN",
+        "source": "EM_DEWI",
+        "target": "SH_SUJITO_NGATIMAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWI_KP_SUJITO_NGATIMAN",
+        "source": "EM_DEWI",
+        "target": "KP_SUJITO_NGATIMAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWI_SH_HENRY_SAPUTRA",
+        "source": "EM_DEWI",
+        "target": "SH_HENRY_SAPUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWI_KP_HENRY_SAPUTRA",
+        "source": "EM_DEWI",
+        "target": "KP_HENRY_SAPUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

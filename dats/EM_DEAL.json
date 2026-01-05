@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DEAL",
+        "label": "DEAL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BIMADA_PARAMITA_ADHYANA",
+        "label": "BIMADA PARAMITA ADHYANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BIMADA",
+        "label": "Bimada",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENDRI",
+        "label": "HENDRI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENDRI",
+        "label": "Hendri",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DEAL_SH_BIMADA_PARAMITA_ADHYANA",
+        "source": "EM_DEAL",
+        "target": "SH_BIMADA_PARAMITA_ADHYANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEAL_KP_BIMADA",
+        "source": "EM_DEAL",
+        "target": "KP_BIMADA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEAL_SH_HENDRI",
+        "source": "EM_DEAL",
+        "target": "SH_HENDRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEAL_KP_HENDRI",
+        "source": "EM_DEAL",
+        "target": "KP_HENDRI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

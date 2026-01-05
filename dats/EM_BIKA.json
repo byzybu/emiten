@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BIKA",
+        "label": "BIKA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALI_UMAR",
+        "label": "ALI UMAR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ALI_UMAR",
+        "label": "Ali Umar",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BUDIANTO_HALIM",
+        "label": "BUDIANTO HALIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BUDIANTO_HALIM",
+        "label": "Budianto Halim",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LILIANA_SETIAWAN",
+        "label": "LILIANA SETIAWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LILIANA_SETIAWAN",
+        "label": "Liliana Setiawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BIKA_SH_ALI_UMAR",
+        "source": "EM_BIKA",
+        "target": "SH_ALI_UMAR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIKA_KP_ALI_UMAR",
+        "source": "EM_BIKA",
+        "target": "KP_ALI_UMAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIKA_SH_BUDIANTO_HALIM",
+        "source": "EM_BIKA",
+        "target": "SH_BUDIANTO_HALIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIKA_KP_BUDIANTO_HALIM",
+        "source": "EM_BIKA",
+        "target": "KP_BUDIANTO_HALIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIKA_SH_LILIANA_SETIAWAN",
+        "source": "EM_BIKA",
+        "target": "SH_LILIANA_SETIAWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIKA_KP_LILIANA_SETIAWAN",
+        "source": "EM_BIKA",
+        "target": "KP_LILIANA_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

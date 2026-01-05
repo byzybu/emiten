@@ -1,0 +1,172 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DEWA",
+        "label": "DEWA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDHESTI_TUNGKAS_PRATAMA",
+        "label": "ANDHESTI TUNGKAS PRATAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARDOYO",
+        "label": "Hardoyo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AGUS_SURYONO",
+        "label": "Agus Suryono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ZURICH_ASSETS_INTERNATIONAL",
+        "label": "ZURICH ASSETS INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BAKRIE_GROUP",
+        "label": "Bakrie Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GOLDWAVE_CAPITAL_LIMITED",
+        "label": "GOLDWAVE CAPITAL LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CGS_INTERNATIONAL_SEKURITAS",
+        "label": "CGS INTERNATIONAL SEKURITAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CGS_INTERNATIONAL_SECURITIES_HK",
+        "label": "CGS INTERNATIONAL SECURITIES HK",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DEWA_SH_ANDHESTI_TUNGKAS_PRATAMA",
+        "source": "EM_DEWA",
+        "target": "SH_ANDHESTI_TUNGKAS_PRATAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_KP_HARDOYO",
+        "source": "EM_DEWA",
+        "target": "KP_HARDOYO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_SH_ANDHESTI_TUNGKAS_PRATAMA",
+        "source": "EM_DEWA",
+        "target": "SH_ANDHESTI_TUNGKAS_PRATAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_KP_AGUS_SURYONO",
+        "source": "EM_DEWA",
+        "target": "KP_AGUS_SURYONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_SH_ZURICH_ASSETS_INTERNATIONAL",
+        "source": "EM_DEWA",
+        "target": "SH_ZURICH_ASSETS_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_KP_BAKRIE_GROUP",
+        "source": "EM_DEWA",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_SH_GOLDWAVE_CAPITAL_LIMITED",
+        "source": "EM_DEWA",
+        "target": "SH_GOLDWAVE_CAPITAL_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_KP_BAKRIE_GROUP",
+        "source": "EM_DEWA",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_SH_CGS_INTERNATIONAL_SEKURITAS",
+        "source": "EM_DEWA",
+        "target": "SH_CGS_INTERNATIONAL_SEKURITAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_DEWA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_SH_CGS_INTERNATIONAL_SECURITIES_HK",
+        "source": "EM_DEWA",
+        "target": "SH_CGS_INTERNATIONAL_SECURITIES_HK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEWA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_DEWA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

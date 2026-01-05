@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BELL",
+        "label": "BELL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRISULA_INTERNATIONAL_TBK",
+        "label": "TRISULA INTERNATIONAL Tbk",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KUNCORO",
+        "label": "Kuncoro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TIRTAWIDJAJA",
+        "label": "Tirtawidjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SOUTHERN_CROSS_TEXTILE",
+        "label": "SOUTHERN CROSS TEXTILE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_LUKMINTO",
+        "label": "Keluarga Lukminto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BELL_SH_TRISULA_INTERNATIONAL_TBK",
+        "source": "EM_BELL",
+        "target": "SH_TRISULA_INTERNATIONAL_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BELL_KP_KUNCORO",
+        "source": "EM_BELL",
+        "target": "KP_KUNCORO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BELL_SH_TRISULA_INTERNATIONAL_TBK",
+        "source": "EM_BELL",
+        "target": "SH_TRISULA_INTERNATIONAL_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BELL_KP_TIRTAWIDJAJA",
+        "source": "EM_BELL",
+        "target": "KP_TIRTAWIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BELL_SH_SOUTHERN_CROSS_TEXTILE",
+        "source": "EM_BELL",
+        "target": "SH_SOUTHERN_CROSS_TEXTILE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BELL_KP_KELUARGA_LUKMINTO",
+        "source": "EM_BELL",
+        "target": "KP_KELUARGA_LUKMINTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

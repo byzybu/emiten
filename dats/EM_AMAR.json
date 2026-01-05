@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AMAR",
+        "label": "AMAR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAGAT_RAYA_IMAJINASI",
+        "label": "JAGAT RAYA IMAJINASI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SBI_HOLDINGS_INC_",
+        "label": "SBI HOLDINGS, INC.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_YOSHITAKA_KITAO",
+        "label": "Yoshitaka Kitao",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TOLARAM_PTE_LTD_",
+        "label": "TOLARAM PTE. LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_ASWANI",
+        "label": "Keluarga Aswani",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "label": "BANK OF SINGAPORE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AMAR_SH_JAGAT_RAYA_IMAJINASI",
+        "source": "EM_AMAR",
+        "target": "SH_JAGAT_RAYA_IMAJINASI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_AMAR",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_SH_SBI_HOLDINGS_INC_",
+        "source": "EM_AMAR",
+        "target": "SH_SBI_HOLDINGS_INC_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_KP_YOSHITAKA_KITAO",
+        "source": "EM_AMAR",
+        "target": "KP_YOSHITAKA_KITAO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_SH_TOLARAM_PTE_LTD_",
+        "source": "EM_AMAR",
+        "target": "SH_TOLARAM_PTE_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_KP_KELUARGA_ASWANI",
+        "source": "EM_AMAR",
+        "target": "KP_KELUARGA_ASWANI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_SH_TOLARAM_PTE_LTD_",
+        "source": "EM_AMAR",
+        "target": "SH_TOLARAM_PTE_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_KP_KELUARGA_ASWANI",
+        "source": "EM_AMAR",
+        "target": "KP_KELUARGA_ASWANI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_SH_BANK_OF_SINGAPORE_LIMITED",
+        "source": "EM_AMAR",
+        "target": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AMAR_KP_INVESTOR_INSTITUSI",
+        "source": "EM_AMAR",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

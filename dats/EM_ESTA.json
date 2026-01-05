@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ESTA",
+        "label": "ESTA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ESTA_UTAMA_CORPORA",
+        "label": "ESTA UTAMA CORPORA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WANGKAR",
+        "label": "Keluarga Wangkar",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JPMORGAN_CHASE_BANK",
+        "label": "JPMORGAN CHASE BANK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ESTA_SH_ESTA_UTAMA_CORPORA",
+        "source": "EM_ESTA",
+        "target": "SH_ESTA_UTAMA_CORPORA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ESTA_KP_KELUARGA_WANGKAR",
+        "source": "EM_ESTA",
+        "target": "KP_KELUARGA_WANGKAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ESTA_SH_JPMORGAN_CHASE_BANK",
+        "source": "EM_ESTA",
+        "target": "SH_JPMORGAN_CHASE_BANK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ESTA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_ESTA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

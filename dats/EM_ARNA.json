@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ARNA",
+        "label": "ARNA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUPRAKREASI_ERADINAMIKA",
+        "label": "SUPRAKREASI ERADINAMIKA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GRUP_ORANG_TUA_OT_",
+        "label": "Grup Orang Tua (OT)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TANDEAN_RUSTANDY",
+        "label": "TANDEAN RUSTANDY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TANDEAN_RUSTANDY",
+        "label": "Tandean Rustandy",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FIDELITY_FUNDS",
+        "label": "FIDELITY FUNDS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ARNA_SH_SUPRAKREASI_ERADINAMIKA",
+        "source": "EM_ARNA",
+        "target": "SH_SUPRAKREASI_ERADINAMIKA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARNA_KP_GRUP_ORANG_TUA_OT_",
+        "source": "EM_ARNA",
+        "target": "KP_GRUP_ORANG_TUA_OT_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARNA_SH_TANDEAN_RUSTANDY",
+        "source": "EM_ARNA",
+        "target": "SH_TANDEAN_RUSTANDY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARNA_KP_TANDEAN_RUSTANDY",
+        "source": "EM_ARNA",
+        "target": "KP_TANDEAN_RUSTANDY",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARNA_SH_FIDELITY_FUNDS",
+        "source": "EM_ARNA",
+        "target": "SH_FIDELITY_FUNDS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARNA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_ARNA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

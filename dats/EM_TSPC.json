@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TSPC",
+        "label": "TSPC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BOGAMULIA_NAGADI",
+        "label": "BOGAMULIA NAGADI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HANDOJO_S_MULJADI",
+        "label": "Handojo S. Muljadi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TSPC_SH_BOGAMULIA_NAGADI",
+        "source": "EM_TSPC",
+        "target": "SH_BOGAMULIA_NAGADI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TSPC_KP_HANDOJO_S_MULJADI",
+        "source": "EM_TSPC",
+        "target": "KP_HANDOJO_S_MULJADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

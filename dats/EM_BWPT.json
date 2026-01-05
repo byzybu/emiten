@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BWPT",
+        "label": "BWPT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RAJAWALI_CAPITAL_INT_",
+        "label": "RAJAWALI CAPITAL INT.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PETER_SONDAKH",
+        "label": "Peter Sondakh",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FIC_PROPERTIES_SDN_BHD",
+        "label": "FIC PROPERTIES SDN BHD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FELDA_MALAYSIA_",
+        "label": "Felda (Malaysia)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BWPT_SH_RAJAWALI_CAPITAL_INT_",
+        "source": "EM_BWPT",
+        "target": "SH_RAJAWALI_CAPITAL_INT_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BWPT_KP_PETER_SONDAKH",
+        "source": "EM_BWPT",
+        "target": "KP_PETER_SONDAKH",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BWPT_SH_FIC_PROPERTIES_SDN_BHD",
+        "source": "EM_BWPT",
+        "target": "SH_FIC_PROPERTIES_SDN_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BWPT_KP_FELDA_MALAYSIA_",
+        "source": "EM_BWPT",
+        "target": "KP_FELDA_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

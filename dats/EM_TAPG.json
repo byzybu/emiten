@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TAPG",
+        "label": "TAPG",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANGGRAINI_DEWI_WIDJAJA",
+        "label": "ANGGRAINI DEWI WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANGGRAINI_DEWI_WIDJAJA",
+        "label": "Anggraini Dewi Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PAMOR_GEMA_PERSADA",
+        "label": "PAMOR GEMA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LELY_CHITRA_WIDJAJA",
+        "label": "LELY CHITRA WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LELY_CHITRA_WIDJAJA",
+        "label": "Lely Chitra Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANITA_RINA_WIDJAJA",
+        "label": "ANITA RINA WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANITA_RINA_WIDJAJA",
+        "label": "Anita Rina Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULYADI",
+        "label": "MULYADI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MULYADI",
+        "label": "Mulyadi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TAPG_SH_ANGGRAINI_DEWI_WIDJAJA",
+        "source": "EM_TAPG",
+        "target": "SH_ANGGRAINI_DEWI_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_KP_ANGGRAINI_DEWI_WIDJAJA",
+        "source": "EM_TAPG",
+        "target": "KP_ANGGRAINI_DEWI_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_SH_PAMOR_GEMA_PERSADA",
+        "source": "EM_TAPG",
+        "target": "SH_PAMOR_GEMA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_TAPG",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_SH_LELY_CHITRA_WIDJAJA",
+        "source": "EM_TAPG",
+        "target": "SH_LELY_CHITRA_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_KP_LELY_CHITRA_WIDJAJA",
+        "source": "EM_TAPG",
+        "target": "KP_LELY_CHITRA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_SH_ANITA_RINA_WIDJAJA",
+        "source": "EM_TAPG",
+        "target": "SH_ANITA_RINA_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_KP_ANITA_RINA_WIDJAJA",
+        "source": "EM_TAPG",
+        "target": "KP_ANITA_RINA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_SH_MULYADI",
+        "source": "EM_TAPG",
+        "target": "SH_MULYADI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAPG_KP_MULYADI",
+        "source": "EM_TAPG",
+        "target": "KP_MULYADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
