@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ALDO",
+        "label": "ALDO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_GOLDEN_ARISTA_INTERNATIONAL",
+        "label": "PT.GOLDEN ARISTA INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ALDO_SH_PT_GOLDEN_ARISTA_INTERNATIONAL",
+        "source": "EM_ALDO",
+        "target": "SH_PT_GOLDEN_ARISTA_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALDO_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_ALDO",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

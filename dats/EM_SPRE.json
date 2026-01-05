@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SPRE",
+        "label": "SPRE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RIZET_RAMAWI",
+        "label": "RIZET RAMAWI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RIZET_RAMAWI",
+        "label": "Rizet Ramawi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DWI_RISTRA_UTAMI",
+        "label": "DWI RISTRA UTAMI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DWI_RISTRA_UTAMI",
+        "label": "Dwi Ristra Utami",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RIDHO_FERMAN_SHATRIO",
+        "label": "RIDHO FERMAN SHATRIO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RIDHO_FERMAN_SHATRIO",
+        "label": "Ridho Ferman Shatrio",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SPRE_SH_RIZET_RAMAWI",
+        "source": "EM_SPRE",
+        "target": "SH_RIZET_RAMAWI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPRE_KP_RIZET_RAMAWI",
+        "source": "EM_SPRE",
+        "target": "KP_RIZET_RAMAWI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPRE_SH_DWI_RISTRA_UTAMI",
+        "source": "EM_SPRE",
+        "target": "SH_DWI_RISTRA_UTAMI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPRE_KP_DWI_RISTRA_UTAMI",
+        "source": "EM_SPRE",
+        "target": "KP_DWI_RISTRA_UTAMI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPRE_SH_RIDHO_FERMAN_SHATRIO",
+        "source": "EM_SPRE",
+        "target": "SH_RIDHO_FERMAN_SHATRIO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPRE_KP_RIDHO_FERMAN_SHATRIO",
+        "source": "EM_SPRE",
+        "target": "KP_RIDHO_FERMAN_SHATRIO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SRAJ",
+        "label": "SRAJ",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SURYA_CIPTA_INTI_CEMERLANG",
+        "label": "SURYA CIPTA INTI CEMERLANG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BCSS_BORON_A_I_LP",
+        "label": "BCSS BORON A I, LP",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HIGH_PRO_INVESTMENTS",
+        "label": "HIGH PRO INVESTMENTS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WING_HARVEST_LIMITED",
+        "label": "WING HARVEST LIMITED",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SRAJ_SH_SURYA_CIPTA_INTI_CEMERLANG",
+        "source": "EM_SRAJ",
+        "target": "SH_SURYA_CIPTA_INTI_CEMERLANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRAJ_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SRAJ",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRAJ_SH_BCSS_BORON_A_I_LP",
+        "source": "EM_SRAJ",
+        "target": "SH_BCSS_BORON_A_I_LP",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRAJ_KP_INVESTASI_ASING",
+        "source": "EM_SRAJ",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRAJ_SH_HIGH_PRO_INVESTMENTS",
+        "source": "EM_SRAJ",
+        "target": "SH_HIGH_PRO_INVESTMENTS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRAJ_KP_INVESTASI_ASING",
+        "source": "EM_SRAJ",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRAJ_SH_WING_HARVEST_LIMITED",
+        "source": "EM_SRAJ",
+        "target": "SH_WING_HARVEST_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRAJ_KP_INVESTASI_ASING",
+        "source": "EM_SRAJ",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

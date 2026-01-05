@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BNBA",
+        "label": "BNBA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TAKJUB_FINANSIAL_TEKNOLOGI",
+        "label": "TAKJUB FINANSIAL TEKNOLOGI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_AJAIB_ANDERSON_SUMARLI_",
+        "label": "Keluarga Ajaib (Anderson Sumarli)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BNBA_SH_TAKJUB_FINANSIAL_TEKNOLOGI",
+        "source": "EM_BNBA",
+        "target": "SH_TAKJUB_FINANSIAL_TEKNOLOGI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BNBA_KP_KELUARGA_AJAIB_ANDERSON_SUMARLI_",
+        "source": "EM_BNBA",
+        "target": "KP_KELUARGA_AJAIB_ANDERSON_SUMARLI_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

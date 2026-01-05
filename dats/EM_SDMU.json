@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SDMU",
+        "label": "SDMU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TJOE_MIEN_SASMINTO",
+        "label": "TJOE MIEN SASMINTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJOE_MIEN_SASMINTO",
+        "label": "Tjoe Mien Sasminto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASABRI_PERSERO_",
+        "label": "ASABRI (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SDMU_SH_TJOE_MIEN_SASMINTO",
+        "source": "EM_SDMU",
+        "target": "SH_TJOE_MIEN_SASMINTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SDMU_KP_TJOE_MIEN_SASMINTO",
+        "source": "EM_SDMU",
+        "target": "KP_TJOE_MIEN_SASMINTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SDMU_SH_ASABRI_PERSERO_",
+        "source": "EM_SDMU",
+        "target": "SH_ASABRI_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SDMU_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_SDMU",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BSML",
+        "label": "BSML",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GOLDFIVE_INVESTMENT_CAPITAL",
+        "label": "GOLDFIVE INVESTMENT CAPITAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDRIANSYAH_PRAYITNO",
+        "label": "ANDRIANSYAH PRAYITNO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANDRIANSYAH_PRAYITNO",
+        "label": "Andriansyah Prayitno",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NENGAH_RAMA_GAUTAMA",
+        "label": "NENGAH RAMA GAUTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NENGAH_RAMA_GAUTAMA",
+        "label": "Nengah Rama Gautama",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BSML_SH_GOLDFIVE_INVESTMENT_CAPITAL",
+        "source": "EM_BSML",
+        "target": "SH_GOLDFIVE_INVESTMENT_CAPITAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BSML_KP_INVESTASI_ASING",
+        "source": "EM_BSML",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BSML_SH_ANDRIANSYAH_PRAYITNO",
+        "source": "EM_BSML",
+        "target": "SH_ANDRIANSYAH_PRAYITNO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BSML_KP_ANDRIANSYAH_PRAYITNO",
+        "source": "EM_BSML",
+        "target": "KP_ANDRIANSYAH_PRAYITNO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BSML_SH_NENGAH_RAMA_GAUTAMA",
+        "source": "EM_BSML",
+        "target": "SH_NENGAH_RAMA_GAUTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BSML_KP_NENGAH_RAMA_GAUTAMA",
+        "source": "EM_BSML",
+        "target": "KP_NENGAH_RAMA_GAUTAMA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

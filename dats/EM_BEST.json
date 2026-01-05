@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BEST",
+        "label": "BEST",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ARGO_MANUNGGAL_LAND_DEV_",
+        "label": "ARGO MANUNGGAL LAND DEV.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_THE_NING_KING",
+        "label": "The Ning King",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DAIWA_HOUSE_INDUSTRY_CO",
+        "label": "DAIWA HOUSE INDUSTRY CO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DAIWA_HOUSE_JEPANG_",
+        "label": "Daiwa House (Jepang)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BEST_SH_ARGO_MANUNGGAL_LAND_DEV_",
+        "source": "EM_BEST",
+        "target": "SH_ARGO_MANUNGGAL_LAND_DEV_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BEST_KP_THE_NING_KING",
+        "source": "EM_BEST",
+        "target": "KP_THE_NING_KING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BEST_SH_DAIWA_HOUSE_INDUSTRY_CO",
+        "source": "EM_BEST",
+        "target": "SH_DAIWA_HOUSE_INDUSTRY_CO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BEST_KP_DAIWA_HOUSE_JEPANG_",
+        "source": "EM_BEST",
+        "target": "KP_DAIWA_HOUSE_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

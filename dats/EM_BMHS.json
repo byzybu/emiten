@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BMHS",
+        "label": "BMHS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BUNDA_INVESTAMA_INDONESIA",
+        "label": "BUNDA INVESTAMA INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DR_RIZAL_SINI_KELUARGA",
+        "label": "Dr. Rizal Sini & Keluarga",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BMHS_SH_BUNDA_INVESTAMA_INDONESIA",
+        "source": "EM_BMHS",
+        "target": "SH_BUNDA_INVESTAMA_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BMHS_KP_DR_RIZAL_SINI_KELUARGA",
+        "source": "EM_BMHS",
+        "target": "KP_DR_RIZAL_SINI_KELUARGA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

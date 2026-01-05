@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TELE",
+        "label": "TELE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_PINS_INDONESIA",
+        "label": "PT.PINS INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TELKOM_INDONESIA_BUMN_",
+        "label": "Telkom Indonesia (BUMN)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UPAYA_CIPTA_SEJAHTERA_PT_",
+        "label": "UPAYA CIPTA SEJAHTERA PT.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENGKY_SETIAWAN",
+        "label": "Hengky Setiawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HAIYANTO",
+        "label": "HAIYANTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAIYANTO",
+        "label": "Haiyanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TELE_SH_PT_PINS_INDONESIA",
+        "source": "EM_TELE",
+        "target": "SH_PT_PINS_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TELE_KP_TELKOM_INDONESIA_BUMN_",
+        "source": "EM_TELE",
+        "target": "KP_TELKOM_INDONESIA_BUMN_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TELE_SH_UPAYA_CIPTA_SEJAHTERA_PT_",
+        "source": "EM_TELE",
+        "target": "SH_UPAYA_CIPTA_SEJAHTERA_PT_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TELE_KP_HENGKY_SETIAWAN",
+        "source": "EM_TELE",
+        "target": "KP_HENGKY_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TELE_SH_HAIYANTO",
+        "source": "EM_TELE",
+        "target": "SH_HAIYANTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TELE_KP_HAIYANTO",
+        "source": "EM_TELE",
+        "target": "KP_HAIYANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

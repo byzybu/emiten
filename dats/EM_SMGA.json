@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SMGA",
+        "label": "SMGA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMBER_GLOBAL_ENERGY_TBK",
+        "label": "SUMBER GLOBAL ENERGY TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WELLY_THOMAS",
+        "label": "Welly Thomas",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SMGA_SH_SUMBER_GLOBAL_ENERGY_TBK",
+        "source": "EM_SMGA",
+        "target": "SH_SUMBER_GLOBAL_ENERGY_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMGA_KP_WELLY_THOMAS",
+        "source": "EM_SMGA",
+        "target": "KP_WELLY_THOMAS",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

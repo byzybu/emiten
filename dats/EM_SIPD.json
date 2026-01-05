@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SIPD",
+        "label": "SIPD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GREAT_GIANT_PINEAPPLE",
+        "label": "GREAT GIANT PINEAPPLE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_ANGKOSUBROTO",
+        "label": "Keluarga Angkosubroto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SIPD_SH_GREAT_GIANT_PINEAPPLE",
+        "source": "EM_SIPD",
+        "target": "SH_GREAT_GIANT_PINEAPPLE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIPD_KP_KELUARGA_ANGKOSUBROTO",
+        "source": "EM_SIPD",
+        "target": "KP_KELUARGA_ANGKOSUBROTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

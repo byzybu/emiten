@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TARA",
+        "label": "TARA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDRY",
+        "label": "ANDRY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANDRY",
+        "label": "Andry",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDY_INDRA_CAHYA",
+        "label": "ANDY INDRA CAHYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANDY_INDRA_CAHYA",
+        "label": "Andy Indra Cahya",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SURYANA",
+        "label": "SURYANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SURYANA",
+        "label": "Suryana",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TARA_SH_ANDRY",
+        "source": "EM_TARA",
+        "target": "SH_ANDRY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TARA_KP_ANDRY",
+        "source": "EM_TARA",
+        "target": "KP_ANDRY",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TARA_SH_ANDY_INDRA_CAHYA",
+        "source": "EM_TARA",
+        "target": "SH_ANDY_INDRA_CAHYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TARA_KP_ANDY_INDRA_CAHYA",
+        "source": "EM_TARA",
+        "target": "KP_ANDY_INDRA_CAHYA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TARA_SH_SURYANA",
+        "source": "EM_TARA",
+        "target": "SH_SURYANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TARA_KP_SURYANA",
+        "source": "EM_TARA",
+        "target": "KP_SURYANA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

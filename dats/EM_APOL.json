@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_APOL",
+        "label": "APOL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BC_INVESTMENTS_PTE_LTD",
+        "label": "BC INVESTMENTS PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DBS_VICKERS_SECS_NOMINEE",
+        "label": "DBS VICKERS SECS NOMINEE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_APOL_SH_BC_INVESTMENTS_PTE_LTD",
+        "source": "EM_APOL",
+        "target": "SH_BC_INVESTMENTS_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APOL_KP_INVESTASI_ASING",
+        "source": "EM_APOL",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APOL_SH_DBS_VICKERS_SECS_NOMINEE",
+        "source": "EM_APOL",
+        "target": "SH_DBS_VICKERS_SECS_NOMINEE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APOL_KP_INVESTOR_INSTITUSI",
+        "source": "EM_APOL",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

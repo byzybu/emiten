@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_WICO",
+        "label": "WICO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CTLA_SAFEKEEPING_ACCOUNT",
+        "label": "CTLA SAFEKEEPING ACCOUNT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_WICO_SH_CTLA_SAFEKEEPING_ACCOUNT",
+        "source": "EM_WICO",
+        "target": "SH_CTLA_SAFEKEEPING_ACCOUNT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WICO_KP_INVESTOR_INSTITUSI",
+        "source": "EM_WICO",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

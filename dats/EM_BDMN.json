@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BDMN",
+        "label": "BDMN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MUFG_BANK_LTD",
+        "label": "MUFG BANK, LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BDMN_SH_MUFG_BANK_LTD",
+        "source": "EM_BDMN",
+        "target": "SH_MUFG_BANK_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BDMN_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BDMN",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TPIA",
+        "label": "TPIA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BARITO_PACIFIC_TBK",
+        "label": "BARITO PACIFIC TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PRAJOGO_PANGESTU",
+        "label": "Prajogo Pangestu",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PRAJOGO_PANGESTU",
+        "label": "PRAJOGO PANGESTU",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TPIA_SH_BARITO_PACIFIC_TBK",
+        "source": "EM_TPIA",
+        "target": "SH_BARITO_PACIFIC_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TPIA_KP_PRAJOGO_PANGESTU",
+        "source": "EM_TPIA",
+        "target": "KP_PRAJOGO_PANGESTU",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TPIA_SH_PRAJOGO_PANGESTU",
+        "source": "EM_TPIA",
+        "target": "SH_PRAJOGO_PANGESTU",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TPIA_KP_PRAJOGO_PANGESTU",
+        "source": "EM_TPIA",
+        "target": "KP_PRAJOGO_PANGESTU",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

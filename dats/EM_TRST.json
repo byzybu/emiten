@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TRST",
+        "label": "TRST",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_PRIMA_POLYCON_INDAH",
+        "label": "PT PRIMA POLYCON INDAH",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KINDARTO_KOHAR",
+        "label": "Kindarto Kohar",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KILO_LIMA_INTI_PERKASA",
+        "label": "KILO LIMA INTI PERKASA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_K_AND_L_CAPITAL",
+        "label": "PT. K AND L CAPITAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TRST_SH_PT_PRIMA_POLYCON_INDAH",
+        "source": "EM_TRST",
+        "target": "SH_PT_PRIMA_POLYCON_INDAH",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRST_KP_KINDARTO_KOHAR",
+        "source": "EM_TRST",
+        "target": "KP_KINDARTO_KOHAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRST_SH_KILO_LIMA_INTI_PERKASA",
+        "source": "EM_TRST",
+        "target": "SH_KILO_LIMA_INTI_PERKASA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRST_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_TRST",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRST_SH_PT_K_AND_L_CAPITAL",
+        "source": "EM_TRST",
+        "target": "SH_PT_K_AND_L_CAPITAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRST_KP_INVESTASI_ASING",
+        "source": "EM_TRST",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

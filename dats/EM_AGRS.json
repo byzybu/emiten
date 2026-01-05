@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AGRS",
+        "label": "AGRS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDUSTRIAL_BANK_OF_KOREA",
+        "label": "INDUSTRIAL BANK OF KOREA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PEMERINTAH_KOREA_SELATAN",
+        "label": "Pemerintah Korea Selatan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AGRS_SH_INDUSTRIAL_BANK_OF_KOREA",
+        "source": "EM_AGRS",
+        "target": "SH_INDUSTRIAL_BANK_OF_KOREA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AGRS_KP_PEMERINTAH_KOREA_SELATAN",
+        "source": "EM_AGRS",
+        "target": "KP_PEMERINTAH_KOREA_SELATAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

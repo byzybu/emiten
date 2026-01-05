@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RAJA",
+        "label": "RAJA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SENTOSA_BERSAMA_MITRA",
+        "label": "SENTOSA BERSAMA MITRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BASIS_UTAMA_PRIMA",
+        "label": "BASIS UTAMA PRIMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAPPY_HAPSORO",
+        "label": "Happy Hapsoro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ARSJAD_RASJID",
+        "label": "Arsjad Rasjid",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HAPSORO",
+        "label": "HAPSORO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAPSORO_SUKMONOHADI",
+        "label": "Hapsoro Sukmonohadi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RAJA_SH_SENTOSA_BERSAMA_MITRA",
+        "source": "EM_RAJA",
+        "target": "SH_SENTOSA_BERSAMA_MITRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAJA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_RAJA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAJA_SH_BASIS_UTAMA_PRIMA",
+        "source": "EM_RAJA",
+        "target": "SH_BASIS_UTAMA_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAJA_KP_HAPPY_HAPSORO",
+        "source": "EM_RAJA",
+        "target": "KP_HAPPY_HAPSORO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAJA_SH_BASIS_UTAMA_PRIMA",
+        "source": "EM_RAJA",
+        "target": "SH_BASIS_UTAMA_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAJA_KP_ARSJAD_RASJID",
+        "source": "EM_RAJA",
+        "target": "KP_ARSJAD_RASJID",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAJA_SH_HAPSORO",
+        "source": "EM_RAJA",
+        "target": "SH_HAPSORO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAJA_KP_HAPSORO_SUKMONOHADI",
+        "source": "EM_RAJA",
+        "target": "KP_HAPSORO_SUKMONOHADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

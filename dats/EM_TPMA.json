@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TPMA",
+        "label": "TPMA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PATIN_RESOURCES",
+        "label": "PATIN RESOURCES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_ARIFIN_PANIGORO",
+        "label": "Keluarga Arifin Panigoro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DWI_TUNGGAL_PERKASA_MANDIRI",
+        "label": "DWI TUNGGAL PERKASA MANDIRI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TPMA_SH_PATIN_RESOURCES",
+        "source": "EM_TPMA",
+        "target": "SH_PATIN_RESOURCES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TPMA_KP_KELUARGA_ARIFIN_PANIGORO",
+        "source": "EM_TPMA",
+        "target": "KP_KELUARGA_ARIFIN_PANIGORO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TPMA_SH_DWI_TUNGGAL_PERKASA_MANDIRI",
+        "source": "EM_TPMA",
+        "target": "SH_DWI_TUNGGAL_PERKASA_MANDIRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TPMA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_TPMA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

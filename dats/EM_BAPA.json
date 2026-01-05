@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BAPA",
+        "label": "BAPA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ADICIPTA_GRIYASEJATI_PT",
+        "label": "ADICIPTA GRIYASEJATI, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_CIPUTRA",
+        "label": "Keluarga Ciputra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INTI_FIKASA_SEKURITAS",
+        "label": "INTI FIKASA SEKURITAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SUTIOSO",
+        "label": "Keluarga Sutioso",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_PAPUA_TIMBER_JAYA",
+        "label": "PT.Papua Timber Jaya",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_LOKAL",
+        "label": "Perusahaan Lokal",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BAPA_SH_ADICIPTA_GRIYASEJATI_PT",
+        "source": "EM_BAPA",
+        "target": "SH_ADICIPTA_GRIYASEJATI_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAPA_KP_KELUARGA_CIPUTRA",
+        "source": "EM_BAPA",
+        "target": "KP_KELUARGA_CIPUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAPA_SH_INTI_FIKASA_SEKURITAS",
+        "source": "EM_BAPA",
+        "target": "SH_INTI_FIKASA_SEKURITAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAPA_KP_KELUARGA_SUTIOSO",
+        "source": "EM_BAPA",
+        "target": "KP_KELUARGA_SUTIOSO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAPA_SH_PT_PAPUA_TIMBER_JAYA",
+        "source": "EM_BAPA",
+        "target": "SH_PT_PAPUA_TIMBER_JAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BAPA_KP_PERUSAHAAN_LOKAL",
+        "source": "EM_BAPA",
+        "target": "KP_PERUSAHAAN_LOKAL",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
