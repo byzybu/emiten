@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PBID",
+        "label": "PBID",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALPHEN_INTERNASIONAL",
+        "label": "ALPHEN INTERNASIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DJONNY_TASLIM",
+        "label": "DJONNY TASLIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DJONNY_TASLIM",
+        "label": "Djonny Taslim",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PBID_SH_ALPHEN_INTERNASIONAL",
+        "source": "EM_PBID",
+        "target": "SH_ALPHEN_INTERNASIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBID_KP_INVESTASI_ASING",
+        "source": "EM_PBID",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBID_SH_DJONNY_TASLIM",
+        "source": "EM_PBID",
+        "target": "SH_DJONNY_TASLIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBID_KP_DJONNY_TASLIM",
+        "source": "EM_PBID",
+        "target": "KP_DJONNY_TASLIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

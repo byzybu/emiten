@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MIDI",
+        "label": "MIDI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMBER_ALFARIA_TRIJAYA",
+        "label": "SUMBER ALFARIA TRIJAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DJOKO_SUSANTO",
+        "label": "Djoko Susanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MIDI_SH_SUMBER_ALFARIA_TRIJAYA",
+        "source": "EM_MIDI",
+        "target": "SH_SUMBER_ALFARIA_TRIJAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MIDI_KP_DJOKO_SUSANTO",
+        "source": "EM_MIDI",
+        "target": "KP_DJOKO_SUSANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

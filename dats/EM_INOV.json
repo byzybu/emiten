@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INOV",
+        "label": "INOV",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SAMUDERA_INDUSTRI",
+        "label": "SAMUDERA INDUSTRI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_THE_NING_KING",
+        "label": "Keluarga The Ning King",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SANDIANA_SOEMARKO",
+        "label": "SANDIANA SOEMARKO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SANDIANA_SOEMARKO",
+        "label": "Sandiana Soemarko",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INOV_SH_SAMUDERA_INDUSTRI",
+        "source": "EM_INOV",
+        "target": "SH_SAMUDERA_INDUSTRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INOV_KP_KELUARGA_THE_NING_KING",
+        "source": "EM_INOV",
+        "target": "KP_KELUARGA_THE_NING_KING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INOV_SH_SANDIANA_SOEMARKO",
+        "source": "EM_INOV",
+        "target": "SH_SANDIANA_SOEMARKO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INOV_KP_SANDIANA_SOEMARKO",
+        "source": "EM_INOV",
+        "target": "KP_SANDIANA_SOEMARKO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

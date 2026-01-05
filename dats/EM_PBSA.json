@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PBSA",
+        "label": "PBSA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASCEND_BANGUN_PERSADA",
+        "label": "ASCEND BANGUN PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SIGMA_MUTIARA",
+        "label": "SIGMA MUTIARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "label": "BANK OF SINGAPORE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PBSA_SH_ASCEND_BANGUN_PERSADA",
+        "source": "EM_PBSA",
+        "target": "SH_ASCEND_BANGUN_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBSA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PBSA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBSA_SH_SIGMA_MUTIARA",
+        "source": "EM_PBSA",
+        "target": "SH_SIGMA_MUTIARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBSA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PBSA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBSA_SH_BANK_OF_SINGAPORE_LIMITED",
+        "source": "EM_PBSA",
+        "target": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PBSA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_PBSA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

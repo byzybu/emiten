@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_POSA",
+        "label": "POSA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_BINTANG_BAJA_HITAM",
+        "label": "PT BINTANG BAJA HITAM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SHINHAN_SEKURITAS_INDONESIA",
+        "label": "SHINHAN SEKURITAS INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SHINHAN_FINANCIAL_KOREA_",
+        "label": "Shinhan Financial (Korea)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_POSA_SH_PT_BINTANG_BAJA_HITAM",
+        "source": "EM_POSA",
+        "target": "SH_PT_BINTANG_BAJA_HITAM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POSA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_POSA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POSA_SH_SHINHAN_SEKURITAS_INDONESIA",
+        "source": "EM_POSA",
+        "target": "SH_SHINHAN_SEKURITAS_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POSA_KP_SHINHAN_FINANCIAL_KOREA_",
+        "source": "EM_POSA",
+        "target": "KP_SHINHAN_FINANCIAL_KOREA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

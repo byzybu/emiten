@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_POLI",
+        "label": "POLI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_POLLUX_PROPERTI_IND_",
+        "label": "PT POLLUX PROPERTI IND.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_PO_SUN_KOK",
+        "label": "Keluarga Po Sun Kok",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PO_SUN_KOK",
+        "label": "PO SUN KOK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PO_SUN_KOK",
+        "label": "Po Sun Kok",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_POLI_SH_PT_POLLUX_PROPERTI_IND_",
+        "source": "EM_POLI",
+        "target": "SH_PT_POLLUX_PROPERTI_IND_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLI_KP_KELUARGA_PO_SUN_KOK",
+        "source": "EM_POLI",
+        "target": "KP_KELUARGA_PO_SUN_KOK",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLI_SH_PO_SUN_KOK",
+        "source": "EM_POLI",
+        "target": "SH_PO_SUN_KOK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLI_KP_PO_SUN_KOK",
+        "source": "EM_POLI",
+        "target": "KP_PO_SUN_KOK",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

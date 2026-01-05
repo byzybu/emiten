@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INDY",
+        "label": "INDY",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TELADAN_RESOURCES",
+        "label": "TELADAN RESOURCES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIWOHO_BASUKI",
+        "label": "Keluarga Wiwoho Basuki",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDIKA_INTI_INVESTINDO",
+        "label": "INDIKA INTI INVESTINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ARSJAD_RASJID",
+        "label": "Arsjad Rasjid",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AGUS_LASMONO",
+        "label": "Agus Lasmono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PANDRI_PRABONO_MOELYO",
+        "label": "PANDRI PRABONO-MOELYO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PANDRI_PRABONO_MOELYO",
+        "label": "Pandri Prabono Moelyo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INDY_SH_TELADAN_RESOURCES",
+        "source": "EM_INDY",
+        "target": "SH_TELADAN_RESOURCES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDY_KP_KELUARGA_WIWOHO_BASUKI",
+        "source": "EM_INDY",
+        "target": "KP_KELUARGA_WIWOHO_BASUKI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDY_SH_INDIKA_INTI_INVESTINDO",
+        "source": "EM_INDY",
+        "target": "SH_INDIKA_INTI_INVESTINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDY_KP_ARSJAD_RASJID",
+        "source": "EM_INDY",
+        "target": "KP_ARSJAD_RASJID",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDY_SH_INDIKA_INTI_INVESTINDO",
+        "source": "EM_INDY",
+        "target": "SH_INDIKA_INTI_INVESTINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDY_KP_AGUS_LASMONO",
+        "source": "EM_INDY",
+        "target": "KP_AGUS_LASMONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDY_SH_PANDRI_PRABONO_MOELYO",
+        "source": "EM_INDY",
+        "target": "SH_PANDRI_PRABONO_MOELYO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDY_KP_PANDRI_PRABONO_MOELYO",
+        "source": "EM_INDY",
+        "target": "KP_PANDRI_PRABONO_MOELYO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

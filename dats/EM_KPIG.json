@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KPIG",
+        "label": "KPIG",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MNC_ASIA_HOLDING_TBK",
+        "label": "MNC ASIA HOLDING TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARY_TANOESOEDIBJO",
+        "label": "Hary Tanoesoedibjo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HT_INVESTMENT_DEVELOPMENT",
+        "label": "HT INVESTMENT DEVELOPMENT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CHAROEN_POKPHAND_INDONESIA",
+        "label": "CHAROEN POKPHAND INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_JIARAVANON",
+        "label": "Keluarga Jiaravanon",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BHAKTI_INVESTAMA_TBK_PT",
+        "label": "BHAKTI INVESTAMA, TBK PT",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KPIG_SH_MNC_ASIA_HOLDING_TBK",
+        "source": "EM_KPIG",
+        "target": "SH_MNC_ASIA_HOLDING_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KPIG_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_KPIG",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KPIG_SH_HT_INVESTMENT_DEVELOPMENT",
+        "source": "EM_KPIG",
+        "target": "SH_HT_INVESTMENT_DEVELOPMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KPIG_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_KPIG",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KPIG_SH_CHAROEN_POKPHAND_INDONESIA",
+        "source": "EM_KPIG",
+        "target": "SH_CHAROEN_POKPHAND_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KPIG_KP_KELUARGA_JIARAVANON",
+        "source": "EM_KPIG",
+        "target": "KP_KELUARGA_JIARAVANON",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KPIG_SH_BHAKTI_INVESTAMA_TBK_PT",
+        "source": "EM_KPIG",
+        "target": "SH_BHAKTI_INVESTAMA_TBK_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KPIG_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_KPIG",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

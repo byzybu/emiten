@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DYAN",
+        "label": "DYAN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TELETRANSMEDIA",
+        "label": "TELETRANSMEDIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RINA_R_A_H_RADINAL_MAKSUM",
+        "label": "RINA R A H RADINAL MAKSUM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RINA_RADINAL_MAKSUM",
+        "label": "Rina Radinal Maksum",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_YULIE_SEKURITAS_INDONESIA",
+        "label": "YULIE SEKURITAS INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TJIONG",
+        "label": "Keluarga Tjiong",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DYAN_SH_TELETRANSMEDIA",
+        "source": "EM_DYAN",
+        "target": "SH_TELETRANSMEDIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DYAN_KP_KELUARGA_WIDJAJA",
+        "source": "EM_DYAN",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DYAN_SH_RINA_R_A_H_RADINAL_MAKSUM",
+        "source": "EM_DYAN",
+        "target": "SH_RINA_R_A_H_RADINAL_MAKSUM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DYAN_KP_RINA_RADINAL_MAKSUM",
+        "source": "EM_DYAN",
+        "target": "KP_RINA_RADINAL_MAKSUM",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DYAN_SH_YULIE_SEKURITAS_INDONESIA",
+        "source": "EM_DYAN",
+        "target": "SH_YULIE_SEKURITAS_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DYAN_KP_KELUARGA_TJIONG",
+        "source": "EM_DYAN",
+        "target": "KP_KELUARGA_TJIONG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

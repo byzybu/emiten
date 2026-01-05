@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GGRP",
+        "label": "GGRP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_APOLLO_VISINTAMA_PUTRA",
+        "label": "APOLLO VISINTAMA PUTRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FIHAHATI_TANIWAN",
+        "label": "FIHAHATI TANIWAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FIHAHATI_TANIWAN",
+        "label": "Fihahati Taniwan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DR_CHAIRUDDIN",
+        "label": "DR. CHAIRUDDIN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DR_CHAIRUDDIN",
+        "label": "Dr. Chairuddin",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GGRP_SH_APOLLO_VISINTAMA_PUTRA",
+        "source": "EM_GGRP",
+        "target": "SH_APOLLO_VISINTAMA_PUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GGRP_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_GGRP",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GGRP_SH_FIHAHATI_TANIWAN",
+        "source": "EM_GGRP",
+        "target": "SH_FIHAHATI_TANIWAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GGRP_KP_FIHAHATI_TANIWAN",
+        "source": "EM_GGRP",
+        "target": "KP_FIHAHATI_TANIWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GGRP_SH_DR_CHAIRUDDIN",
+        "source": "EM_GGRP",
+        "target": "SH_DR_CHAIRUDDIN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GGRP_KP_DR_CHAIRUDDIN",
+        "source": "EM_GGRP",
+        "target": "KP_DR_CHAIRUDDIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

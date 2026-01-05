@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GTSI",
+        "label": "GTSI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HUMPUSS_MARITIM_INT_",
+        "label": "HUMPUSS MARITIM INT.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HUTOMO_MANDALA_PUTRA",
+        "label": "Hutomo Mandala Putra",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GTSI_SH_HUMPUSS_MARITIM_INT_",
+        "source": "EM_GTSI",
+        "target": "SH_HUMPUSS_MARITIM_INT_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GTSI_KP_HUTOMO_MANDALA_PUTRA",
+        "source": "EM_GTSI",
+        "target": "KP_HUTOMO_MANDALA_PUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

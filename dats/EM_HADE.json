@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HADE",
+        "label": "HADE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAXIMA_FINANCINDO",
+        "label": "MAXIMA FINANCINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARTONO_TANUJAYA",
+        "label": "Hartono Tanujaya",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DANA_PENSIUN_KARYAWAN_PANIN",
+        "label": "DANA PENSIUN KARYAWAN PANIN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DANA_PENSIUN",
+        "label": "Dana Pensiun",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HADE_SH_MAXIMA_FINANCINDO",
+        "source": "EM_HADE",
+        "target": "SH_MAXIMA_FINANCINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HADE_KP_HARTONO_TANUJAYA",
+        "source": "EM_HADE",
+        "target": "KP_HARTONO_TANUJAYA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HADE_SH_DANA_PENSIUN_KARYAWAN_PANIN",
+        "source": "EM_HADE",
+        "target": "SH_DANA_PENSIUN_KARYAWAN_PANIN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HADE_KP_DANA_PENSIUN",
+        "source": "EM_HADE",
+        "target": "KP_DANA_PENSIUN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MAGP",
+        "label": "MAGP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MONTAGE_COMPANY_LIMITED",
+        "label": "MONTAGE COMPANY LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CVC_CAPITAL_PARTNERS",
+        "label": "CVC Capital Partners",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TECKWAH_PAPER_PRODUCTS",
+        "label": "TECKWAH PAPER PRODUCTS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TECKWAH_SINGAPURA_",
+        "label": "Teckwah (Singapura)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CHINA_STAR_LTD_",
+        "label": "CHINA STAR LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_CHINA",
+        "label": "Investor China",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MAGP_SH_MONTAGE_COMPANY_LIMITED",
+        "source": "EM_MAGP",
+        "target": "SH_MONTAGE_COMPANY_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAGP_KP_CVC_CAPITAL_PARTNERS",
+        "source": "EM_MAGP",
+        "target": "KP_CVC_CAPITAL_PARTNERS",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAGP_SH_TECKWAH_PAPER_PRODUCTS",
+        "source": "EM_MAGP",
+        "target": "SH_TECKWAH_PAPER_PRODUCTS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAGP_KP_TECKWAH_SINGAPURA_",
+        "source": "EM_MAGP",
+        "target": "KP_TECKWAH_SINGAPURA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAGP_SH_CHINA_STAR_LTD_",
+        "source": "EM_MAGP",
+        "target": "SH_CHINA_STAR_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAGP_KP_INVESTOR_CHINA",
+        "source": "EM_MAGP",
+        "target": "KP_INVESTOR_CHINA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

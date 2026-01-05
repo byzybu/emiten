@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KBLI",
+        "label": "KBLI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_OMEDATA_ELECTRONICS",
+        "label": "OMEDATA ELECTRONICS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_OMEDATA_SINGAPURA_",
+        "label": "Omedata (Singapura)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KBLI_SH_OMEDATA_ELECTRONICS",
+        "source": "EM_KBLI",
+        "target": "SH_OMEDATA_ELECTRONICS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KBLI_KP_OMEDATA_SINGAPURA_",
+        "source": "EM_KBLI",
+        "target": "KP_OMEDATA_SINGAPURA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DUTI",
+        "label": "DUTI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BUMI_SERPONG_DAMAI",
+        "label": "BUMI SERPONG DAMAI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DUTI_SH_BUMI_SERPONG_DAMAI",
+        "source": "EM_DUTI",
+        "target": "SH_BUMI_SERPONG_DAMAI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DUTI_KP_KELUARGA_WIDJAJA",
+        "source": "EM_DUTI",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

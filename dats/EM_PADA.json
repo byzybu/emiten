@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PADA",
+        "label": "PADA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SIGIT_KUNTJAHJO_AK",
+        "label": "SIGIT KUNTJAHJO.AK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SIGIT_KUNTJAHJO",
+        "label": "Sigit Kuntjahjo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PEGAWAI_PT_INDOSAT_TBK",
+        "label": "PEGAWAI PT. INDOSAT TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KOPERASI_KARYAWAN",
+        "label": "Koperasi Karyawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PADA_SH_SIGIT_KUNTJAHJO_AK",
+        "source": "EM_PADA",
+        "target": "SH_SIGIT_KUNTJAHJO_AK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PADA_KP_SIGIT_KUNTJAHJO",
+        "source": "EM_PADA",
+        "target": "KP_SIGIT_KUNTJAHJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PADA_SH_PEGAWAI_PT_INDOSAT_TBK",
+        "source": "EM_PADA",
+        "target": "SH_PEGAWAI_PT_INDOSAT_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PADA_KP_KOPERASI_KARYAWAN",
+        "source": "EM_PADA",
+        "target": "KP_KOPERASI_KARYAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

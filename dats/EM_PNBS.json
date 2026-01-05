@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PNBS",
+        "label": "PNBS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_PAN_INDONESIA_TBK_",
+        "label": "BANK PAN INDONESIA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MU_MIN_ALI_GUNAWAN",
+        "label": "Mu'min Ali Gunawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DUBAI_ISLAMIC_BANK_PJSC",
+        "label": "DUBAI ISLAMIC BANK PJSC",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PEMERINTAH_DUBAI_UEA_",
+        "label": "Pemerintah Dubai (UEA)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PNBS_SH_BANK_PAN_INDONESIA_TBK_",
+        "source": "EM_PNBS",
+        "target": "SH_BANK_PAN_INDONESIA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNBS_KP_MU_MIN_ALI_GUNAWAN",
+        "source": "EM_PNBS",
+        "target": "KP_MU_MIN_ALI_GUNAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNBS_SH_DUBAI_ISLAMIC_BANK_PJSC",
+        "source": "EM_PNBS",
+        "target": "SH_DUBAI_ISLAMIC_BANK_PJSC",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNBS_KP_PEMERINTAH_DUBAI_UEA_",
+        "source": "EM_PNBS",
+        "target": "KP_PEMERINTAH_DUBAI_UEA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

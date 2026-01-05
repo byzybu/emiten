@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_NINE",
+        "label": "NINE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_POH_HOLDINGS_PTE_LTD",
+        "label": "POH HOLDINGS PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DJONI",
+        "label": "DJONI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DJONI",
+        "label": "Djoni",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_NINE_SH_POH_HOLDINGS_PTE_LTD",
+        "source": "EM_NINE",
+        "target": "SH_POH_HOLDINGS_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NINE_KP_INVESTASI_ASING",
+        "source": "EM_NINE",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NINE_SH_DJONI",
+        "source": "EM_NINE",
+        "target": "SH_DJONI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NINE_KP_DJONI",
+        "source": "EM_NINE",
+        "target": "KP_DJONI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

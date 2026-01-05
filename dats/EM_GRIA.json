@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GRIA",
+        "label": "GRIA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KHUFRAN_HAKIM_NOOR",
+        "label": "KHUFRAN HAKIM NOOR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KHUFRAN_HAKIM_NOOR",
+        "label": "Khufran Hakim Noor",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GRIA_SH_KHUFRAN_HAKIM_NOOR",
+        "source": "EM_GRIA",
+        "target": "SH_KHUFRAN_HAKIM_NOOR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GRIA_KP_KHUFRAN_HAKIM_NOOR",
+        "source": "EM_GRIA",
+        "target": "KP_KHUFRAN_HAKIM_NOOR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

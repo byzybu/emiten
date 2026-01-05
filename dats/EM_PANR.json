@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PANR",
+        "label": "PANR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PANORAMA_TIRTA_ANUGERAH",
+        "label": "PANORAMA TIRTA ANUGERAH",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TIRTAWISATA",
+        "label": "Keluarga Tirtawisata",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SATRIJANTO_TIRTAWISATA",
+        "label": "SATRIJANTO TIRTAWISATA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SATRIJANTO_TIRTAWISATA",
+        "label": "Satrijanto Tirtawisata",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RAMAJANTO_TIRTAWISATA",
+        "label": "RAMAJANTO TIRTAWISATA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RAMAJANTO_TIRTAWISATA",
+        "label": "Ramajanto Tirtawisata",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BUDIJANTO_TIRTAWISATA",
+        "label": "BUDIJANTO TIRTAWISATA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BUDIJANTO_TIRTAWISATA",
+        "label": "Budijanto Tirtawisata",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DHARMAYANTO_TIRTAWISATA",
+        "label": "DHARMAYANTO TIRTAWISATA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DHARMAYANTO_TIRTAWISATA",
+        "label": "Dharmayanto Tirtawisata",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PANR_SH_PANORAMA_TIRTA_ANUGERAH",
+        "source": "EM_PANR",
+        "target": "SH_PANORAMA_TIRTA_ANUGERAH",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_KP_KELUARGA_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "KP_KELUARGA_TIRTAWISATA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_SH_SATRIJANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "SH_SATRIJANTO_TIRTAWISATA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_KP_SATRIJANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "KP_SATRIJANTO_TIRTAWISATA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_SH_RAMAJANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "SH_RAMAJANTO_TIRTAWISATA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_KP_RAMAJANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "KP_RAMAJANTO_TIRTAWISATA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_SH_BUDIJANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "SH_BUDIJANTO_TIRTAWISATA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_KP_BUDIJANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "KP_BUDIJANTO_TIRTAWISATA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_SH_DHARMAYANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "SH_DHARMAYANTO_TIRTAWISATA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PANR_KP_DHARMAYANTO_TIRTAWISATA",
+        "source": "EM_PANR",
+        "target": "KP_DHARMAYANTO_TIRTAWISATA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

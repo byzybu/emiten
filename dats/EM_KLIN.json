@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KLIN",
+        "label": "KLIN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DIGITAL_PRAJA_MAKAYASA",
+        "label": "DIGITAL PRAJA MAKAYASA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SAMICO_CAPITAL_UTAMA_MULIA",
+        "label": "SAMICO CAPITAL UTAMA MULIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WIDJAJA_BERKAT_GEMILANG",
+        "label": "WIDJAJA BERKAT GEMILANG",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KLIN_SH_DIGITAL_PRAJA_MAKAYASA",
+        "source": "EM_KLIN",
+        "target": "SH_DIGITAL_PRAJA_MAKAYASA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLIN_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KLIN",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLIN_SH_SAMICO_CAPITAL_UTAMA_MULIA",
+        "source": "EM_KLIN",
+        "target": "SH_SAMICO_CAPITAL_UTAMA_MULIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLIN_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KLIN",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLIN_SH_WIDJAJA_BERKAT_GEMILANG",
+        "source": "EM_KLIN",
+        "target": "SH_WIDJAJA_BERKAT_GEMILANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLIN_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KLIN",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

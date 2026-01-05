@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_POLA",
+        "label": "POLA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_POOL_ADVISTA_INDONESIA",
+        "label": "PT POOL ADVISTA INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TANUDJAJA",
+        "label": "Keluarga Tanudjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASABRI_PERSERO_",
+        "label": "ASABRI (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_POLA_SH_PT_POOL_ADVISTA_INDONESIA",
+        "source": "EM_POLA",
+        "target": "SH_PT_POOL_ADVISTA_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLA_KP_KELUARGA_TANUDJAJA",
+        "source": "EM_POLA",
+        "target": "KP_KELUARGA_TANUDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLA_SH_ASABRI_PERSERO_",
+        "source": "EM_POLA",
+        "target": "SH_ASABRI_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLA_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_POLA",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

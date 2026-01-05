@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MDLN",
+        "label": "MDLN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HONORIS_CORPORINDO_PRATAMA",
+        "label": "HONORIS CORPORINDO PRATAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_HONORIS",
+        "label": "Keluarga Honoris",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AA_LAND_PTE_LTD_",
+        "label": "AA LAND PTE.LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CGS_INTERNATIONAL_SEKURITAS",
+        "label": "CGS INTERNATIONAL SEKURITAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HAIYANTO",
+        "label": "HAIYANTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAIYANTO",
+        "label": "Haiyanto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PANIN_SEKURITAS_TBK_",
+        "label": "PANIN SEKURITAS TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MU_MIN_ALI_GUNAWAN",
+        "label": "Mu'min Ali Gunawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MDLN_SH_HONORIS_CORPORINDO_PRATAMA",
+        "source": "EM_MDLN",
+        "target": "SH_HONORIS_CORPORINDO_PRATAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_KP_KELUARGA_HONORIS",
+        "source": "EM_MDLN",
+        "target": "KP_KELUARGA_HONORIS",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_SH_AA_LAND_PTE_LTD_",
+        "source": "EM_MDLN",
+        "target": "SH_AA_LAND_PTE_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_KP_KELUARGA_HONORIS",
+        "source": "EM_MDLN",
+        "target": "KP_KELUARGA_HONORIS",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_SH_CGS_INTERNATIONAL_SEKURITAS",
+        "source": "EM_MDLN",
+        "target": "SH_CGS_INTERNATIONAL_SEKURITAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_KP_INVESTOR_INSTITUSI",
+        "source": "EM_MDLN",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_SH_HAIYANTO",
+        "source": "EM_MDLN",
+        "target": "SH_HAIYANTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_KP_HAIYANTO",
+        "source": "EM_MDLN",
+        "target": "KP_HAIYANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_SH_PANIN_SEKURITAS_TBK_",
+        "source": "EM_MDLN",
+        "target": "SH_PANIN_SEKURITAS_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MDLN_KP_MU_MIN_ALI_GUNAWAN",
+        "source": "EM_MDLN",
+        "target": "KP_MU_MIN_ALI_GUNAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
