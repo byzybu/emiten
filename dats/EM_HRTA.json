@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HRTA",
+        "label": "HRTA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_TERANG_ANUGRAH_ABADI",
+        "label": "PT. TERANG ANUGRAH ABADI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HRTA_SH_PT_TERANG_ANUGRAH_ABADI",
+        "source": "EM_HRTA",
+        "target": "SH_PT_TERANG_ANUGRAH_ABADI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HRTA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_HRTA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

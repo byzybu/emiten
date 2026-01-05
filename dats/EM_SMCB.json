@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SMCB",
+        "label": "SMCB",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SEMEN_INDONESIA_PERSERO_",
+        "label": "SEMEN INDONESIA (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TAIHEIYO_CEMENT_CORP",
+        "label": "TAIHEIYO CEMENT CORP",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TAIHEIYO_CEMENT_JEPANG_",
+        "label": "Taiheiyo Cement (Jepang)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SMCB_SH_SEMEN_INDONESIA_PERSERO_",
+        "source": "EM_SMCB",
+        "target": "SH_SEMEN_INDONESIA_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMCB_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_SMCB",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMCB_SH_TAIHEIYO_CEMENT_CORP",
+        "source": "EM_SMCB",
+        "target": "SH_TAIHEIYO_CEMENT_CORP",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMCB_KP_TAIHEIYO_CEMENT_JEPANG_",
+        "source": "EM_SMCB",
+        "target": "KP_TAIHEIYO_CEMENT_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

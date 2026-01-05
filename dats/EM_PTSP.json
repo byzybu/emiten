@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PTSP",
+        "label": "PTSP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GRAHA_SENTOSA_PERSADA",
+        "label": "GRAHA SENTOSA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJOKRO_GROUP",
+        "label": "Tjokro Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BAYU_BUANA_TBK_",
+        "label": "BAYU BUANA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_ASIKIN",
+        "label": "Keluarga Asikin",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UNION_BANCAIRE_PRIVEE_UBP_",
+        "label": "UNION BANCAIRE PRIVEE (UBP)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "label": "BANK OF SINGAPORE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VP_BANK_LTD_SINGAPORE",
+        "label": "VP BANK LTD SINGAPORE",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PTSP_SH_GRAHA_SENTOSA_PERSADA",
+        "source": "EM_PTSP",
+        "target": "SH_GRAHA_SENTOSA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_KP_TJOKRO_GROUP",
+        "source": "EM_PTSP",
+        "target": "KP_TJOKRO_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_SH_BAYU_BUANA_TBK_",
+        "source": "EM_PTSP",
+        "target": "SH_BAYU_BUANA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_KP_KELUARGA_ASIKIN",
+        "source": "EM_PTSP",
+        "target": "KP_KELUARGA_ASIKIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_SH_UNION_BANCAIRE_PRIVEE_UBP_",
+        "source": "EM_PTSP",
+        "target": "SH_UNION_BANCAIRE_PRIVEE_UBP_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_KP_INVESTOR_INSTITUSI",
+        "source": "EM_PTSP",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_SH_BANK_OF_SINGAPORE_LIMITED",
+        "source": "EM_PTSP",
+        "target": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_KP_INVESTOR_INSTITUSI",
+        "source": "EM_PTSP",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_SH_VP_BANK_LTD_SINGAPORE",
+        "source": "EM_PTSP",
+        "target": "SH_VP_BANK_LTD_SINGAPORE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSP_KP_INVESTOR_INSTITUSI",
+        "source": "EM_PTSP",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

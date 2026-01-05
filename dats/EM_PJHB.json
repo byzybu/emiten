@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PJHB",
+        "label": "PJHB",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JHON_VETER_FIRDAUS_REAGEN",
+        "label": "JHON VETER FIRDAUS REAGEN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JHON_VETER_FIRDAUS_REAGEN",
+        "label": "Jhon Veter Firdaus Reagen",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PJHB_SH_JHON_VETER_FIRDAUS_REAGEN",
+        "source": "EM_PJHB",
+        "target": "SH_JHON_VETER_FIRDAUS_REAGEN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PJHB_KP_JHON_VETER_FIRDAUS_REAGEN",
+        "source": "EM_PJHB",
+        "target": "KP_JHON_VETER_FIRDAUS_REAGEN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

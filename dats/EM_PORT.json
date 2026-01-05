@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PORT",
+        "label": "PORT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EPISENTA_UTAMA_INVESTASI",
+        "label": "EPISENTA UTAMA INVESTASI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GARIBALDI_THOHIR",
+        "label": "Garibaldi Thohir",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PRIMA_PERMATA_CAKRAWALA",
+        "label": "PRIMA PERMATA CAKRAWALA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CHINA_MERCHANTS_PORT",
+        "label": "CHINA MERCHANTS PORT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CHINA_MERCHANTS_GROUP_CHINA_",
+        "label": "China Merchants Group (China)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PORT_SH_EPISENTA_UTAMA_INVESTASI",
+        "source": "EM_PORT",
+        "target": "SH_EPISENTA_UTAMA_INVESTASI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PORT_KP_GARIBALDI_THOHIR",
+        "source": "EM_PORT",
+        "target": "KP_GARIBALDI_THOHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PORT_SH_PRIMA_PERMATA_CAKRAWALA",
+        "source": "EM_PORT",
+        "target": "SH_PRIMA_PERMATA_CAKRAWALA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PORT_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PORT",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PORT_SH_CHINA_MERCHANTS_PORT",
+        "source": "EM_PORT",
+        "target": "SH_CHINA_MERCHANTS_PORT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PORT_KP_CHINA_MERCHANTS_GROUP_CHINA_",
+        "source": "EM_PORT",
+        "target": "KP_CHINA_MERCHANTS_GROUP_CHINA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

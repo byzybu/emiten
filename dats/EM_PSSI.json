@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PSSI",
+        "label": "PSSI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IMC_PELITA_LOGISTIK_TBK",
+        "label": "IMC PELITA LOGISTIK TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BIO_PERMAI",
+        "label": "BIO PERMAI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDOPRIMA_MARINE",
+        "label": "INDOPRIMA MARINE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INDOPRIMA_GROUP",
+        "label": "Indoprima Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KENDILO_PTE_LTD",
+        "label": "KENDILO PTE. LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NIPPON_COKE_JEPANG_",
+        "label": "Nippon Coke (Jepang)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PSSI_SH_IMC_PELITA_LOGISTIK_TBK",
+        "source": "EM_PSSI",
+        "target": "SH_IMC_PELITA_LOGISTIK_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSSI_KP_SALIM_GROUP",
+        "source": "EM_PSSI",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSSI_SH_BIO_PERMAI",
+        "source": "EM_PSSI",
+        "target": "SH_BIO_PERMAI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSSI_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PSSI",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSSI_SH_INDOPRIMA_MARINE",
+        "source": "EM_PSSI",
+        "target": "SH_INDOPRIMA_MARINE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSSI_KP_INDOPRIMA_GROUP",
+        "source": "EM_PSSI",
+        "target": "KP_INDOPRIMA_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSSI_SH_KENDILO_PTE_LTD",
+        "source": "EM_PSSI",
+        "target": "SH_KENDILO_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSSI_KP_NIPPON_COKE_JEPANG_",
+        "source": "EM_PSSI",
+        "target": "KP_NIPPON_COKE_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

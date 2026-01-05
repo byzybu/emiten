@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INTA",
+        "label": "INTA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SHALUMINDO_INVESTAMA",
+        "label": "PT SHALUMINDO INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SPALLINDO_ADILONG_PT",
+        "label": "SPALLINDO ADILONG PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JIMMY_HALIM",
+        "label": "JIMMY HALIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JIMMY_HALIM",
+        "label": "Jimmy Halim",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PETRUS_HALIM",
+        "label": "PETRUS HALIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PETRUS_HALIM",
+        "label": "Petrus Halim",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INTA_SH_PT_SHALUMINDO_INVESTAMA",
+        "source": "EM_INTA",
+        "target": "SH_PT_SHALUMINDO_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_INTA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTA_SH_SPALLINDO_ADILONG_PT",
+        "source": "EM_INTA",
+        "target": "SH_SPALLINDO_ADILONG_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_INTA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTA_SH_JIMMY_HALIM",
+        "source": "EM_INTA",
+        "target": "SH_JIMMY_HALIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTA_KP_JIMMY_HALIM",
+        "source": "EM_INTA",
+        "target": "KP_JIMMY_HALIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTA_SH_PETRUS_HALIM",
+        "source": "EM_INTA",
+        "target": "SH_PETRUS_HALIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTA_KP_PETRUS_HALIM",
+        "source": "EM_INTA",
+        "target": "KP_PETRUS_HALIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

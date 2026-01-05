@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_LPPS",
+        "label": "LPPS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MONASH_INV_ASIA_PACIFIC",
+        "label": "MONASH INV ASIA-PACIFIC",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FUND_MANAGER",
+        "label": "Fund Manager",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_LPPS_SH_MONASH_INV_ASIA_PACIFIC",
+        "source": "EM_LPPS",
+        "target": "SH_MONASH_INV_ASIA_PACIFIC",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LPPS_KP_FUND_MANAGER",
+        "source": "EM_LPPS",
+        "target": "KP_FUND_MANAGER",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

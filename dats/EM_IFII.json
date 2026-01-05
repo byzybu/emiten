@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_IFII",
+        "label": "IFII",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SMB_KENZAI_CO_LTD",
+        "label": "SMB KENZAI CO., LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_JEPANG",
+        "label": "Investor Jepang",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_IFII_SH_SMB_KENZAI_CO_LTD",
+        "source": "EM_IFII",
+        "target": "SH_SMB_KENZAI_CO_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IFII_KP_INVESTOR_JEPANG",
+        "source": "EM_IFII",
+        "target": "KP_INVESTOR_JEPANG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

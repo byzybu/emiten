@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GJTL",
+        "label": "GJTL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_COMPAGNIE_FINANCIERE_MICHELIN",
+        "label": "COMPAGNIE FINANCIERE MICHELIN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MICHELIN_PRANCIS_",
+        "label": "Michelin (Prancis)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_LO_KHENG_HONG",
+        "label": "DRS LO KHENG HONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LO_KHENG_HONG",
+        "label": "Lo Kheng Hong",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GJTL_SH_COMPAGNIE_FINANCIERE_MICHELIN",
+        "source": "EM_GJTL",
+        "target": "SH_COMPAGNIE_FINANCIERE_MICHELIN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GJTL_KP_MICHELIN_PRANCIS_",
+        "source": "EM_GJTL",
+        "target": "KP_MICHELIN_PRANCIS_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GJTL_SH_DRS_LO_KHENG_HONG",
+        "source": "EM_GJTL",
+        "target": "SH_DRS_LO_KHENG_HONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GJTL_KP_LO_KHENG_HONG",
+        "source": "EM_GJTL",
+        "target": "KP_LO_KHENG_HONG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_JECC",
+        "label": "JECC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MONASPERMATA_PERSADA",
+        "label": "MONASPERMATA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SANTOSO",
+        "label": "Keluarga Santoso",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JEMBO_CABLE_COMPANY_TBK_",
+        "label": "JEMBO CABLE COMPANY TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FUJIKURA_LTD_",
+        "label": "FUJIKURA LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FUJIKURA_LTD_JEPANG_",
+        "label": "Fujikura Ltd (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_INDOLIFE_PENSIONTAMA",
+        "label": "PT. INDOLIFE PENSIONTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_JECC_SH_MONASPERMATA_PERSADA",
+        "source": "EM_JECC",
+        "target": "SH_MONASPERMATA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JECC_KP_KELUARGA_SANTOSO",
+        "source": "EM_JECC",
+        "target": "KP_KELUARGA_SANTOSO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JECC_SH_JEMBO_CABLE_COMPANY_TBK_",
+        "source": "EM_JECC",
+        "target": "SH_JEMBO_CABLE_COMPANY_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JECC_KP_KELUARGA_SANTOSO",
+        "source": "EM_JECC",
+        "target": "KP_KELUARGA_SANTOSO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JECC_SH_FUJIKURA_LTD_",
+        "source": "EM_JECC",
+        "target": "SH_FUJIKURA_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JECC_KP_FUJIKURA_LTD_JEPANG_",
+        "source": "EM_JECC",
+        "target": "KP_FUJIKURA_LTD_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JECC_SH_PT_INDOLIFE_PENSIONTAMA",
+        "source": "EM_JECC",
+        "target": "SH_PT_INDOLIFE_PENSIONTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JECC_KP_SALIM_GROUP",
+        "source": "EM_JECC",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

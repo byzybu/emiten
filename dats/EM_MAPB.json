@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MAPB",
+        "label": "MAPB",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GA_ROBUSTA_F_B_COMPANY",
+        "label": "GA ROBUSTA F&B COMPANY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GENERAL_ATLANTIC_USA_",
+        "label": "General Atlantic (USA)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MAPB_SH_GA_ROBUSTA_F_B_COMPANY",
+        "source": "EM_MAPB",
+        "target": "SH_GA_ROBUSTA_F_B_COMPANY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MAPB_KP_GENERAL_ATLANTIC_USA_",
+        "source": "EM_MAPB",
+        "target": "KP_GENERAL_ATLANTIC_USA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

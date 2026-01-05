@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KETR",
+        "label": "KETR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GEMA_LINTAS_BENUA",
+        "label": "GEMA LINTAS BENUA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KETR_SH_GEMA_LINTAS_BENUA",
+        "source": "EM_KETR",
+        "target": "SH_GEMA_LINTAS_BENUA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KETR_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KETR",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

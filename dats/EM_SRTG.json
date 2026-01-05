@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SRTG",
+        "label": "SRTG",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMITOMO_CORPORATION",
+        "label": "SUMITOMO CORPORATION",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUMITOMO_GROUP_JEPANG_",
+        "label": "Sumitomo Group (Jepang)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMMIT_NIAGA",
+        "label": "SUMMIT NIAGA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLOBAL_BASKET_LIMITED",
+        "label": "GLOBAL BASKET LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SRTG_SH_SUMITOMO_CORPORATION",
+        "source": "EM_SRTG",
+        "target": "SH_SUMITOMO_CORPORATION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRTG_KP_SUMITOMO_GROUP_JEPANG_",
+        "source": "EM_SRTG",
+        "target": "KP_SUMITOMO_GROUP_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRTG_SH_SUMMIT_NIAGA",
+        "source": "EM_SRTG",
+        "target": "SH_SUMMIT_NIAGA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRTG_KP_SUMITOMO_GROUP_JEPANG_",
+        "source": "EM_SRTG",
+        "target": "KP_SUMITOMO_GROUP_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRTG_SH_GLOBAL_BASKET_LIMITED",
+        "source": "EM_SRTG",
+        "target": "SH_GLOBAL_BASKET_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SRTG_KP_INVESTASI_ASING",
+        "source": "EM_SRTG",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

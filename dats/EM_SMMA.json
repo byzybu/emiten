@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SMMA",
+        "label": "SMMA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SINAR_MAS_CAKRAWALA",
+        "label": "SINAR MAS CAKRAWALA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SMMA_SH_SINAR_MAS_CAKRAWALA",
+        "source": "EM_SMMA",
+        "target": "SH_SINAR_MAS_CAKRAWALA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMMA_KP_KELUARGA_WIDJAJA",
+        "source": "EM_SMMA",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

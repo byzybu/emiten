@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MTPS",
+        "label": "MTPS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANUGERAH_PERKASA_SEMESTA",
+        "label": "ANUGERAH PERKASA SEMESTA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASABRI_PERSERO_",
+        "label": "ASABRI (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MTPS_SH_ANUGERAH_PERKASA_SEMESTA",
+        "source": "EM_MTPS",
+        "target": "SH_ANUGERAH_PERKASA_SEMESTA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTPS_KP_SALIM_GROUP",
+        "source": "EM_MTPS",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTPS_SH_ASABRI_PERSERO_",
+        "source": "EM_MTPS",
+        "target": "SH_ASABRI_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MTPS_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_MTPS",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

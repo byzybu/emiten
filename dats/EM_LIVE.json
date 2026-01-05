@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_LIVE",
+        "label": "LIVE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HOMECO_GLOBAL_INVESTASI",
+        "label": "HOMECO GLOBAL INVESTASI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ELLIES_KISWOTO",
+        "label": "Ellies Kiswoto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_LIVE_SH_HOMECO_GLOBAL_INVESTASI",
+        "source": "EM_LIVE",
+        "target": "SH_HOMECO_GLOBAL_INVESTASI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LIVE_KP_ELLIES_KISWOTO",
+        "source": "EM_LIVE",
+        "target": "KP_ELLIES_KISWOTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

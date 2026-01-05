@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ITMA",
+        "label": "ITMA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FERSINDO_NUSA_JAYA",
+        "label": "FERSINDO NUSA JAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUSIWIJONO",
+        "label": "Susiwijono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRUKINDO_PERSADA_SEJAHTERA",
+        "label": "TRUKINDO PERSADA SEJAHTERA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAJUKARYA_MANDIRI_INDONESIA",
+        "label": "MAJUKARYA MANDIRI INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_ASTRINDO_NUSANTARA_INFRA_",
+        "label": "PT ASTRINDO NUSANTARA INFRA.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RAYMOND_ANTHONY_GERUNGAN",
+        "label": "Raymond Anthony Gerungan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ITMA_SH_FERSINDO_NUSA_JAYA",
+        "source": "EM_ITMA",
+        "target": "SH_FERSINDO_NUSA_JAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITMA_KP_SUSIWIJONO",
+        "source": "EM_ITMA",
+        "target": "KP_SUSIWIJONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITMA_SH_TRUKINDO_PERSADA_SEJAHTERA",
+        "source": "EM_ITMA",
+        "target": "SH_TRUKINDO_PERSADA_SEJAHTERA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITMA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_ITMA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITMA_SH_MAJUKARYA_MANDIRI_INDONESIA",
+        "source": "EM_ITMA",
+        "target": "SH_MAJUKARYA_MANDIRI_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITMA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_ITMA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITMA_SH_PT_ASTRINDO_NUSANTARA_INFRA_",
+        "source": "EM_ITMA",
+        "target": "SH_PT_ASTRINDO_NUSANTARA_INFRA_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITMA_KP_RAYMOND_ANTHONY_GERUNGAN",
+        "source": "EM_ITMA",
+        "target": "KP_RAYMOND_ANTHONY_GERUNGAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

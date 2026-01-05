@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KARW",
+        "label": "KARW",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SARANAKELOLA_INVESTA",
+        "label": "SARANAKELOLA INVESTA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TANDIONO",
+        "label": "Keluarga Tandiono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KARW_SH_SARANAKELOLA_INVESTA",
+        "source": "EM_KARW",
+        "target": "SH_SARANAKELOLA_INVESTA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KARW_KP_KELUARGA_TANDIONO",
+        "source": "EM_KARW",
+        "target": "KP_KELUARGA_TANDIONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

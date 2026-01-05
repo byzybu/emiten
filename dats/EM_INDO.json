@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INDO",
+        "label": "INDO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LESLIE_SOEMEDI",
+        "label": "LESLIE SOEMEDI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LESLIE_SOEMEDI",
+        "label": "Leslie Soemedi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INDO_SH_LESLIE_SOEMEDI",
+        "source": "EM_INDO",
+        "target": "SH_LESLIE_SOEMEDI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INDO_KP_LESLIE_SOEMEDI",
+        "source": "EM_INDO",
+        "target": "KP_LESLIE_SOEMEDI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SURI",
+        "label": "SURI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SURYA_FAJAR_CAPITAL_TBK_",
+        "label": "PT. SURYA FAJAR CAPITAL TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_STEFFEN_FANG",
+        "label": "Steffen Fang",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SURI_SH_PT_SURYA_FAJAR_CAPITAL_TBK_",
+        "source": "EM_SURI",
+        "target": "SH_PT_SURYA_FAJAR_CAPITAL_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SURI_KP_STEFFEN_FANG",
+        "source": "EM_SURI",
+        "target": "KP_STEFFEN_FANG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

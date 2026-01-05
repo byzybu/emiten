@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HYGN",
+        "label": "HYGN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENDRIK_YONG",
+        "label": "HENDRIK YONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENDRIK_YONG",
+        "label": "Hendrik Yong",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HERMES_THAMRIN",
+        "label": "HERMES THAMRIN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HERMES_THAMRIN",
+        "label": "Hermes Thamrin",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RONDY_YUNANDA",
+        "label": "RONDY YUNANDA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RONDY_YUNANDA",
+        "label": "Rondy Yunanda",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HYGN_SH_HENDRIK_YONG",
+        "source": "EM_HYGN",
+        "target": "SH_HENDRIK_YONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HYGN_KP_HENDRIK_YONG",
+        "source": "EM_HYGN",
+        "target": "KP_HENDRIK_YONG",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HYGN_SH_HERMES_THAMRIN",
+        "source": "EM_HYGN",
+        "target": "SH_HERMES_THAMRIN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HYGN_KP_HERMES_THAMRIN",
+        "source": "EM_HYGN",
+        "target": "KP_HERMES_THAMRIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HYGN_SH_RONDY_YUNANDA",
+        "source": "EM_HYGN",
+        "target": "SH_RONDY_YUNANDA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HYGN_KP_RONDY_YUNANDA",
+        "source": "EM_HYGN",
+        "target": "KP_RONDY_YUNANDA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

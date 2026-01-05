@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SONA",
+        "label": "SONA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PRECISE_PACIFIC_REALTY_PT",
+        "label": "PRECISE PACIFIC REALTY PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DFS_VENTURE_SINGAPORE",
+        "label": "DFS VENTURE SINGAPORE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LVMH_LOUIS_VUITTON_",
+        "label": "LVMH (Louis Vuitton)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SONA_SH_PRECISE_PACIFIC_REALTY_PT",
+        "source": "EM_SONA",
+        "target": "SH_PRECISE_PACIFIC_REALTY_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SONA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SONA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SONA_SH_DFS_VENTURE_SINGAPORE",
+        "source": "EM_SONA",
+        "target": "SH_DFS_VENTURE_SINGAPORE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SONA_KP_LVMH_LOUIS_VUITTON_",
+        "source": "EM_SONA",
+        "target": "KP_LVMH_LOUIS_VUITTON_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

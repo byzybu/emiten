@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INCF",
+        "label": "INCF",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALAM_TULUS_ABADI",
+        "label": "ALAM TULUS ABADI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_ALIM_MARKUS",
+        "label": "Keluarga Alim Markus",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HARTO",
+        "label": "HARTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARTO",
+        "label": "Harto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INCF_SH_ALAM_TULUS_ABADI",
+        "source": "EM_INCF",
+        "target": "SH_ALAM_TULUS_ABADI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCF_KP_KELUARGA_ALIM_MARKUS",
+        "source": "EM_INCF",
+        "target": "KP_KELUARGA_ALIM_MARKUS",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCF_SH_HARTO",
+        "source": "EM_INCF",
+        "target": "SH_HARTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INCF_KP_HARTO",
+        "source": "EM_INCF",
+        "target": "KP_HARTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

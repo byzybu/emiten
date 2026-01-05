@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HITS",
+        "label": "HITS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MENARA_CAKRA_BUANA",
+        "label": "MENARA CAKRA BUANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAPSORO_SUKMONOHADI_HAPPY_",
+        "label": "Hapsoro Sukmonohadi (Happy)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HUMPUSS",
+        "label": "HUMPUSS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HUTOMO_MANDALA_PUTRA",
+        "label": "Hutomo Mandala Putra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_H_HUTOMO_MANDALA_PUTRA",
+        "label": "H HUTOMO MANDALA PUTRA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HITS_SH_MENARA_CAKRA_BUANA",
+        "source": "EM_HITS",
+        "target": "SH_MENARA_CAKRA_BUANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HITS_KP_HAPSORO_SUKMONOHADI_HAPPY_",
+        "source": "EM_HITS",
+        "target": "KP_HAPSORO_SUKMONOHADI_HAPPY_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HITS_SH_HUMPUSS",
+        "source": "EM_HITS",
+        "target": "SH_HUMPUSS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HITS_KP_HUTOMO_MANDALA_PUTRA",
+        "source": "EM_HITS",
+        "target": "KP_HUTOMO_MANDALA_PUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HITS_SH_H_HUTOMO_MANDALA_PUTRA",
+        "source": "EM_HITS",
+        "target": "SH_H_HUTOMO_MANDALA_PUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HITS_KP_HUTOMO_MANDALA_PUTRA",
+        "source": "EM_HITS",
+        "target": "KP_HUTOMO_MANDALA_PUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
