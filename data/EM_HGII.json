@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HGII",
+        "label": "HGII",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SEP_INTERNATIONAL_NETHERLANDS",
+        "label": "SEP INTERNATIONAL NETHERLANDS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_ASING",
+        "label": "Investor Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ROBERT_NJO",
+        "label": "ROBERT NJO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ROBERT_NJO",
+        "label": "Robert Njo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENDRIANTO_THAMRIN",
+        "label": "HENDRIANTO THAMRIN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENDRIANTO_THAMRIN",
+        "label": "Hendrianto Thamrin",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RUDY_CHANDRA",
+        "label": "RUDY CHANDRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RUDY_CHANDRA",
+        "label": "Rudy Chandra",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HGII_SH_SEP_INTERNATIONAL_NETHERLANDS",
+        "source": "EM_HGII",
+        "target": "SH_SEP_INTERNATIONAL_NETHERLANDS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HGII_KP_INVESTOR_ASING",
+        "source": "EM_HGII",
+        "target": "KP_INVESTOR_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HGII_SH_ROBERT_NJO",
+        "source": "EM_HGII",
+        "target": "SH_ROBERT_NJO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HGII_KP_ROBERT_NJO",
+        "source": "EM_HGII",
+        "target": "KP_ROBERT_NJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HGII_SH_HENDRIANTO_THAMRIN",
+        "source": "EM_HGII",
+        "target": "SH_HENDRIANTO_THAMRIN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HGII_KP_HENDRIANTO_THAMRIN",
+        "source": "EM_HGII",
+        "target": "KP_HENDRIANTO_THAMRIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HGII_SH_RUDY_CHANDRA",
+        "source": "EM_HGII",
+        "target": "SH_RUDY_CHANDRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HGII_KP_RUDY_CHANDRA",
+        "source": "EM_HGII",
+        "target": "KP_RUDY_CHANDRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

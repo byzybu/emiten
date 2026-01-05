@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_JAST",
+        "label": "JAST",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAST_INFOTEK_GRUP",
+        "label": "JAST INFOTEK GRUP",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "label": "UOB KAY HIAN PRIVATE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_JAST_SH_JAST_INFOTEK_GRUP",
+        "source": "EM_JAST",
+        "target": "SH_JAST_INFOTEK_GRUP",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JAST_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_JAST",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JAST_SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "source": "EM_JAST",
+        "target": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JAST_KP_INVESTOR_INSTITUSI",
+        "source": "EM_JAST",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

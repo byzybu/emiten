@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CFIN",
+        "label": "CFIN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_PAN_INDONESIA_TBK_",
+        "label": "BANK PAN INDONESIA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MU_MIN_ALI_GUNAWAN",
+        "label": "Mu'min Ali Gunawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FIDELITY_FUNDS",
+        "label": "FIDELITY FUNDS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CFIN_SH_BANK_PAN_INDONESIA_TBK_",
+        "source": "EM_CFIN",
+        "target": "SH_BANK_PAN_INDONESIA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CFIN_KP_MU_MIN_ALI_GUNAWAN",
+        "source": "EM_CFIN",
+        "target": "KP_MU_MIN_ALI_GUNAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CFIN_SH_FIDELITY_FUNDS",
+        "source": "EM_CFIN",
+        "target": "SH_FIDELITY_FUNDS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CFIN_KP_INVESTOR_INSTITUSI",
+        "source": "EM_CFIN",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

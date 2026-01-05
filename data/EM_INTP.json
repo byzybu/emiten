@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INTP",
+        "label": "INTP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDOCEMENT_TUNGGAL_PRAKARSA",
+        "label": "INDOCEMENT TUNGGAL PRAKARSA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HEIDELBERG_MATERIALS_AG",
+        "label": "Heidelberg Materials AG",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HEIDELBERG_MATERIALS_AG",
+        "label": "HEIDELBERG MATERIALS AG",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INTP_SH_INDOCEMENT_TUNGGAL_PRAKARSA",
+        "source": "EM_INTP",
+        "target": "SH_INDOCEMENT_TUNGGAL_PRAKARSA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTP_KP_HEIDELBERG_MATERIALS_AG",
+        "source": "EM_INTP",
+        "target": "KP_HEIDELBERG_MATERIALS_AG",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTP_SH_HEIDELBERG_MATERIALS_AG",
+        "source": "EM_INTP",
+        "target": "SH_HEIDELBERG_MATERIALS_AG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INTP_KP_HEIDELBERG_MATERIALS_AG",
+        "source": "EM_INTP",
+        "target": "KP_HEIDELBERG_MATERIALS_AG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

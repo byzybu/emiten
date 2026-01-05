@@ -1,0 +1,158 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KLBF",
+        "label": "KLBF",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SANTA_SEHA_SANADI",
+        "label": "SANTA SEHA SANADI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "label": "Keluarga Boenjamin Setiawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LADANG_IRA_PANEN",
+        "label": "LADANG IRA PANEN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BINA_ARTA_CHARISMA",
+        "label": "BINA ARTA CHARISMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GIRA_SOLE_PRIMA",
+        "label": "GIRA SOLE PRIMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DIPTANALA_BAHANA",
+        "label": "DIPTANALA BAHANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LUCASTA_MURNI_CEMERLANG",
+        "label": "LUCASTA MURNI CEMERLANG",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KLBF_SH_SANTA_SEHA_SANADI",
+        "source": "EM_KLBF",
+        "target": "SH_SANTA_SEHA_SANADI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "source": "EM_KLBF",
+        "target": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_SH_LADANG_IRA_PANEN",
+        "source": "EM_KLBF",
+        "target": "SH_LADANG_IRA_PANEN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "source": "EM_KLBF",
+        "target": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_SH_BINA_ARTA_CHARISMA",
+        "source": "EM_KLBF",
+        "target": "SH_BINA_ARTA_CHARISMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "source": "EM_KLBF",
+        "target": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_SH_GIRA_SOLE_PRIMA",
+        "source": "EM_KLBF",
+        "target": "SH_GIRA_SOLE_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "source": "EM_KLBF",
+        "target": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_SH_DIPTANALA_BAHANA",
+        "source": "EM_KLBF",
+        "target": "SH_DIPTANALA_BAHANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "source": "EM_KLBF",
+        "target": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_SH_LUCASTA_MURNI_CEMERLANG",
+        "source": "EM_KLBF",
+        "target": "SH_LUCASTA_MURNI_CEMERLANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KLBF_KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "source": "EM_KLBF",
+        "target": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ITTG",
+        "label": "ITTG",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GOODWILL_INVESTMENT_SERVICES",
+        "label": "GOODWILL INVESTMENT SERVICES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ITTG_SH_GOODWILL_INVESTMENT_SERVICES",
+        "source": "EM_ITTG",
+        "target": "SH_GOODWILL_INVESTMENT_SERVICES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ITTG_KP_INVESTASI_ASING",
+        "source": "EM_ITTG",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

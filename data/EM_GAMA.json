@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GAMA",
+        "label": "GAMA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_GADING_INVESTMENTS",
+        "label": "PT.GADING INVESTMENTS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_KURNIAWAN",
+        "label": "Keluarga Kurniawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULTI_DAYA_INDUSTRI",
+        "label": "MULTI DAYA INDUSTRI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GAMA_SH_PT_GADING_INVESTMENTS",
+        "source": "EM_GAMA",
+        "target": "SH_PT_GADING_INVESTMENTS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GAMA_KP_KELUARGA_KURNIAWAN",
+        "source": "EM_GAMA",
+        "target": "KP_KELUARGA_KURNIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GAMA_SH_MULTI_DAYA_INDUSTRI",
+        "source": "EM_GAMA",
+        "target": "SH_MULTI_DAYA_INDUSTRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GAMA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_GAMA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

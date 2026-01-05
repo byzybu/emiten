@@ -1,0 +1,158 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HAIS",
+        "label": "HAIS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAYANTI_SARI",
+        "label": "JAYANTI SARI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_HASNUR",
+        "label": "Keluarga Hasnur",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HASNURYANI_SE",
+        "label": "HASNURYANI SE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_YUNI_ABDI_NUR_SULAIMAN",
+        "label": "YUNI ABDI NUR SULAIMAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_H_RACHMADI_HAS",
+        "label": "H. RACHMADI HAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NILA_SUSANTI",
+        "label": "NILA SUSANTI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HASNURYADI_SULAIMAN",
+        "label": "HASNURYADI SULAIMAN",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HAIS_SH_JAYANTI_SARI",
+        "source": "EM_HAIS",
+        "target": "SH_JAYANTI_SARI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_KP_KELUARGA_HASNUR",
+        "source": "EM_HAIS",
+        "target": "KP_KELUARGA_HASNUR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_SH_HASNURYANI_SE",
+        "source": "EM_HAIS",
+        "target": "SH_HASNURYANI_SE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_KP_KELUARGA_HASNUR",
+        "source": "EM_HAIS",
+        "target": "KP_KELUARGA_HASNUR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_SH_YUNI_ABDI_NUR_SULAIMAN",
+        "source": "EM_HAIS",
+        "target": "SH_YUNI_ABDI_NUR_SULAIMAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_KP_KELUARGA_HASNUR",
+        "source": "EM_HAIS",
+        "target": "KP_KELUARGA_HASNUR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_SH_H_RACHMADI_HAS",
+        "source": "EM_HAIS",
+        "target": "SH_H_RACHMADI_HAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_KP_KELUARGA_HASNUR",
+        "source": "EM_HAIS",
+        "target": "KP_KELUARGA_HASNUR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_SH_NILA_SUSANTI",
+        "source": "EM_HAIS",
+        "target": "SH_NILA_SUSANTI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_KP_KELUARGA_HASNUR",
+        "source": "EM_HAIS",
+        "target": "KP_KELUARGA_HASNUR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_SH_HASNURYADI_SULAIMAN",
+        "source": "EM_HAIS",
+        "target": "SH_HASNURYADI_SULAIMAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HAIS_KP_KELUARGA_HASNUR",
+        "source": "EM_HAIS",
+        "target": "KP_KELUARGA_HASNUR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

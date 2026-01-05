@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BNLI",
+        "label": "BNLI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANGKOK_BANK_PUBLIC_CO",
+        "label": "BANGKOK BANK PUBLIC CO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SOPHONPANICH",
+        "label": "Keluarga Sophonpanich",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BNLI_SH_BANGKOK_BANK_PUBLIC_CO",
+        "source": "EM_BNLI",
+        "target": "SH_BANGKOK_BANK_PUBLIC_CO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BNLI_KP_KELUARGA_SOPHONPANICH",
+        "source": "EM_BNLI",
+        "target": "KP_KELUARGA_SOPHONPANICH",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

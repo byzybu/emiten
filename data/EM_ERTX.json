@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ERTX",
+        "label": "ERTX",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UNGARAN_SARI_GARMENTS_PT",
+        "label": "UNGARAN SARI GARMENTS PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PAN_BROTHERS_GROUP",
+        "label": "Pan Brothers Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ERTX_SH_UNGARAN_SARI_GARMENTS_PT",
+        "source": "EM_ERTX",
+        "target": "SH_UNGARAN_SARI_GARMENTS_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ERTX_KP_PAN_BROTHERS_GROUP",
+        "source": "EM_ERTX",
+        "target": "KP_PAN_BROTHERS_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

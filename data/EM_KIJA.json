@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KIJA",
+        "label": "KIJA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ISLAMIC_DEVELOPMENT_BANK",
+        "label": "ISLAMIC DEVELOPMENT BANK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ISDB_MULTILATERAL_",
+        "label": "IsDB (Multilateral)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KIJA_SH_ISLAMIC_DEVELOPMENT_BANK",
+        "source": "EM_KIJA",
+        "target": "SH_ISLAMIC_DEVELOPMENT_BANK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KIJA_KP_ISDB_MULTILATERAL_",
+        "source": "EM_KIJA",
+        "target": "KP_ISDB_MULTILATERAL_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

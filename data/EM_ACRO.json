@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ACRO",
+        "label": "ACRO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TAE_SUNG_CHUNG",
+        "label": "TAE SUNG CHUNG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TAE_SUNG_CHUNG",
+        "label": "Tae Sung Chung",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ACRO_SH_TAE_SUNG_CHUNG",
+        "source": "EM_ACRO",
+        "target": "SH_TAE_SUNG_CHUNG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ACRO_KP_TAE_SUNG_CHUNG",
+        "source": "EM_ACRO",
+        "target": "KP_TAE_SUNG_CHUNG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

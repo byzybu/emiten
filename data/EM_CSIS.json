@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CSIS",
+        "label": "CSIS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDALAN_UTAMA_BINTARA",
+        "label": "ANDALAN UTAMA BINTARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJOEA_AUBINTORO",
+        "label": "Tjoea Aubintoro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_OLYMPIC_KAPITAL_EQUITY",
+        "label": "OLYMPIC KAPITAL EQUITY",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CSIS_SH_ANDALAN_UTAMA_BINTARA",
+        "source": "EM_CSIS",
+        "target": "SH_ANDALAN_UTAMA_BINTARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSIS_KP_TJOEA_AUBINTORO",
+        "source": "EM_CSIS",
+        "target": "KP_TJOEA_AUBINTORO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSIS_SH_OLYMPIC_KAPITAL_EQUITY",
+        "source": "EM_CSIS",
+        "target": "SH_OLYMPIC_KAPITAL_EQUITY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSIS_KP_TJOEA_AUBINTORO",
+        "source": "EM_CSIS",
+        "target": "KP_TJOEA_AUBINTORO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

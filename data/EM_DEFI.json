@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DEFI",
+        "label": "DEFI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASURANSI_JIWA_KRESNA_PT",
+        "label": "ASURANSI JIWA KRESNA, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MICHAEL_STEVEN",
+        "label": "Michael Steven",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_QUANTUM_CLOVERA_INVESTAMA",
+        "label": "QUANTUM CLOVERA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KRESNA_GROUP",
+        "label": "Kresna Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DEFI_SH_ASURANSI_JIWA_KRESNA_PT",
+        "source": "EM_DEFI",
+        "target": "SH_ASURANSI_JIWA_KRESNA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEFI_KP_MICHAEL_STEVEN",
+        "source": "EM_DEFI",
+        "target": "KP_MICHAEL_STEVEN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEFI_SH_QUANTUM_CLOVERA_INVESTAMA",
+        "source": "EM_DEFI",
+        "target": "SH_QUANTUM_CLOVERA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEFI_KP_KRESNA_GROUP",
+        "source": "EM_DEFI",
+        "target": "KP_KRESNA_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

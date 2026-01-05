@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CAMP",
+        "label": "CAMP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JUSTIANI_HADIPRANOTO",
+        "label": "JUSTIANI HADIPRANOTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JUSTIANI_HADIPRANOTO",
+        "label": "Justiani Hadipranoto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SABANA_PRAWIRA_WIDJAJA",
+        "label": "SABANA PRAWIRA WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SABANA_PRAWIRA_WIDJAJA",
+        "label": "Sabana Prawira Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CAMP_SH_JUSTIANI_HADIPRANOTO",
+        "source": "EM_CAMP",
+        "target": "SH_JUSTIANI_HADIPRANOTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CAMP_KP_JUSTIANI_HADIPRANOTO",
+        "source": "EM_CAMP",
+        "target": "KP_JUSTIANI_HADIPRANOTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CAMP_SH_SABANA_PRAWIRA_WIDJAJA",
+        "source": "EM_CAMP",
+        "target": "SH_SABANA_PRAWIRA_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CAMP_KP_SABANA_PRAWIRA_WIDJAJA",
+        "source": "EM_CAMP",
+        "target": "KP_SABANA_PRAWIRA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

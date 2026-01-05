@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ARTO",
+        "label": "ARTO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_DOMPET_KARYA_ANAK_BANGSA",
+        "label": "PT DOMPET KARYA ANAK BANGSA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GOTO_GROUP",
+        "label": "GoTo Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_METAMORFOSIS_EKOSISTEM_INDO",
+        "label": "METAMORFOSIS EKOSISTEM INDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JERRY_NG",
+        "label": "Jerry Ng",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WEALTH_TRACK_TECHNOLOGY_LTD",
+        "label": "WEALTH TRACK TECHNOLOGY LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PATRICK_WALUJO",
+        "label": "Patrick Walujo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GOVERNMENT_OF_SINGAPORE",
+        "label": "GOVERNMENT OF SINGAPORE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PEMERINTAH_SINGAPURA",
+        "label": "Pemerintah Singapura",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ARTO_SH_PT_DOMPET_KARYA_ANAK_BANGSA",
+        "source": "EM_ARTO",
+        "target": "SH_PT_DOMPET_KARYA_ANAK_BANGSA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARTO_KP_GOTO_GROUP",
+        "source": "EM_ARTO",
+        "target": "KP_GOTO_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARTO_SH_METAMORFOSIS_EKOSISTEM_INDO",
+        "source": "EM_ARTO",
+        "target": "SH_METAMORFOSIS_EKOSISTEM_INDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARTO_KP_JERRY_NG",
+        "source": "EM_ARTO",
+        "target": "KP_JERRY_NG",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARTO_SH_WEALTH_TRACK_TECHNOLOGY_LTD",
+        "source": "EM_ARTO",
+        "target": "SH_WEALTH_TRACK_TECHNOLOGY_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARTO_KP_PATRICK_WALUJO",
+        "source": "EM_ARTO",
+        "target": "KP_PATRICK_WALUJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARTO_SH_GOVERNMENT_OF_SINGAPORE",
+        "source": "EM_ARTO",
+        "target": "SH_GOVERNMENT_OF_SINGAPORE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ARTO_KP_PEMERINTAH_SINGAPURA",
+        "source": "EM_ARTO",
+        "target": "KP_PEMERINTAH_SINGAPURA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

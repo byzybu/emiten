@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KREN",
+        "label": "KREN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CIMB_GROUP_SDN_BHD",
+        "label": "CIMB GROUP SDN BHD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KHAZANAH_NASIONAL_MALAYSIA_",
+        "label": "Khazanah Nasional (Malaysia)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CGS_INTERNATIONAL_SEKURITAS",
+        "label": "CGS INTERNATIONAL SEKURITAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KREN_SH_CIMB_GROUP_SDN_BHD",
+        "source": "EM_KREN",
+        "target": "SH_CIMB_GROUP_SDN_BHD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KREN_KP_KHAZANAH_NASIONAL_MALAYSIA_",
+        "source": "EM_KREN",
+        "target": "KP_KHAZANAH_NASIONAL_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KREN_SH_CGS_INTERNATIONAL_SEKURITAS",
+        "source": "EM_KREN",
+        "target": "SH_CGS_INTERNATIONAL_SEKURITAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KREN_KP_INVESTOR_INSTITUSI",
+        "source": "EM_KREN",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

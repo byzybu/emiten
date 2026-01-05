@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GDWU",
+        "label": "GDWU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_INDOLIFE_PENSIONTAMA",
+        "label": "PT. INDOLIFE PENSIONTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GDWU_SH_PT_INDOLIFE_PENSIONTAMA",
+        "source": "EM_GDWU",
+        "target": "SH_PT_INDOLIFE_PENSIONTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GDWU_KP_SALIM_GROUP",
+        "source": "EM_GDWU",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

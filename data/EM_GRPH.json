@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GRPH",
+        "label": "GRPH",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULIA_JAYA_PALMA",
+        "label": "MULIA JAYA PALMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SIANIPAR",
+        "label": "Keluarga Sianipar",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GRPH_SH_MULIA_JAYA_PALMA",
+        "source": "EM_GRPH",
+        "target": "SH_MULIA_JAYA_PALMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GRPH_KP_KELUARGA_SIANIPAR",
+        "source": "EM_GRPH",
+        "target": "KP_KELUARGA_SIANIPAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DOSS",
+        "label": "DOSS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TAHIR_MATULATAN",
+        "label": "TAHIR MATULATAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TAHIR_MATULATAN",
+        "label": "Tahir Matulatan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUGIMAN_HALIM",
+        "label": "SUGIMAN HALIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUGIMAN_HALIM",
+        "label": "Sugiman Halim",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DOSS_SH_TAHIR_MATULATAN",
+        "source": "EM_DOSS",
+        "target": "SH_TAHIR_MATULATAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOSS_KP_TAHIR_MATULATAN",
+        "source": "EM_DOSS",
+        "target": "KP_TAHIR_MATULATAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOSS_SH_SUGIMAN_HALIM",
+        "source": "EM_DOSS",
+        "target": "SH_SUGIMAN_HALIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DOSS_KP_SUGIMAN_HALIM",
+        "source": "EM_DOSS",
+        "target": "KP_SUGIMAN_HALIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

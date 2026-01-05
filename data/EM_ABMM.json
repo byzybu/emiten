@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ABMM",
+        "label": "ABMM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TIARA_MARGA_TRAKINDO",
+        "label": "TIARA MARGA TRAKINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_HAMAMI",
+        "label": "Keluarga Hamami",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VALLE_VERDE_PTE_LTD_",
+        "label": "VALLE VERDE PTE. LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HERRY_WANGSIHARJA",
+        "label": "Herry Wangsiharja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_LO_KHENG_HONG",
+        "label": "DRS LO KHENG HONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LO_KHENG_HONG",
+        "label": "Lo Kheng Hong",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ABMM_SH_TIARA_MARGA_TRAKINDO",
+        "source": "EM_ABMM",
+        "target": "SH_TIARA_MARGA_TRAKINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ABMM_KP_KELUARGA_HAMAMI",
+        "source": "EM_ABMM",
+        "target": "KP_KELUARGA_HAMAMI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ABMM_SH_VALLE_VERDE_PTE_LTD_",
+        "source": "EM_ABMM",
+        "target": "SH_VALLE_VERDE_PTE_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ABMM_KP_HERRY_WANGSIHARJA",
+        "source": "EM_ABMM",
+        "target": "KP_HERRY_WANGSIHARJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ABMM_SH_DRS_LO_KHENG_HONG",
+        "source": "EM_ABMM",
+        "target": "SH_DRS_LO_KHENG_HONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ABMM_KP_LO_KHENG_HONG",
+        "source": "EM_ABMM",
+        "target": "KP_LO_KHENG_HONG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

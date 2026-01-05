@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ASRM",
+        "label": "ASRM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_RAGAM_VENTURINDO",
+        "label": "PT RAGAM VENTURINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ASRM_SH_PT_RAGAM_VENTURINDO",
+        "source": "EM_ASRM",
+        "target": "SH_PT_RAGAM_VENTURINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASRM_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_ASRM",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

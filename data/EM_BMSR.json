@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BMSR",
+        "label": "BMSR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CHANCE_STAND_FINANCE_LTD",
+        "label": "CHANCE STAND FINANCE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BMSR_SH_CHANCE_STAND_FINANCE_LTD",
+        "source": "EM_BMSR",
+        "target": "SH_CHANCE_STAND_FINANCE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BMSR_KP_INVESTASI_ASING",
+        "source": "EM_BMSR",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

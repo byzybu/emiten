@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_JRPT",
+        "label": "JRPT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PEMBANGUNAN_JAYA",
+        "label": "PEMBANGUNAN JAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PEMPROV_DKI",
+        "label": "Pemprov DKI",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CIPUTRA",
+        "label": "Ciputra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BP2S_SG_BNP_PARIBAS",
+        "label": "BP2S SG/BNP PARIBAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_JRPT_SH_PEMBANGUNAN_JAYA",
+        "source": "EM_JRPT",
+        "target": "SH_PEMBANGUNAN_JAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JRPT_KP_PEMPROV_DKI",
+        "source": "EM_JRPT",
+        "target": "KP_PEMPROV_DKI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JRPT_SH_PEMBANGUNAN_JAYA",
+        "source": "EM_JRPT",
+        "target": "SH_PEMBANGUNAN_JAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JRPT_KP_CIPUTRA",
+        "source": "EM_JRPT",
+        "target": "KP_CIPUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JRPT_SH_BP2S_SG_BNP_PARIBAS",
+        "source": "EM_JRPT",
+        "target": "SH_BP2S_SG_BNP_PARIBAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JRPT_KP_INVESTOR_INSTITUSI",
+        "source": "EM_JRPT",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

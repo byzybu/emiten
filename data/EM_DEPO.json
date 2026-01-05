@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DEPO",
+        "label": "DEPO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLOBAL_HOUSE_INTERNATIONAL",
+        "label": "GLOBAL HOUSE INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SURIYAWANAKUL_FAMILY_THAI_",
+        "label": "Suriyawanakul Family (Thai)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DEPO_SH_GLOBAL_HOUSE_INTERNATIONAL",
+        "source": "EM_DEPO",
+        "target": "SH_GLOBAL_HOUSE_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DEPO_KP_SURIYAWANAKUL_FAMILY_THAI_",
+        "source": "EM_DEPO",
+        "target": "KP_SURIYAWANAKUL_FAMILY_THAI_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
