@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SPMA",
+        "label": "SPMA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GRAHA_INTI_HARAPAN",
+        "label": "GRAHA INTI HARAPAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PACIFIC_STAR_SYNERGY",
+        "label": "PACIFIC STAR SYNERGY",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLORIAJAYA_GEMPITA",
+        "label": "GLORIAJAYA GEMPITA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SPMA_SH_GRAHA_INTI_HARAPAN",
+        "source": "EM_SPMA",
+        "target": "SH_GRAHA_INTI_HARAPAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPMA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SPMA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPMA_SH_PACIFIC_STAR_SYNERGY",
+        "source": "EM_SPMA",
+        "target": "SH_PACIFIC_STAR_SYNERGY",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPMA_KP_INVESTASI_ASING",
+        "source": "EM_SPMA",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPMA_SH_GLORIAJAYA_GEMPITA",
+        "source": "EM_SPMA",
+        "target": "SH_GLORIAJAYA_GEMPITA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SPMA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_SPMA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

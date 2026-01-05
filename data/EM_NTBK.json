@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_NTBK",
+        "label": "NTBK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_REBORN_CAPITAL",
+        "label": "REBORN CAPITAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FITRADITYO_HARJUNO",
+        "label": "FITRADITYO HARJUNO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FITRADITYO_HARJUNO",
+        "label": "Fitradityo Harjuno",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_NTBK_SH_REBORN_CAPITAL",
+        "source": "EM_NTBK",
+        "target": "SH_REBORN_CAPITAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NTBK_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_NTBK",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NTBK_SH_FITRADITYO_HARJUNO",
+        "source": "EM_NTBK",
+        "target": "SH_FITRADITYO_HARJUNO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_NTBK_KP_FITRADITYO_HARJUNO",
+        "source": "EM_NTBK",
+        "target": "KP_FITRADITYO_HARJUNO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

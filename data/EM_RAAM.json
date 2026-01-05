@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RAAM",
+        "label": "RAAM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MNC_DIGITAL_ENTERTAINMENT",
+        "label": "MNC DIGITAL ENTERTAINMENT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARY_TANOESOEDIBJO",
+        "label": "Hary Tanoesoedibjo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RAM_JETHMAL_PUNJABI",
+        "label": "RAM JETHMAL PUNJABI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RAAM_PUNJABI",
+        "label": "Raam Punjabi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RAAM_SH_MNC_DIGITAL_ENTERTAINMENT",
+        "source": "EM_RAAM",
+        "target": "SH_MNC_DIGITAL_ENTERTAINMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAAM_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_RAAM",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAAM_SH_RAM_JETHMAL_PUNJABI",
+        "source": "EM_RAAM",
+        "target": "SH_RAM_JETHMAL_PUNJABI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RAAM_KP_RAAM_PUNJABI",
+        "source": "EM_RAAM",
+        "target": "KP_RAAM_PUNJABI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

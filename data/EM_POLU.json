@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_POLU",
+        "label": "POLU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GOLDEN_FLOWER_GLOBAL_RES_",
+        "label": "GOLDEN FLOWER GLOBAL RES.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_PO_SUN_KOK",
+        "label": "Keluarga Po Sun Kok",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PROFASHION_APPAREL",
+        "label": "PROFASHION APPAREL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_POLU_SH_GOLDEN_FLOWER_GLOBAL_RES_",
+        "source": "EM_POLU",
+        "target": "SH_GOLDEN_FLOWER_GLOBAL_RES_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLU_KP_KELUARGA_PO_SUN_KOK",
+        "source": "EM_POLU",
+        "target": "KP_KELUARGA_PO_SUN_KOK",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLU_SH_PROFASHION_APPAREL",
+        "source": "EM_POLU",
+        "target": "SH_PROFASHION_APPAREL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_POLU_KP_INVESTASI_ASING",
+        "source": "EM_POLU",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TGUK",
+        "label": "TGUK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANTONY_LESMANA",
+        "label": "ANTONY LESMANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANTONY_LESMANA",
+        "label": "Antony Lesmana",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TGUK_SH_ANTONY_LESMANA",
+        "source": "EM_TGUK",
+        "target": "SH_ANTONY_LESMANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TGUK_KP_ANTONY_LESMANA",
+        "source": "EM_TGUK",
+        "target": "KP_ANTONY_LESMANA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RALS",
+        "label": "RALS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RAMAYANA_LESTARI_SENTOSA",
+        "label": "RAMAYANA LESTARI SENTOSA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_PAULUS_TUMEWU",
+        "label": "Keluarga Paulus Tumewu",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RALS_SH_RAMAYANA_LESTARI_SENTOSA",
+        "source": "EM_RALS",
+        "target": "SH_RAMAYANA_LESTARI_SENTOSA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RALS_KP_KELUARGA_PAULUS_TUMEWU",
+        "source": "EM_RALS",
+        "target": "KP_KELUARGA_PAULUS_TUMEWU",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

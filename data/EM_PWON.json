@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PWON",
+        "label": "PWON",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PAKUWON_ARTHANIAGA",
+        "label": "PAKUWON ARTHANIAGA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ALEXANDER_TEDJA",
+        "label": "Alexander Tedja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PWON_SH_PAKUWON_ARTHANIAGA",
+        "source": "EM_PWON",
+        "target": "SH_PAKUWON_ARTHANIAGA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PWON_KP_ALEXANDER_TEDJA",
+        "source": "EM_PWON",
+        "target": "KP_ALEXANDER_TEDJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

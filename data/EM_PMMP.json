@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PMMP",
+        "label": "PMMP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HARAPAN_BANGSA_KITA",
+        "label": "HARAPAN BANGSA KITA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KAESANG_PANGAREP",
+        "label": "Kaesang Pangarep",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TIGA_MAKIN_JAYA",
+        "label": "TIGA MAKIN JAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_KAESANG",
+        "label": "Keluarga Kaesang",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SOESILO_SOEBARDJO",
+        "label": "SOESILO SOEBARDJO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SOESILO_SOEBARDJO",
+        "label": "Soesilo Soebardjo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PMMP_SH_HARAPAN_BANGSA_KITA",
+        "source": "EM_PMMP",
+        "target": "SH_HARAPAN_BANGSA_KITA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PMMP_KP_KAESANG_PANGAREP",
+        "source": "EM_PMMP",
+        "target": "KP_KAESANG_PANGAREP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PMMP_SH_TIGA_MAKIN_JAYA",
+        "source": "EM_PMMP",
+        "target": "SH_TIGA_MAKIN_JAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PMMP_KP_KELUARGA_KAESANG",
+        "source": "EM_PMMP",
+        "target": "KP_KELUARGA_KAESANG",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PMMP_SH_SOESILO_SOEBARDJO",
+        "source": "EM_PMMP",
+        "target": "SH_SOESILO_SOEBARDJO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PMMP_KP_SOESILO_SOEBARDJO",
+        "source": "EM_PMMP",
+        "target": "KP_SOESILO_SOEBARDJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

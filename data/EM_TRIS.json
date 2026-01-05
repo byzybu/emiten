@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TRIS",
+        "label": "TRIS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KARYA_DWIMANUNGGAL_SEJAHTERA",
+        "label": "KARYA DWIMANUNGGAL SEJAHTERA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TJOKROSAPUTRO",
+        "label": "Keluarga Tjokrosaputro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRISULA_INSAN_TIARA",
+        "label": "TRISULA INSAN TIARA",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TRIS_SH_KARYA_DWIMANUNGGAL_SEJAHTERA",
+        "source": "EM_TRIS",
+        "target": "SH_KARYA_DWIMANUNGGAL_SEJAHTERA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIS_KP_KELUARGA_TJOKROSAPUTRO",
+        "source": "EM_TRIS",
+        "target": "KP_KELUARGA_TJOKROSAPUTRO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIS_SH_TRISULA_INSAN_TIARA",
+        "source": "EM_TRIS",
+        "target": "SH_TRISULA_INSAN_TIARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRIS_KP_KELUARGA_TJOKROSAPUTRO",
+        "source": "EM_TRIS",
+        "target": "KP_KELUARGA_TJOKROSAPUTRO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

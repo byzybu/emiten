@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MLPT",
+        "label": "MLPT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULTIPOLAR_TBK_",
+        "label": "MULTIPOLAR TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_RIADY",
+        "label": "Keluarga Riady",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MLPT_SH_MULTIPOLAR_TBK_",
+        "source": "EM_MLPT",
+        "target": "SH_MULTIPOLAR_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MLPT_KP_KELUARGA_RIADY",
+        "source": "EM_MLPT",
+        "target": "KP_KELUARGA_RIADY",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

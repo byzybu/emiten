@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MLIA",
+        "label": "MLIA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULIA_GRAHAPERMAI",
+        "label": "MULIA GRAHAPERMAI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TJANDRA",
+        "label": "Keluarga Tjandra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EKA_GUNATAMA_MANDIRI",
+        "label": "EKA GUNATAMA MANDIRI",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MLIA_SH_MULIA_GRAHAPERMAI",
+        "source": "EM_MLIA",
+        "target": "SH_MULIA_GRAHAPERMAI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MLIA_KP_KELUARGA_TJANDRA",
+        "source": "EM_MLIA",
+        "target": "KP_KELUARGA_TJANDRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MLIA_SH_EKA_GUNATAMA_MANDIRI",
+        "source": "EM_MLIA",
+        "target": "SH_EKA_GUNATAMA_MANDIRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MLIA_KP_KELUARGA_TJANDRA",
+        "source": "EM_MLIA",
+        "target": "KP_KELUARGA_TJANDRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TFAS",
+        "label": "TFAS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_M_CASH_INTEGRASI_TBK",
+        "label": "M CASH INTEGRASI TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KRESNA_GROUP",
+        "label": "Kresna Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TELEFAST_INVESTAMA_INDONESIA",
+        "label": "TELEFAST INVESTAMA INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_M_CASH_INTEGRASI_MCAS_",
+        "label": "M Cash Integrasi (MCAS)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DISTRIBUSI_VOUCHER_NUSANTARA",
+        "label": "DISTRIBUSI VOUCHER NUSANTARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KRESNA_GROUP_MCAS_",
+        "label": "Kresna Group (MCAS)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "label": "BANK OF SINGAPORE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TFAS_SH_M_CASH_INTEGRASI_TBK",
+        "source": "EM_TFAS",
+        "target": "SH_M_CASH_INTEGRASI_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TFAS_KP_KRESNA_GROUP",
+        "source": "EM_TFAS",
+        "target": "KP_KRESNA_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TFAS_SH_TELEFAST_INVESTAMA_INDONESIA",
+        "source": "EM_TFAS",
+        "target": "SH_TELEFAST_INVESTAMA_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TFAS_KP_M_CASH_INTEGRASI_MCAS_",
+        "source": "EM_TFAS",
+        "target": "KP_M_CASH_INTEGRASI_MCAS_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TFAS_SH_DISTRIBUSI_VOUCHER_NUSANTARA",
+        "source": "EM_TFAS",
+        "target": "SH_DISTRIBUSI_VOUCHER_NUSANTARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TFAS_KP_KRESNA_GROUP_MCAS_",
+        "source": "EM_TFAS",
+        "target": "KP_KRESNA_GROUP_MCAS_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TFAS_SH_BANK_OF_SINGAPORE_LIMITED",
+        "source": "EM_TFAS",
+        "target": "SH_BANK_OF_SINGAPORE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TFAS_KP_INVESTOR_INSTITUSI",
+        "source": "EM_TFAS",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

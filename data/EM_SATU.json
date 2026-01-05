@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SATU",
+        "label": "SATU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_STEFANI_FARIDA",
+        "label": "STEFANI FARIDA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_STEFANI_FARIDA",
+        "label": "Stefani Farida",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LEO_AGUNG_VITO_WICAKSANA",
+        "label": "LEO AGUNG VITO WICAKSANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LEO_AGUNG_VITO_WICAKSANA",
+        "label": "Leo Agung Vito Wicaksana",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RADEN_YOHANES_KRISTIAN_H_",
+        "label": "RADEN YOHANES KRISTIAN H.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RADEN_YOHANES_KRISTIAN",
+        "label": "Raden Yohanes Kristian",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SATU_SH_STEFANI_FARIDA",
+        "source": "EM_SATU",
+        "target": "SH_STEFANI_FARIDA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SATU_KP_STEFANI_FARIDA",
+        "source": "EM_SATU",
+        "target": "KP_STEFANI_FARIDA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SATU_SH_LEO_AGUNG_VITO_WICAKSANA",
+        "source": "EM_SATU",
+        "target": "SH_LEO_AGUNG_VITO_WICAKSANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SATU_KP_LEO_AGUNG_VITO_WICAKSANA",
+        "source": "EM_SATU",
+        "target": "KP_LEO_AGUNG_VITO_WICAKSANA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SATU_SH_RADEN_YOHANES_KRISTIAN_H_",
+        "source": "EM_SATU",
+        "target": "SH_RADEN_YOHANES_KRISTIAN_H_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SATU_KP_RADEN_YOHANES_KRISTIAN",
+        "source": "EM_SATU",
+        "target": "KP_RADEN_YOHANES_KRISTIAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

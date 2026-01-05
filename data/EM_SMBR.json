@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SMBR",
+        "label": "SMBR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASURANSI_JIWA_IFG",
+        "label": "ASURANSI JIWA IFG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SMBR_SH_ASURANSI_JIWA_IFG",
+        "source": "EM_SMBR",
+        "target": "SH_ASURANSI_JIWA_IFG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SMBR_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_SMBR",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

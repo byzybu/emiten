@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MBMA",
+        "label": "MBMA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MERDEKA_ENERGI_NUSANTARA",
+        "label": "MERDEKA ENERGI NUSANTARA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SARATOGA",
+        "label": "Saratoga",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALAM_PERMAI",
+        "label": "ALAM PERMAI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MBMA_SH_MERDEKA_ENERGI_NUSANTARA",
+        "source": "EM_MBMA",
+        "target": "SH_MERDEKA_ENERGI_NUSANTARA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MBMA_KP_SARATOGA",
+        "source": "EM_MBMA",
+        "target": "KP_SARATOGA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MBMA_SH_ALAM_PERMAI",
+        "source": "EM_MBMA",
+        "target": "SH_ALAM_PERMAI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MBMA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MBMA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

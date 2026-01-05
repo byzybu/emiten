@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SKYB",
+        "label": "SKYB",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NORTHCLIFF_CAPITAL_ASIA",
+        "label": "NORTHCLIFF CAPITAL ASIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DBS_BANK_LTD_S_A_PT_BANK_KEB_HANA",
+        "label": "DBS BANK LTD S/A PT BANK KEB HANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ERRY_SULISTIO",
+        "label": "ERRY SULISTIO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ERRY_SULISTIO",
+        "label": "Erry Sulistio",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_REKSA_DANA_NARADA_SAHAM",
+        "label": "REKSA DANA NARADA SAHAM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MANAJER_INVESTASI",
+        "label": "Manajer Investasi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRES_MARIA_CAPITAL_LTD",
+        "label": "TRES MARIA CAPITAL LTD",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SKYB_SH_NORTHCLIFF_CAPITAL_ASIA",
+        "source": "EM_SKYB",
+        "target": "SH_NORTHCLIFF_CAPITAL_ASIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_KP_INVESTASI_ASING",
+        "source": "EM_SKYB",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_SH_DBS_BANK_LTD_S_A_PT_BANK_KEB_HANA",
+        "source": "EM_SKYB",
+        "target": "SH_DBS_BANK_LTD_S_A_PT_BANK_KEB_HANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_KP_INVESTOR_INSTITUSI",
+        "source": "EM_SKYB",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_SH_ERRY_SULISTIO",
+        "source": "EM_SKYB",
+        "target": "SH_ERRY_SULISTIO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_KP_ERRY_SULISTIO",
+        "source": "EM_SKYB",
+        "target": "KP_ERRY_SULISTIO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_SH_REKSA_DANA_NARADA_SAHAM",
+        "source": "EM_SKYB",
+        "target": "SH_REKSA_DANA_NARADA_SAHAM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_KP_MANAJER_INVESTASI",
+        "source": "EM_SKYB",
+        "target": "KP_MANAJER_INVESTASI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_SH_TRES_MARIA_CAPITAL_LTD",
+        "source": "EM_SKYB",
+        "target": "SH_TRES_MARIA_CAPITAL_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SKYB_KP_INVESTASI_ASING",
+        "source": "EM_SKYB",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

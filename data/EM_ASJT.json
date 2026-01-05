@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ASJT",
+        "label": "ASJT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DANA_PENSIUN_PERKEBUNAN",
+        "label": "DANA PENSIUN PERKEBUNAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DANA_PENSIUN",
+        "label": "Dana Pensiun",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ASJT_SH_DANA_PENSIUN_PERKEBUNAN",
+        "source": "EM_ASJT",
+        "target": "SH_DANA_PENSIUN_PERKEBUNAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASJT_KP_DANA_PENSIUN",
+        "source": "EM_ASJT",
+        "target": "KP_DANA_PENSIUN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

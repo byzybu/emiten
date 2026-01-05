@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ALTO",
+        "label": "ALTO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TIRTAMAS_ANGGADA_PT",
+        "label": "TIRTAMAS ANGGADA, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUGIANTO_KUSUMA_AGUAN_",
+        "label": "Sugianto Kusuma (Aguan)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_FIKASA_BINTANG_CEMERLANG",
+        "label": "PT FIKASA BINTANG CEMERLANG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GRUP_FIKASA",
+        "label": "Grup Fikasa",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_DANAREKSA_PERSERO_",
+        "label": "PT. DANAREKSA (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRIMEGAH_SEKURITAS",
+        "label": "TRIMEGAH SEKURITAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GARIBALDI_THOHIR",
+        "label": "Garibaldi Thohir",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ALTO_SH_TIRTAMAS_ANGGADA_PT",
+        "source": "EM_ALTO",
+        "target": "SH_TIRTAMAS_ANGGADA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALTO_KP_SUGIANTO_KUSUMA_AGUAN_",
+        "source": "EM_ALTO",
+        "target": "KP_SUGIANTO_KUSUMA_AGUAN_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALTO_SH_PT_FIKASA_BINTANG_CEMERLANG",
+        "source": "EM_ALTO",
+        "target": "SH_PT_FIKASA_BINTANG_CEMERLANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALTO_KP_GRUP_FIKASA",
+        "source": "EM_ALTO",
+        "target": "KP_GRUP_FIKASA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALTO_SH_PT_DANAREKSA_PERSERO_",
+        "source": "EM_ALTO",
+        "target": "SH_PT_DANAREKSA_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALTO_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_ALTO",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALTO_SH_TRIMEGAH_SEKURITAS",
+        "source": "EM_ALTO",
+        "target": "SH_TRIMEGAH_SEKURITAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ALTO_KP_GARIBALDI_THOHIR",
+        "source": "EM_ALTO",
+        "target": "KP_GARIBALDI_THOHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
