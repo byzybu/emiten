@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_STRK",
+        "label": "STRK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUPRA_RAGA_TRANSPORT",
+        "label": "SUPRA RAGA TRANSPORT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_SUGIARTO",
+        "label": "Keluarga Sugiarto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BINA_SAN_PRIMA_PT",
+        "label": "BINA SAN PRIMA, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JAHJA_SANTOSO",
+        "label": "Jahja Santoso",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_STRK_SH_SUPRA_RAGA_TRANSPORT",
+        "source": "EM_STRK",
+        "target": "SH_SUPRA_RAGA_TRANSPORT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STRK_KP_KELUARGA_SUGIARTO",
+        "source": "EM_STRK",
+        "target": "KP_KELUARGA_SUGIARTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STRK_SH_BINA_SAN_PRIMA_PT",
+        "source": "EM_STRK",
+        "target": "SH_BINA_SAN_PRIMA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STRK_KP_JAHJA_SANTOSO",
+        "source": "EM_STRK",
+        "target": "KP_JAHJA_SANTOSO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

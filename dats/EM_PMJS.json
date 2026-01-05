@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PMJS",
+        "label": "PMJS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MITSUBISHI_CORPORATION",
+        "label": "MITSUBISHI CORPORATION",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MITSUBISHI_GROUP_JEPANG_",
+        "label": "Mitsubishi Group (Jepang)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PMJS_SH_MITSUBISHI_CORPORATION",
+        "source": "EM_PMJS",
+        "target": "SH_MITSUBISHI_CORPORATION",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PMJS_KP_MITSUBISHI_GROUP_JEPANG_",
+        "source": "EM_PMJS",
+        "target": "KP_MITSUBISHI_GROUP_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

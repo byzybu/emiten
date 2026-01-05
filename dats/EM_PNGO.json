@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PNGO",
+        "label": "PNGO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HASAN_TANTRI",
+        "label": "HASAN TANTRI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HASAN_TANTRI",
+        "label": "Hasan Tantri",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PETER_UNGGUL_SUTANTIO",
+        "label": "PETER UNGGUL SUTANTIO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PETER_UNGGUL_SUTANTIO",
+        "label": "Peter Unggul Sutantio",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CHARLES_SUTANTIO",
+        "label": "CHARLES SUTANTIO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CHARLES_SUTANTIO",
+        "label": "Charles Sutantio",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WILSON_SUTANTIO",
+        "label": "WILSON SUTANTIO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WILSON_SUTANTIO",
+        "label": "Wilson Sutantio",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PNGO_SH_HASAN_TANTRI",
+        "source": "EM_PNGO",
+        "target": "SH_HASAN_TANTRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNGO_KP_HASAN_TANTRI",
+        "source": "EM_PNGO",
+        "target": "KP_HASAN_TANTRI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNGO_SH_PETER_UNGGUL_SUTANTIO",
+        "source": "EM_PNGO",
+        "target": "SH_PETER_UNGGUL_SUTANTIO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNGO_KP_PETER_UNGGUL_SUTANTIO",
+        "source": "EM_PNGO",
+        "target": "KP_PETER_UNGGUL_SUTANTIO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNGO_SH_CHARLES_SUTANTIO",
+        "source": "EM_PNGO",
+        "target": "SH_CHARLES_SUTANTIO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNGO_KP_CHARLES_SUTANTIO",
+        "source": "EM_PNGO",
+        "target": "KP_CHARLES_SUTANTIO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNGO_SH_WILSON_SUTANTIO",
+        "source": "EM_PNGO",
+        "target": "SH_WILSON_SUTANTIO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNGO_KP_WILSON_SUTANTIO",
+        "source": "EM_PNGO",
+        "target": "KP_WILSON_SUTANTIO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

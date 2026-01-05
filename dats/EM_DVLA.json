@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DVLA",
+        "label": "DVLA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BLUE_SPHERE_SINGAPORE_PTE_LTD_",
+        "label": "BLUE SPHERE SINGAPORE PTE. LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CLINTON_ANDREW_HESS",
+        "label": "Clinton Andrew Hess",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DVLA_SH_BLUE_SPHERE_SINGAPORE_PTE_LTD_",
+        "source": "EM_DVLA",
+        "target": "SH_BLUE_SPHERE_SINGAPORE_PTE_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DVLA_KP_CLINTON_ANDREW_HESS",
+        "source": "EM_DVLA",
+        "target": "KP_CLINTON_ANDREW_HESS",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

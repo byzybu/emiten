@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_REAL",
+        "label": "REAL",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HARMONI_HARUM_PROPERTINDO",
+        "label": "HARMONI HARUM PROPERTINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_REAL_SH_HARMONI_HARUM_PROPERTINDO",
+        "source": "EM_REAL",
+        "target": "SH_HARMONI_HARUM_PROPERTINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_REAL_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_REAL",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

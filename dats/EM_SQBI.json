@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SQBI",
+        "label": "SQBI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TAISHO_PHARMACEUTICAL",
+        "label": "TAISHO PHARMACEUTICAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TAISHO_JEPANG_",
+        "label": "Taisho (Jepang)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SQBI_SH_TAISHO_PHARMACEUTICAL",
+        "source": "EM_SQBI",
+        "target": "SH_TAISHO_PHARMACEUTICAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SQBI_KP_TAISHO_JEPANG_",
+        "source": "EM_SQBI",
+        "target": "KP_TAISHO_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

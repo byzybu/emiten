@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_UNIC",
+        "label": "UNIC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SALIM_CHEMICALS_CORPORA",
+        "label": "PT. SALIM CHEMICALS CORPORA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LAUTAN_LUAS_TBK_",
+        "label": "LAUTAN LUAS TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_MASRIN",
+        "label": "Keluarga Masrin",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASPIRASI_LUHUR",
+        "label": "ASPIRASI LUHUR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_ALAS_PUSAKA",
+        "label": "PT ALAS PUSAKA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARJO_SUTANTO",
+        "label": "Harjo Sutanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_UNIC_SH_PT_SALIM_CHEMICALS_CORPORA",
+        "source": "EM_UNIC",
+        "target": "SH_PT_SALIM_CHEMICALS_CORPORA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNIC_KP_SALIM_GROUP",
+        "source": "EM_UNIC",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNIC_SH_LAUTAN_LUAS_TBK_",
+        "source": "EM_UNIC",
+        "target": "SH_LAUTAN_LUAS_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNIC_KP_KELUARGA_MASRIN",
+        "source": "EM_UNIC",
+        "target": "KP_KELUARGA_MASRIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNIC_SH_ASPIRASI_LUHUR",
+        "source": "EM_UNIC",
+        "target": "SH_ASPIRASI_LUHUR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNIC_KP_KELUARGA_MASRIN",
+        "source": "EM_UNIC",
+        "target": "KP_KELUARGA_MASRIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNIC_SH_PT_ALAS_PUSAKA",
+        "source": "EM_UNIC",
+        "target": "SH_PT_ALAS_PUSAKA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UNIC_KP_HARJO_SUTANTO",
+        "source": "EM_UNIC",
+        "target": "KP_HARJO_SUTANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

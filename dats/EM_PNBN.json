@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PNBN",
+        "label": "PNBN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VOTRAINT_NO_1103_PTY_LTD",
+        "label": "VOTRAINT NO.1103 PTY LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PNBN_SH_VOTRAINT_NO_1103_PTY_LTD",
+        "source": "EM_PNBN",
+        "target": "SH_VOTRAINT_NO_1103_PTY_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PNBN_KP_INVESTASI_ASING",
+        "source": "EM_PNBN",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

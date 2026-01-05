@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RSGK",
+        "label": "RSGK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BESTAMA_MEDIKACENTER_INV_",
+        "label": "BESTAMA MEDIKACENTER INV.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TAHIR",
+        "label": "Keluarga Tahir",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SARANA_MEDITAMA_METROPOLITAN",
+        "label": "SARANA MEDITAMA METROPOLITAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_EMTEK_GROUP_SARIAATMADJA_",
+        "label": "Emtek Group (Sariaatmadja)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RSGK_SH_BESTAMA_MEDIKACENTER_INV_",
+        "source": "EM_RSGK",
+        "target": "SH_BESTAMA_MEDIKACENTER_INV_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RSGK_KP_KELUARGA_TAHIR",
+        "source": "EM_RSGK",
+        "target": "KP_KELUARGA_TAHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RSGK_SH_SARANA_MEDITAMA_METROPOLITAN",
+        "source": "EM_RSGK",
+        "target": "SH_SARANA_MEDITAMA_METROPOLITAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RSGK_KP_EMTEK_GROUP_SARIAATMADJA_",
+        "source": "EM_RSGK",
+        "target": "KP_EMTEK_GROUP_SARIAATMADJA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

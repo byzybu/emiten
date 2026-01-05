@@ -1,0 +1,142 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ROTI",
+        "label": "ROTI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NIPPON_INDOSARI_CORPINDO",
+        "label": "NIPPON INDOSARI CORPINDO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDORITEL_MAKMUR_INT_",
+        "label": "INDORITEL MAKMUR INT.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BONLIGHT_INVESTMENTS_LIMITED",
+        "label": "BONLIGHT INVESTMENTS LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LIEF_HOLDINGS_PTE_LTD",
+        "label": "LIEF HOLDINGS PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DEMETER_INDO_INVESTMENT",
+        "label": "DEMETER INDO INVESTMENT",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ROTI_SH_NIPPON_INDOSARI_CORPINDO",
+        "source": "EM_ROTI",
+        "target": "SH_NIPPON_INDOSARI_CORPINDO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_KP_SALIM_GROUP",
+        "source": "EM_ROTI",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_SH_INDORITEL_MAKMUR_INT_",
+        "source": "EM_ROTI",
+        "target": "SH_INDORITEL_MAKMUR_INT_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_KP_SALIM_GROUP",
+        "source": "EM_ROTI",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_SH_BONLIGHT_INVESTMENTS_LIMITED",
+        "source": "EM_ROTI",
+        "target": "SH_BONLIGHT_INVESTMENTS_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_KP_SALIM_GROUP",
+        "source": "EM_ROTI",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_SH_LIEF_HOLDINGS_PTE_LTD",
+        "source": "EM_ROTI",
+        "target": "SH_LIEF_HOLDINGS_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_KP_INVESTASI_ASING",
+        "source": "EM_ROTI",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_SH_DEMETER_INDO_INVESTMENT",
+        "source": "EM_ROTI",
+        "target": "SH_DEMETER_INDO_INVESTMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ROTI_KP_INVESTASI_ASING",
+        "source": "EM_ROTI",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

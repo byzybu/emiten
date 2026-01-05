@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_WINE",
+        "label": "WINE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "label": "UOB KAY HIAN PRIVATE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_WINE_SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "source": "EM_WINE",
+        "target": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_WINE_KP_INVESTOR_INSTITUSI",
+        "source": "EM_WINE",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

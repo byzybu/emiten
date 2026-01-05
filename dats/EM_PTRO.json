@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PTRO",
+        "label": "PTRO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KREASI_JASA_PERSADA",
+        "label": "KREASI JASA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PRAJOGO_PANGESTU_PETRINDO_",
+        "label": "Prajogo Pangestu (Petrindo)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CARAKA_REKSA_OPTIMA",
+        "label": "CARAKA REKSA OPTIMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAJI_ROMO_NITIYUDO_HAJI_ROBERT_",
+        "label": "Haji Romo Nitiyudo (Haji Robert)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PTRO_SH_KREASI_JASA_PERSADA",
+        "source": "EM_PTRO",
+        "target": "SH_KREASI_JASA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTRO_KP_PRAJOGO_PANGESTU_PETRINDO_",
+        "source": "EM_PTRO",
+        "target": "KP_PRAJOGO_PANGESTU_PETRINDO_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTRO_SH_CARAKA_REKSA_OPTIMA",
+        "source": "EM_PTRO",
+        "target": "SH_CARAKA_REKSA_OPTIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTRO_KP_HAJI_ROMO_NITIYUDO_HAJI_ROBERT_",
+        "source": "EM_PTRO",
+        "target": "KP_HAJI_ROMO_NITIYUDO_HAJI_ROBERT_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

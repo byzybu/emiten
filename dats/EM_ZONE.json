@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ZONE",
+        "label": "ZONE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TANCORP_INVESTAMA_MULIA",
+        "label": "TANCORP INVESTAMA MULIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HERMANTO_TANOKO",
+        "label": "Hermanto Tanoko",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ZONE_SH_TANCORP_INVESTAMA_MULIA",
+        "source": "EM_ZONE",
+        "target": "SH_TANCORP_INVESTAMA_MULIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ZONE_KP_HERMANTO_TANOKO",
+        "source": "EM_ZONE",
+        "target": "KP_HERMANTO_TANOKO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

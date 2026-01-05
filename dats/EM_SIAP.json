@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SIAP",
+        "label": "SIAP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUCOR_INVESTAMA",
+        "label": "SUCOR INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LINDRAWATI_WIDJAJA",
+        "label": "Lindrawati Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FUNDAMENTAL_RESOURCES_PTE",
+        "label": "FUNDAMENTAL RESOURCES PTE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TATANG_SUTIRMAN",
+        "label": "TATANG SUTIRMAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TATANG_SUTIRMAN",
+        "label": "Tatang Sutirman",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_EVIO_SECURITIES",
+        "label": "PT.EVIO SECURITIES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SEKURITAS_LOKAL",
+        "label": "Sekuritas Lokal",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SIAP_SH_SUCOR_INVESTAMA",
+        "source": "EM_SIAP",
+        "target": "SH_SUCOR_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIAP_KP_LINDRAWATI_WIDJAJA",
+        "source": "EM_SIAP",
+        "target": "KP_LINDRAWATI_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIAP_SH_FUNDAMENTAL_RESOURCES_PTE",
+        "source": "EM_SIAP",
+        "target": "SH_FUNDAMENTAL_RESOURCES_PTE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIAP_KP_INVESTASI_ASING",
+        "source": "EM_SIAP",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIAP_SH_TATANG_SUTIRMAN",
+        "source": "EM_SIAP",
+        "target": "SH_TATANG_SUTIRMAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIAP_KP_TATANG_SUTIRMAN",
+        "source": "EM_SIAP",
+        "target": "KP_TATANG_SUTIRMAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIAP_SH_PT_EVIO_SECURITIES",
+        "source": "EM_SIAP",
+        "target": "SH_PT_EVIO_SECURITIES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SIAP_KP_SEKURITAS_LOKAL",
+        "source": "EM_SIAP",
+        "target": "KP_SEKURITAS_LOKAL",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

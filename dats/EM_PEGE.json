@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PEGE",
+        "label": "PEGE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_MANDIRI_TERANG_HARAPAN",
+        "label": "PT. MANDIRI TERANG HARAPAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_RR_CAPITAL_GROUP_PTE_LTD",
+        "label": "RR CAPITAL GROUP PTE. LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRISNO_LIMANTO",
+        "label": "TRISNO LIMANTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TRISNO_LIMANTO",
+        "label": "Trisno Limanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PEGE_SH_PT_MANDIRI_TERANG_HARAPAN",
+        "source": "EM_PEGE",
+        "target": "SH_PT_MANDIRI_TERANG_HARAPAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEGE_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PEGE",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEGE_SH_RR_CAPITAL_GROUP_PTE_LTD",
+        "source": "EM_PEGE",
+        "target": "SH_RR_CAPITAL_GROUP_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEGE_KP_INVESTASI_ASING",
+        "source": "EM_PEGE",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEGE_SH_TRISNO_LIMANTO",
+        "source": "EM_PEGE",
+        "target": "SH_TRISNO_LIMANTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PEGE_KP_TRISNO_LIMANTO",
+        "source": "EM_PEGE",
+        "target": "KP_TRISNO_LIMANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SAGE",
+        "label": "SAGE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_EDWARD_HALIM",
+        "label": "EDWARD HALIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_EDWARD_HALIM",
+        "label": "Edward Halim",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SAGE_SH_EDWARD_HALIM",
+        "source": "EM_SAGE",
+        "target": "SH_EDWARD_HALIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SAGE_KP_EDWARD_HALIM",
+        "source": "EM_SAGE",
+        "target": "KP_EDWARD_HALIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

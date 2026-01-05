@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SFAN",
+        "label": "SFAN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SURYA_FAJAR_CORPORA",
+        "label": "SURYA FAJAR CORPORA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_STEFFEN_FANG",
+        "label": "Steffen Fang",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SFAN_SH_SURYA_FAJAR_CORPORA",
+        "source": "EM_SFAN",
+        "target": "SH_SURYA_FAJAR_CORPORA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SFAN_KP_STEFFEN_FANG",
+        "source": "EM_SFAN",
+        "target": "KP_STEFFEN_FANG",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

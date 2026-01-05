@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PRAY",
+        "label": "PRAY",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AWAL_BROS_CITRA_BATAM",
+        "label": "AWAL BROS CITRA BATAM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WANANDI",
+        "label": "Keluarga Wanandi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ARCHIPELAGO_INVESTMENT_PTE",
+        "label": "ARCHIPELAGO INVESTMENT PTE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PEMERINTAH_SINGAPURA",
+        "label": "Pemerintah Singapura",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PRAY_SH_AWAL_BROS_CITRA_BATAM",
+        "source": "EM_PRAY",
+        "target": "SH_AWAL_BROS_CITRA_BATAM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRAY_KP_KELUARGA_WANANDI",
+        "source": "EM_PRAY",
+        "target": "KP_KELUARGA_WANANDI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRAY_SH_ARCHIPELAGO_INVESTMENT_PTE",
+        "source": "EM_PRAY",
+        "target": "SH_ARCHIPELAGO_INVESTMENT_PTE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PRAY_KP_PEMERINTAH_SINGAPURA",
+        "source": "EM_PRAY",
+        "target": "KP_PEMERINTAH_SINGAPURA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

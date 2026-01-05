@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TAMU",
+        "label": "TAMU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_THE_BANK_OF_NEW_YORK_MELLON",
+        "label": "THE BANK OF NEW YORK MELLON",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TAMU_SH_THE_BANK_OF_NEW_YORK_MELLON",
+        "source": "EM_TAMU",
+        "target": "SH_THE_BANK_OF_NEW_YORK_MELLON",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TAMU_KP_INVESTOR_INSTITUSI",
+        "source": "EM_TAMU",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
