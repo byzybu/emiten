@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HDTX",
+        "label": "HDTX",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PANASIA_SYNTHETIC_ABADI_PT",
+        "label": "PANASIA SYNTHETIC ABADI, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PANASIA_GROUP",
+        "label": "Panasia Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PRIME_INVESCO_LIMITED",
+        "label": "PRIME INVESCO LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HDTX_SH_PANASIA_SYNTHETIC_ABADI_PT",
+        "source": "EM_HDTX",
+        "target": "SH_PANASIA_SYNTHETIC_ABADI_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HDTX_KP_PANASIA_GROUP",
+        "source": "EM_HDTX",
+        "target": "KP_PANASIA_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HDTX_SH_PRIME_INVESCO_LIMITED",
+        "source": "EM_HDTX",
+        "target": "SH_PRIME_INVESCO_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HDTX_KP_INVESTASI_ASING",
+        "source": "EM_HDTX",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

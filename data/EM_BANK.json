@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BANK",
+        "label": "BANK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALADIN_GLOBAL_VENTURES",
+        "label": "ALADIN GLOBAL VENTURES",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JOHN_RIADY",
+        "label": "John Riady",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BANK_SH_ALADIN_GLOBAL_VENTURES",
+        "source": "EM_BANK",
+        "target": "SH_ALADIN_GLOBAL_VENTURES",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BANK_KP_JOHN_RIADY",
+        "source": "EM_BANK",
+        "target": "KP_JOHN_RIADY",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

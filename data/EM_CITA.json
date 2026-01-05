@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CITA",
+        "label": "CITA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HARITA_JAYARAYA",
+        "label": "HARITA JAYARAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_LIM_HARIYANTO",
+        "label": "Keluarga Lim Hariyanto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLENCORE_INTERNATIONAL",
+        "label": "GLENCORE INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GLENCORE_PLC",
+        "label": "Glencore plc",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CITA_SH_HARITA_JAYARAYA",
+        "source": "EM_CITA",
+        "target": "SH_HARITA_JAYARAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CITA_KP_KELUARGA_LIM_HARIYANTO",
+        "source": "EM_CITA",
+        "target": "KP_KELUARGA_LIM_HARIYANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CITA_SH_GLENCORE_INTERNATIONAL",
+        "source": "EM_CITA",
+        "target": "SH_GLENCORE_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CITA_KP_GLENCORE_PLC",
+        "source": "EM_CITA",
+        "target": "KP_GLENCORE_PLC",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

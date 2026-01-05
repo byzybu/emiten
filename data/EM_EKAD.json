@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_EKAD",
+        "label": "EKAD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_EKADHARMA_INTI_PERKASA",
+        "label": "PT. EKADHARMA INTI PERKASA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JUDI_WIDJAJA",
+        "label": "Judi Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_EKAD_SH_PT_EKADHARMA_INTI_PERKASA",
+        "source": "EM_EKAD",
+        "target": "SH_PT_EKADHARMA_INTI_PERKASA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EKAD_KP_JUDI_WIDJAJA",
+        "source": "EM_EKAD",
+        "target": "KP_JUDI_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

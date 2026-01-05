@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DSFI",
+        "label": "DSFI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_MARINA_BERKAH_INVESTAMA",
+        "label": "PT MARINA BERKAH INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_STEPHEN_K_SULISTYO",
+        "label": "Stephen K. Sulistyo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DSFI_SH_PT_MARINA_BERKAH_INVESTAMA",
+        "source": "EM_DSFI",
+        "target": "SH_PT_MARINA_BERKAH_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DSFI_KP_STEPHEN_K_SULISTYO",
+        "source": "EM_DSFI",
+        "target": "KP_STEPHEN_K_SULISTYO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

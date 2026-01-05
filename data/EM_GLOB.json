@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GLOB",
+        "label": "GLOB",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRIKOMSEL_OKE_TBK_PT",
+        "label": "TRIKOMSEL OKE TBK,PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUGIONO_WIYONO",
+        "label": "Sugiono Wiyono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GLOB_SH_TRIKOMSEL_OKE_TBK_PT",
+        "source": "EM_GLOB",
+        "target": "SH_TRIKOMSEL_OKE_TBK_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GLOB_KP_SUGIONO_WIYONO",
+        "source": "EM_GLOB",
+        "target": "KP_SUGIONO_WIYONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

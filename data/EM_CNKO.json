@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CNKO",
+        "label": "CNKO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ANDERSON_BAY_PTE_LTD",
+        "label": "ANDERSON BAY PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CNKO_SH_ANDERSON_BAY_PTE_LTD",
+        "source": "EM_CNKO",
+        "target": "SH_ANDERSON_BAY_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CNKO_KP_SALIM_GROUP",
+        "source": "EM_CNKO",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

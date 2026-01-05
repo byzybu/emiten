@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DADA",
+        "label": "DADA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KARYA_PERMATA_INOVASI_INDONESIA",
+        "label": "KARYA PERMATA INOVASI INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJANDRA_TJOKRODIPONTO",
+        "label": "Tjandra Tjokrodiponto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DADA_SH_KARYA_PERMATA_INOVASI_INDONESIA",
+        "source": "EM_DADA",
+        "target": "SH_KARYA_PERMATA_INOVASI_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DADA_KP_TJANDRA_TJOKRODIPONTO",
+        "source": "EM_DADA",
+        "target": "KP_TJANDRA_TJOKRODIPONTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

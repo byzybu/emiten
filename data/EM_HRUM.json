@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HRUM",
+        "label": "HRUM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KARUNIA_BARA_PERKASA",
+        "label": "KARUNIA BARA PERKASA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TAN_PAULIN",
+        "label": "Tan Paulin",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HRUM_SH_KARUNIA_BARA_PERKASA",
+        "source": "EM_HRUM",
+        "target": "SH_KARUNIA_BARA_PERKASA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HRUM_KP_TAN_PAULIN",
+        "source": "EM_HRUM",
+        "target": "KP_TAN_PAULIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

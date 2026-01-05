@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BLTZ",
+        "label": "BLTZ",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_COREE_CAPITAL_LIMITED",
+        "label": "COREE CAPITAL LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SIMAN_WEISS",
+        "label": "Siman Weiss",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CGI_HOLDINGS_LIMITED",
+        "label": "CGI HOLDINGS LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TENCENT_HOLDINGS_CHINA_",
+        "label": "Tencent Holdings (China)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BLTZ_SH_COREE_CAPITAL_LIMITED",
+        "source": "EM_BLTZ",
+        "target": "SH_COREE_CAPITAL_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BLTZ_KP_SIMAN_WEISS",
+        "source": "EM_BLTZ",
+        "target": "KP_SIMAN_WEISS",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BLTZ_SH_CGI_HOLDINGS_LIMITED",
+        "source": "EM_BLTZ",
+        "target": "SH_CGI_HOLDINGS_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BLTZ_KP_TENCENT_HOLDINGS_CHINA_",
+        "source": "EM_BLTZ",
+        "target": "KP_TENCENT_HOLDINGS_CHINA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

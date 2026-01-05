@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BACA",
+        "label": "BACA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CAPITAL_GLOBAL_INVESTAMA",
+        "label": "CAPITAL GLOBAL INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_CIPUTRA",
+        "label": "Keluarga Ciputra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_JULIUS_BAER_CO_LTD",
+        "label": "BANK JULIUS BAER & CO. LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BACA_SH_CAPITAL_GLOBAL_INVESTAMA",
+        "source": "EM_BACA",
+        "target": "SH_CAPITAL_GLOBAL_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BACA_KP_KELUARGA_CIPUTRA",
+        "source": "EM_BACA",
+        "target": "KP_KELUARGA_CIPUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BACA_SH_BANK_JULIUS_BAER_CO_LTD",
+        "source": "EM_BACA",
+        "target": "SH_BANK_JULIUS_BAER_CO_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BACA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_BACA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

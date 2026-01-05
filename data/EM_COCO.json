@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_COCO",
+        "label": "COCO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAHOGANY_GLOBAL_INVESTMENT",
+        "label": "MAHOGANY GLOBAL INVESTMENT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DBS_BANK_LTD_S_A_PT_BANK_KEB_HANA",
+        "label": "DBS BANK LTD S/A PT BANK KEB HANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_COCO_SH_MAHOGANY_GLOBAL_INVESTMENT",
+        "source": "EM_COCO",
+        "target": "SH_MAHOGANY_GLOBAL_INVESTMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COCO_KP_INVESTASI_ASING",
+        "source": "EM_COCO",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COCO_SH_DBS_BANK_LTD_S_A_PT_BANK_KEB_HANA",
+        "source": "EM_COCO",
+        "target": "SH_DBS_BANK_LTD_S_A_PT_BANK_KEB_HANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_COCO_KP_INVESTOR_INSTITUSI",
+        "source": "EM_COCO",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

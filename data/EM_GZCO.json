@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GZCO",
+        "label": "GZCO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GOLDEN_ZAGA_INDONESIA_PT",
+        "label": "GOLDEN ZAGA INDONESIA, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJANDRA_MINDHARTA_GOZALI",
+        "label": "Tjandra Mindharta Gozali",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TJANDRA_MINDHARTA_GOZALI",
+        "label": "TJANDRA MINDHARTA GOZALI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NYAMDORJ_CHULUUNBAATAR",
+        "label": "NYAMDORJ CHULUUNBAATAR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NYAMDORJ_CHULUUNBAATAR",
+        "label": "Nyamdorj Chuluunbaatar",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GZCO_SH_GOLDEN_ZAGA_INDONESIA_PT",
+        "source": "EM_GZCO",
+        "target": "SH_GOLDEN_ZAGA_INDONESIA_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GZCO_KP_TJANDRA_MINDHARTA_GOZALI",
+        "source": "EM_GZCO",
+        "target": "KP_TJANDRA_MINDHARTA_GOZALI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GZCO_SH_TJANDRA_MINDHARTA_GOZALI",
+        "source": "EM_GZCO",
+        "target": "SH_TJANDRA_MINDHARTA_GOZALI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GZCO_KP_TJANDRA_MINDHARTA_GOZALI",
+        "source": "EM_GZCO",
+        "target": "KP_TJANDRA_MINDHARTA_GOZALI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GZCO_SH_NYAMDORJ_CHULUUNBAATAR",
+        "source": "EM_GZCO",
+        "target": "SH_NYAMDORJ_CHULUUNBAATAR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GZCO_KP_NYAMDORJ_CHULUUNBAATAR",
+        "source": "EM_GZCO",
+        "target": "KP_NYAMDORJ_CHULUUNBAATAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

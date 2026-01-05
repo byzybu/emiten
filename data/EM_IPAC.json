@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_IPAC",
+        "label": "IPAC",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_APAC_INVESTMENT_2_PTE_LTD",
+        "label": "APAC INVESTMENT 2 PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_IPAC_SH_APAC_INVESTMENT_2_PTE_LTD",
+        "source": "EM_IPAC",
+        "target": "SH_APAC_INVESTMENT_2_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_IPAC_KP_INVESTASI_ASING",
+        "source": "EM_IPAC",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

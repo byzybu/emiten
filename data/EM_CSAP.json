@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CSAP",
+        "label": "CSAP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DBS_BANK_LTD_S_A_ALBIZIA",
+        "label": "DBS BANK LTD S/A ALBIZIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_FUND_MANAGER",
+        "label": "Fund Manager",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NTASIAN_DISCOVERY_MASTER_FUND",
+        "label": "NTASIAN DISCOVERY MASTER FUND",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CSAP_SH_DBS_BANK_LTD_S_A_ALBIZIA",
+        "source": "EM_CSAP",
+        "target": "SH_DBS_BANK_LTD_S_A_ALBIZIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSAP_KP_FUND_MANAGER",
+        "source": "EM_CSAP",
+        "target": "KP_FUND_MANAGER",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSAP_SH_NTASIAN_DISCOVERY_MASTER_FUND",
+        "source": "EM_CSAP",
+        "target": "SH_NTASIAN_DISCOVERY_MASTER_FUND",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CSAP_KP_FUND_MANAGER",
+        "source": "EM_CSAP",
+        "target": "KP_FUND_MANAGER",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

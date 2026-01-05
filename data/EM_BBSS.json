@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BBSS",
+        "label": "BBSS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AGUNG_ANUGRAH_INVESTAMA",
+        "label": "AGUNG ANUGRAH INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GUNAWAN_SASTRA",
+        "label": "Gunawan Sastra",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BBSS_SH_AGUNG_ANUGRAH_INVESTAMA",
+        "source": "EM_BBSS",
+        "target": "SH_AGUNG_ANUGRAH_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BBSS_KP_GUNAWAN_SASTRA",
+        "source": "EM_BBSS",
+        "target": "KP_GUNAWAN_SASTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

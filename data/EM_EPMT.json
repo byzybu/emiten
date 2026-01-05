@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_EPMT",
+        "label": "EPMT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KALBE_FARMA_TBK_",
+        "label": "KALBE FARMA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "label": "Keluarga Boenjamin Setiawan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_EPMT_SH_KALBE_FARMA_TBK_",
+        "source": "EM_EPMT",
+        "target": "SH_KALBE_FARMA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_EPMT_KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "source": "EM_EPMT",
+        "target": "KP_KELUARGA_BOENJAMIN_SETIAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

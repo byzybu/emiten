@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CARE",
+        "label": "CARE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_METRO_HEALTHCARE_INT_",
+        "label": "METRO HEALTHCARE INT.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENRY_KWEE",
+        "label": "Henry Kwee",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANK_JULIUS_BAER_CO_LTD",
+        "label": "BANK JULIUS BAER & CO. LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CARE_SH_METRO_HEALTHCARE_INT_",
+        "source": "EM_CARE",
+        "target": "SH_METRO_HEALTHCARE_INT_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CARE_KP_HENRY_KWEE",
+        "source": "EM_CARE",
+        "target": "KP_HENRY_KWEE",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CARE_SH_BANK_JULIUS_BAER_CO_LTD",
+        "source": "EM_CARE",
+        "target": "SH_BANK_JULIUS_BAER_CO_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CARE_KP_INVESTOR_INSTITUSI",
+        "source": "EM_CARE",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

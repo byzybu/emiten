@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CEKA",
+        "label": "CEKA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SENTRATAMA_NIAGA_INDONESIA",
+        "label": "SENTRATAMA NIAGA INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_HARTONO",
+        "label": "Keluarga Hartono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CEKA_SH_SENTRATAMA_NIAGA_INDONESIA",
+        "source": "EM_CEKA",
+        "target": "SH_SENTRATAMA_NIAGA_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CEKA_KP_KELUARGA_HARTONO",
+        "source": "EM_CEKA",
+        "target": "KP_KELUARGA_HARTONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BABY",
+        "label": "BABY",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BLOOMING_YEARS_PTE_LTD_",
+        "label": "BLOOMING YEARS PTE.LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_THE_NING_KING",
+        "label": "The Ning King",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BABY_SH_BLOOMING_YEARS_PTE_LTD_",
+        "source": "EM_BABY",
+        "target": "SH_BLOOMING_YEARS_PTE_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BABY_KP_THE_NING_KING",
+        "source": "EM_BABY",
+        "target": "KP_THE_NING_KING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

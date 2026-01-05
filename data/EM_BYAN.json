@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BYAN",
+        "label": "BYAN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUMBER_SURYADAYA_PRIMA",
+        "label": "SUMBER SURYADAYA PRIMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TANOJO",
+        "label": "Keluarga Tanojo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_LOW_TUCK_KWONG",
+        "label": "LOW TUCK KWONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_LOW_TUCK_KWONG",
+        "label": "Low Tuck Kwong",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ELAINE_LOW",
+        "label": "ELAINE LOW",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ELAINE_LOW",
+        "label": "Elaine Low",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BYAN_SH_SUMBER_SURYADAYA_PRIMA",
+        "source": "EM_BYAN",
+        "target": "SH_SUMBER_SURYADAYA_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BYAN_KP_KELUARGA_TANOJO",
+        "source": "EM_BYAN",
+        "target": "KP_KELUARGA_TANOJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BYAN_SH_LOW_TUCK_KWONG",
+        "source": "EM_BYAN",
+        "target": "SH_LOW_TUCK_KWONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BYAN_KP_LOW_TUCK_KWONG",
+        "source": "EM_BYAN",
+        "target": "KP_LOW_TUCK_KWONG",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BYAN_SH_ELAINE_LOW",
+        "source": "EM_BYAN",
+        "target": "SH_ELAINE_LOW",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BYAN_KP_ELAINE_LOW",
+        "source": "EM_BYAN",
+        "target": "KP_ELAINE_LOW",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

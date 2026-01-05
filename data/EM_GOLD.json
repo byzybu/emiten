@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_GOLD",
+        "label": "GOLD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MULIA_SUKSES_MANDIRI_PT",
+        "label": "MULIA SUKSES MANDIRI, PT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TOWER_BERSAMA_INFRASTRUCTURE",
+        "label": "TOWER BERSAMA INFRASTRUCTURE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SARATOGA",
+        "label": "Saratoga",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AMANDA_CIPTA_PERSADA",
+        "label": "AMANDA CIPTA PERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRIMEGAH_SEKURITAS_INDONESIA",
+        "label": "TRIMEGAH SEKURITAS INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GARIBALDI_THOHIR",
+        "label": "Garibaldi Thohir",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_GOLD_SH_MULIA_SUKSES_MANDIRI_PT",
+        "source": "EM_GOLD",
+        "target": "SH_MULIA_SUKSES_MANDIRI_PT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GOLD_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_GOLD",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GOLD_SH_TOWER_BERSAMA_INFRASTRUCTURE",
+        "source": "EM_GOLD",
+        "target": "SH_TOWER_BERSAMA_INFRASTRUCTURE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GOLD_KP_SARATOGA",
+        "source": "EM_GOLD",
+        "target": "KP_SARATOGA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GOLD_SH_AMANDA_CIPTA_PERSADA",
+        "source": "EM_GOLD",
+        "target": "SH_AMANDA_CIPTA_PERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GOLD_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_GOLD",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GOLD_SH_TRIMEGAH_SEKURITAS_INDONESIA",
+        "source": "EM_GOLD",
+        "target": "SH_TRIMEGAH_SEKURITAS_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_GOLD_KP_GARIBALDI_THOHIR",
+        "source": "EM_GOLD",
+        "target": "KP_GARIBALDI_THOHIR",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
