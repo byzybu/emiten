@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Network Emiten Indonesia</title>
+<script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
+<style>
+body { margin:0; font-family:Inter,sans-serif; background:radial-gradient(circle at top,#020617,#000); color:#e5e7eb; overflow:hidden; }
+#cy { width:100vw; height:100vh; }
+#search {
+  position:fixed; top:20px; left:20px; width:320px; padding:12px 14px;
+  border-radius:12px; border:1px solid #1e293b; background:#020617; color:#e5e7eb; z-index:1000; outline:none;
+}
+#legend {
+  position:fixed; bottom:20px; left:20px; background:rgba(2,6,23,0.9);
+  border:1px solid #1e293b; border-radius:14px; padding:14px; font-size:13px;
+}
+.legend-item { display:flex; align-items:center; margin-bottom:6px; }
+.legend-shape { width:14px; height:14px; margin-right:8px; }
+.emiten { background:#f97316; border-radius:4px; }
+.shareholder { background:#3b82f6; border-radius:50%; }
+.keyperson { background:#22c55e; transform:rotate(45deg); }
+</style>
+</head>
+<body>
+
+<input id="search" placeholder="Cari emiten.." />
+<div id="cy"></div>
+
+<div id="legend">
+  <div class="legend-item"><span class="legend-shape emiten"></span> Emiten</div>
+  <div class="legend-item"><span class="legend-shape shareholder"></span> Shareholder</div>
+  <div class="legend-item"><span class="legend-shape keyperson"></span> Key Person</div>
+</div>
+
+<script>
+let cy = cytoscape({
+  container: document.getElementById("cy"),
+  elements: [],
+  style: [
+    // Emiten: tetap agak besar
+    { selector:'node[type="emiten"]', style:{ 
+        shape:'round-rectangle', 
+        'background-color':'#f97316', 
+        width:70, height:45, 
+        label:'data(label)',
+        'text-valign':'center','text-halign':'center',
+        color:'#e5e7eb',
+        'text-outline-width':2,'text-outline-color':'#020617',
+        'font-size':11,
+        'text-wrap':'wrap',
+        'text-max-width':60
+    }},
+    // Shareholder: lebih kecil
+    { selector:'node[type="shareholder"]', style:{ 
+        shape:'ellipse', 
+        'background-color':'#3b82f6', 
+        width:32, height:32, 
+        label:'data(label)',
+        'text-valign':'center','text-halign':'center',
+        color:'#e5e7eb',
+        'text-outline-width':1.5,'text-outline-color':'#020617',
+        'font-size':8,
+        'text-wrap':'wrap',
+        'text-max-width':40
+    }},
+    // Key Person: lebih kecil
+    { selector:'node[type="keyperson"]', style:{ 
+        shape:'diamond', 
+        'background-color':'#22c55e', 
+        width:30, height:30, 
+        label:'data(label)',
+        'text-valign':'center','text-halign':'center',
+        color:'#e5e7eb',
+        'text-outline-width':1.5,'text-outline-color':'#020617',
+        'font-size':8,
+        'text-wrap':'wrap',
+        'text-max-width':40
+    }},
+    // Edges
+    { selector:'edge[relation="HAS_SHAREHOLDER"]', style:{ 
+        'line-color':'#3b82f6',
+        'target-arrow-color':'#3b82f6',
+        'target-arrow-shape':'triangle',
+        width:2 
+    }},
+    { selector:'edge[relation="HAS_KEYPERSON"]', style:{ 
+        'line-color':'#22c55e',
+        'target-arrow-color':'#22c55e',
+        'target-arrow-shape':'triangle',
+        'line-style':'dashed',
+        width:2 
+    }}
+  ],
+  layout: { name:'cose', animate:false, padding:60, nodeSpacing:50 }
+});
+
+// ========== LOAD INDEX ==========
+let loadedEmitens = {};
+fetch('data/index.json')
+  .then(r=>r.json())
+  .then(idx=>{
+    const initial = idx.emitens.slice(0,2); // 2 emiten pertama
+    initial.forEach(loadEmiten);
+  });
+
+// ========== FUNGSI LOAD PER EMITEN ==========
+function loadEmiten(code){
+  if(loadedEmitens[code]) return; // jangan load ulang
+  fetch(`data/${code}.json`)
+    .then(r=>r.json())
+    .then(graph=>{
+      cy.add(graph);
+      cy.layout({ name:'cose', animate:false, padding:60, nodeSpacing:50 }).run();
+      loadedEmitens[code] = true;
+    });
+}
+
+// ========== SEARCH ==========
+document.getElementById("search").addEventListener("input", e=>{
+  const q = e.target.value.trim().toLowerCase();
+  if(!q) return;
+  fetch('data/index.json')
+    .then(r=>r.json())
+    .then(idx=>{
+      const found = idx.emitens.find(em=>em.toLowerCase().includes(q));
+      if(found){
+        cy.elements().remove();
+        loadedEmitens = {};
+        loadEmiten(found);
+      }
+    });
+});
+</script>
+
+</body>
+</html>
