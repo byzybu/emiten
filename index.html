@@ -5,24 +5,42 @@
 <title>Network Emiten Indonesia</title>
 <script src="https://unpkg.com/cytoscape@3.26.0/dist/cytoscape.min.js"></script>
 <style>
-body { margin:0; font-family:Inter,sans-serif; background:radial-gradient(circle at top,#020617,#000); color:#e5e7eb; overflow:hidden; }
-#cy { width:100vw; height:100vh; }
+body { 
+  margin:0; 
+  font-family:Inter,sans-serif; 
+  background: radial-gradient(circle at top, #1e293b, #374151); /* gradient abu-abu lembut */
+  color:#e5e7eb; 
+  overflow:hidden; 
+}
+
+#cy { 
+  width:100vw; 
+  height:100vh; 
+  background-color:#1f2937; /* abu-abu gelap lembut di area graph */
+}
+
 #search {
   position:fixed; top:20px; left:20px; width:320px; padding:12px 14px;
-  border-radius:12px; border:1px solid #1e293b; background:#020617; color:#e5e7eb; z-index:1000; outline:none;
+  border-radius:12px; border:1px solid #374151; background:#374151; /* search box abu-abu */
+  color:#e5e7eb; z-index:1000; outline:none;
 }
+
 #legend {
-  position:fixed; bottom:20px; left:20px; background:rgba(2,6,23,0.9);
-  border:1px solid #1e293b; border-radius:14px; padding:14px; font-size:13px;
+  position:fixed; bottom:20px; left:20px; 
+  background: rgba(31,41,55,0.9); /* legend senada dengan container */
+  border:1px solid #374151; border-radius:14px; padding:14px; font-size:13px;
 }
+
 .legend-item { display:flex; align-items:center; margin-bottom:6px; }
 .legend-shape { width:14px; height:14px; margin-right:8px; }
+
 .emiten { background:#f97316; border-radius:4px; }
 .shareholder { background:#3b82f6; border-radius:50%; }
 .keyperson { background:#22c55e; transform:rotate(45deg); }
 </style>
 </head>
 <body>
+
 
 <input id="search" placeholder="Cari emiten.." />
 <div id="cy"></div>
@@ -38,7 +56,7 @@ let cy = cytoscape({
   container: document.getElementById("cy"),
   elements: [],
   style: [
-    // Emiten: tetap agak besar
+    // Emiten: tulisan tebal dan ada outline
     { selector:'node[type="emiten"]', style:{ 
         shape:'round-rectangle', 
         'background-color':'#f97316', 
@@ -47,11 +65,11 @@ let cy = cytoscape({
         'text-valign':'center','text-halign':'center',
         color:'#e5e7eb',
         'text-outline-width':2,'text-outline-color':'#020617',
-        'font-size':11,
-        'text-wrap':'wrap',
-        'text-max-width':60
+        'font-size':12,
+        'font-weight':'bold',
+        'text-wrap':'wrap','text-max-width':60
     }},
-    // Shareholder: lebih kecil
+    // Shareholder: tulisan biasa
     { selector:'node[type="shareholder"]', style:{ 
         shape:'ellipse', 
         'background-color':'#3b82f6', 
@@ -59,12 +77,12 @@ let cy = cytoscape({
         label:'data(label)',
         'text-valign':'center','text-halign':'center',
         color:'#e5e7eb',
-        'text-outline-width':1.5,'text-outline-color':'#020617',
-        'font-size':8,
-        'text-wrap':'wrap',
-        'text-max-width':40
+        'text-outline-width':0,
+        'font-size':9,
+        'font-weight':'normal',
+        'text-wrap':'wrap','text-max-width':40
     }},
-    // Key Person: lebih kecil
+    // Key Person: tulisan biasa
     { selector:'node[type="keyperson"]', style:{ 
         shape:'diamond', 
         'background-color':'#22c55e', 
@@ -72,29 +90,22 @@ let cy = cytoscape({
         label:'data(label)',
         'text-valign':'center','text-halign':'center',
         color:'#e5e7eb',
-        'text-outline-width':1.5,'text-outline-color':'#020617',
-        'font-size':8,
-        'text-wrap':'wrap',
-        'text-max-width':40
+        'text-outline-width':0,
+        'font-size':9,
+        'font-weight':'normal',
+        'text-wrap':'wrap','text-max-width':40
     }},
-    // Edges
-    { selector:'edge[relation="HAS_SHAREHOLDER"]', style:{ 
-        'line-color':'#3b82f6',
-        'target-arrow-color':'#3b82f6',
+    // Edge style
+    { selector:'edge', style:{ 
+        'width':2,
+        'line-color':'#64748b',
+        'target-arrow-color':'#64748b',
         'target-arrow-shape':'triangle',
-        width:2 
-    }},
-    { selector:'edge[relation="HAS_KEYPERSON"]', style:{ 
-        'line-color':'#22c55e',
-        'target-arrow-color':'#22c55e',
-        'target-arrow-shape':'triangle',
-        'line-style':'dashed',
-        width:2 
+        'curve-style':'bezier'
     }}
   ],
   layout: { name:'cose', animate:false, padding:60, nodeSpacing:50 }
 });
-
 // ========== LOAD INDEX ==========
 let loadedEmitens = {};
 fetch('data/index.json')
