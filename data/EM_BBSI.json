@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BBSI",
+        "label": "BBSI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_FINACCEL_TEKNOLOGI_IND_",
+        "label": "FINACCEL TEKNOLOGI IND.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AKSHAY_GARG_DKK_KREDIVO_",
+        "label": "Akshay Garg dkk (Kredivo)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BBSI_SH_FINACCEL_TEKNOLOGI_IND_",
+        "source": "EM_BBSI",
+        "target": "SH_FINACCEL_TEKNOLOGI_IND_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BBSI_KP_AKSHAY_GARG_DKK_KREDIVO_",
+        "source": "EM_BBSI",
+        "target": "KP_AKSHAY_GARG_DKK_KREDIVO_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

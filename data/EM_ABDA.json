@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ABDA",
+        "label": "ABDA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_OONA_INDONESIA_PTE_LTD",
+        "label": "OONA INDONESIA PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WARBURG_PINCUS",
+        "label": "Warburg Pincus",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ABDA_SH_OONA_INDONESIA_PTE_LTD",
+        "source": "EM_ABDA",
+        "target": "SH_OONA_INDONESIA_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ABDA_KP_WARBURG_PINCUS",
+        "source": "EM_ABDA",
+        "target": "KP_WARBURG_PINCUS",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

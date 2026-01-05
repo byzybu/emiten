@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TRUS",
+        "label": "TRUS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_ARTHA_CAPITAL_INDONESIA",
+        "label": "PT ARTHA CAPITAL INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ARTHA_PERDANA_INVESTAMA",
+        "label": "ARTHA PERDANA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HENDRY_HARTATO",
+        "label": "HENDRY HARTATO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HENDRY_HARTATO",
+        "label": "Hendry Hartato",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TRUS_SH_PT_ARTHA_CAPITAL_INDONESIA",
+        "source": "EM_TRUS",
+        "target": "SH_PT_ARTHA_CAPITAL_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUS_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_TRUS",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUS_SH_ARTHA_PERDANA_INVESTAMA",
+        "source": "EM_TRUS",
+        "target": "SH_ARTHA_PERDANA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUS_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_TRUS",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUS_SH_HENDRY_HARTATO",
+        "source": "EM_TRUS",
+        "target": "SH_HENDRY_HARTATO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRUS_KP_HENDRY_HARTATO",
+        "source": "EM_TRUS",
+        "target": "KP_HENDRY_HARTATO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

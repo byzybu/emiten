@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BOSS",
+        "label": "BOSS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MEGAH_PRAKARSA_UTAMA",
+        "label": "MEGAH PRAKARSA UTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_KUSUMA",
+        "label": "Keluarga Kusuma",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_KENCANA_UNGGUL_SEMESTA",
+        "label": "PT KENCANA UNGGUL SEMESTA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KENCANA_ENERGI_KEEN_",
+        "label": "Kencana Energi (KEEN)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SAPPHIRE_MULIA_ABADI",
+        "label": "PT SAPPHIRE MULIA ABADI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BOSS_SH_MEGAH_PRAKARSA_UTAMA",
+        "source": "EM_BOSS",
+        "target": "SH_MEGAH_PRAKARSA_UTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOSS_KP_KELUARGA_KUSUMA",
+        "source": "EM_BOSS",
+        "target": "KP_KELUARGA_KUSUMA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOSS_SH_PT_KENCANA_UNGGUL_SEMESTA",
+        "source": "EM_BOSS",
+        "target": "SH_PT_KENCANA_UNGGUL_SEMESTA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOSS_KP_KENCANA_ENERGI_KEEN_",
+        "source": "EM_BOSS",
+        "target": "KP_KENCANA_ENERGI_KEEN_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOSS_SH_PT_SAPPHIRE_MULIA_ABADI",
+        "source": "EM_BOSS",
+        "target": "SH_PT_SAPPHIRE_MULIA_ABADI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOSS_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_BOSS",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

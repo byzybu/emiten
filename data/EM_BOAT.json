@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BOAT",
+        "label": "BOAT",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DHARMAWATI_DJUHANA",
+        "label": "DHARMAWATI DJUHANA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_DHARMAWATI_DJUHANA",
+        "label": "Dharmawati Djuhana",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUGIMAN_HALIM",
+        "label": "SUGIMAN HALIM",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUGIMAN_HALIM",
+        "label": "Sugiman Halim",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUJAYA_SOEKARNO_PUTRA",
+        "label": "SUJAYA SOEKARNO PUTRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUJAYA_SOEKARNO_PUTRA",
+        "label": "Sujaya Soekarno Putra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SURYA_SOEKARNO_PUTRA",
+        "label": "SURYA SOEKARNO PUTRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SURYA_SOEKARNO_PUTRA",
+        "label": "Surya Soekarno Putra",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BOAT_SH_DHARMAWATI_DJUHANA",
+        "source": "EM_BOAT",
+        "target": "SH_DHARMAWATI_DJUHANA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOAT_KP_DHARMAWATI_DJUHANA",
+        "source": "EM_BOAT",
+        "target": "KP_DHARMAWATI_DJUHANA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOAT_SH_SUGIMAN_HALIM",
+        "source": "EM_BOAT",
+        "target": "SH_SUGIMAN_HALIM",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOAT_KP_SUGIMAN_HALIM",
+        "source": "EM_BOAT",
+        "target": "KP_SUGIMAN_HALIM",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOAT_SH_SUJAYA_SOEKARNO_PUTRA",
+        "source": "EM_BOAT",
+        "target": "SH_SUJAYA_SOEKARNO_PUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOAT_KP_SUJAYA_SOEKARNO_PUTRA",
+        "source": "EM_BOAT",
+        "target": "KP_SUJAYA_SOEKARNO_PUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOAT_SH_SURYA_SOEKARNO_PUTRA",
+        "source": "EM_BOAT",
+        "target": "SH_SURYA_SOEKARNO_PUTRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BOAT_KP_SURYA_SOEKARNO_PUTRA",
+        "source": "EM_BOAT",
+        "target": "KP_SURYA_SOEKARNO_PUTRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

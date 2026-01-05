@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AKKU",
+        "label": "AKKU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BINTANG_BERSINAR_CEMERLANG",
+        "label": "BINTANG BERSINAR CEMERLANG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARY_TANOESOEDIBJO",
+        "label": "Hary Tanoesoedibjo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GEMA_BUSANA_RAYA",
+        "label": "GEMA BUSANA RAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GRUP_PAN_BROTHERS",
+        "label": "Grup Pan Brothers",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_RENALDIJAYA_EKAINTI",
+        "label": "PT. RENALDIJAYA EKAINTI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_KOREK_API_GUNA_MANDIRI",
+        "label": "PT. KOREK API GUNA MANDIRI",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AKKU_SH_BINTANG_BERSINAR_CEMERLANG",
+        "source": "EM_AKKU",
+        "target": "SH_BINTANG_BERSINAR_CEMERLANG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AKKU_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_AKKU",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AKKU_SH_GEMA_BUSANA_RAYA",
+        "source": "EM_AKKU",
+        "target": "SH_GEMA_BUSANA_RAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AKKU_KP_GRUP_PAN_BROTHERS",
+        "source": "EM_AKKU",
+        "target": "KP_GRUP_PAN_BROTHERS",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AKKU_SH_PT_RENALDIJAYA_EKAINTI",
+        "source": "EM_AKKU",
+        "target": "SH_PT_RENALDIJAYA_EKAINTI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AKKU_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_AKKU",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AKKU_SH_PT_KOREK_API_GUNA_MANDIRI",
+        "source": "EM_AKKU",
+        "target": "SH_PT_KOREK_API_GUNA_MANDIRI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AKKU_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_AKKU",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

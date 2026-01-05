@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_YUPI",
+        "label": "YUPI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CONFECTIONERY_CONSUMER",
+        "label": "CONFECTIONERY CONSUMER",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_YUPI_SH_CONFECTIONERY_CONSUMER",
+        "source": "EM_YUPI",
+        "target": "SH_CONFECTIONERY_CONSUMER",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_YUPI_KP_INVESTASI_ASING",
+        "source": "EM_YUPI",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BUKK",
+        "label": "BUKK",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IR_ACHMAD_KALLA",
+        "label": "IR ACHMAD KALLA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ACHMAD_KALLA",
+        "label": "Achmad Kalla",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SOLIHIN_JUSUF_KALLA",
+        "label": "SOLIHIN JUSUF KALLA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SOLIHIN_JUSUF_KALLA",
+        "label": "Solihin Jusuf Kalla",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUHAELLY_KALLA",
+        "label": "SUHAELLY KALLA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUHAELLY_KALLA",
+        "label": "Suhaelly Kalla",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DRS_SUHAELI_KALLA",
+        "label": "DRS SUHAELI KALLA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUHAELI_KALLA",
+        "label": "Suhaeli Kalla",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BUKK_SH_IR_ACHMAD_KALLA",
+        "source": "EM_BUKK",
+        "target": "SH_IR_ACHMAD_KALLA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUKK_KP_ACHMAD_KALLA",
+        "source": "EM_BUKK",
+        "target": "KP_ACHMAD_KALLA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUKK_SH_SOLIHIN_JUSUF_KALLA",
+        "source": "EM_BUKK",
+        "target": "SH_SOLIHIN_JUSUF_KALLA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUKK_KP_SOLIHIN_JUSUF_KALLA",
+        "source": "EM_BUKK",
+        "target": "KP_SOLIHIN_JUSUF_KALLA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUKK_SH_SUHAELLY_KALLA",
+        "source": "EM_BUKK",
+        "target": "SH_SUHAELLY_KALLA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUKK_KP_SUHAELLY_KALLA",
+        "source": "EM_BUKK",
+        "target": "KP_SUHAELLY_KALLA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUKK_SH_DRS_SUHAELI_KALLA",
+        "source": "EM_BUKK",
+        "target": "SH_DRS_SUHAELI_KALLA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BUKK_KP_SUHAELI_KALLA",
+        "source": "EM_BUKK",
+        "target": "KP_SUHAELI_KALLA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

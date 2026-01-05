@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ASRI",
+        "label": "ASRI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TANGERANG_FAJAR_IND_ESTATE",
+        "label": "TANGERANG FAJAR IND. ESTATE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_THE_NING_KING",
+        "label": "Keluarga The Ning King",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MANUNGGAL_PRIME_DEVELOPMENT",
+        "label": "MANUNGGAL PRIME DEVELOPMENT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAYBANK_SEKURITAS_INDONESIA",
+        "label": "MAYBANK SEKURITAS INDONESIA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ASRI_SH_TANGERANG_FAJAR_IND_ESTATE",
+        "source": "EM_ASRI",
+        "target": "SH_TANGERANG_FAJAR_IND_ESTATE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASRI_KP_KELUARGA_THE_NING_KING",
+        "source": "EM_ASRI",
+        "target": "KP_KELUARGA_THE_NING_KING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASRI_SH_MANUNGGAL_PRIME_DEVELOPMENT",
+        "source": "EM_ASRI",
+        "target": "SH_MANUNGGAL_PRIME_DEVELOPMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASRI_KP_KELUARGA_THE_NING_KING",
+        "source": "EM_ASRI",
+        "target": "KP_KELUARGA_THE_NING_KING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASRI_SH_MAYBANK_SEKURITAS_INDONESIA",
+        "source": "EM_ASRI",
+        "target": "SH_MAYBANK_SEKURITAS_INDONESIA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ASRI_KP_INVESTOR_INSTITUSI",
+        "source": "EM_ASRI",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ERAA",
+        "label": "ERAA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ERALINK_INTERNATIONAL",
+        "label": "ERALINK INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_RICHARD_HALIM_KUSUMA",
+        "label": "Richard Halim Kusuma",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ERAA_SH_ERALINK_INTERNATIONAL",
+        "source": "EM_ERAA",
+        "target": "SH_ERALINK_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ERAA_KP_RICHARD_HALIM_KUSUMA",
+        "source": "EM_ERAA",
+        "target": "KP_RICHARD_HALIM_KUSUMA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

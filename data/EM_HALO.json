@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HALO",
+        "label": "HALO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PROMOSI_DESA_DIGITAL",
+        "label": "PROMOSI DESA DIGITAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HANSEN_JAP",
+        "label": "HANSEN JAP",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HANSEN_JAP",
+        "label": "Hansen Jap",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HALO_SH_PROMOSI_DESA_DIGITAL",
+        "source": "EM_HALO",
+        "target": "SH_PROMOSI_DESA_DIGITAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HALO_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_HALO",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HALO_SH_HANSEN_JAP",
+        "source": "EM_HALO",
+        "target": "SH_HANSEN_JAP",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HALO_KP_HANSEN_JAP",
+        "source": "EM_HALO",
+        "target": "KP_HANSEN_JAP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

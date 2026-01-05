@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ADES",
+        "label": "ADES",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WATER_PARTNERS_BOTTLING_SA",
+        "label": "WATER PARTNERS BOTTLING SA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HERMANTO_TANOKO",
+        "label": "Hermanto Tanoko",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ADES_SH_WATER_PARTNERS_BOTTLING_SA",
+        "source": "EM_ADES",
+        "target": "SH_WATER_PARTNERS_BOTTLING_SA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ADES_KP_HERMANTO_TANOKO",
+        "source": "EM_ADES",
+        "target": "KP_HERMANTO_TANOKO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

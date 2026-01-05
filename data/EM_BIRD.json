@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BIRD",
+        "label": "BIRD",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PUSAKA_CITRA_DJOKOSOETONO",
+        "label": "PUSAKA CITRA DJOKOSOETONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_DJOKOSOETONO",
+        "label": "Keluarga Djokosoetono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDRA_PRIAWAN_DJOKOSOETONO",
+        "label": "INDRA PRIAWAN DJOKOSOETONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INDRA_PRIAWAN_DJOKOSOETONO",
+        "label": "Indra Priawan Djokosoetono",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ADRIANTO_DJOKOSOETONO",
+        "label": "ADRIANTO DJOKOSOETONO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ADRIANTO_DJOKOSOETONO",
+        "label": "Adrianto Djokosoetono",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BIRD_SH_PUSAKA_CITRA_DJOKOSOETONO",
+        "source": "EM_BIRD",
+        "target": "SH_PUSAKA_CITRA_DJOKOSOETONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIRD_KP_KELUARGA_DJOKOSOETONO",
+        "source": "EM_BIRD",
+        "target": "KP_KELUARGA_DJOKOSOETONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIRD_SH_INDRA_PRIAWAN_DJOKOSOETONO",
+        "source": "EM_BIRD",
+        "target": "SH_INDRA_PRIAWAN_DJOKOSOETONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIRD_KP_INDRA_PRIAWAN_DJOKOSOETONO",
+        "source": "EM_BIRD",
+        "target": "KP_INDRA_PRIAWAN_DJOKOSOETONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIRD_SH_ADRIANTO_DJOKOSOETONO",
+        "source": "EM_BIRD",
+        "target": "SH_ADRIANTO_DJOKOSOETONO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BIRD_KP_ADRIANTO_DJOKOSOETONO",
+        "source": "EM_BIRD",
+        "target": "KP_ADRIANTO_DJOKOSOETONO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_AIMS",
+        "label": "AIMS",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DELTA_WIBAWA_BERSAMA",
+        "label": "DELTA WIBAWA BERSAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AFILIASI_PANIN",
+        "label": "Afiliasi Panin",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AIMS_INDO_INVESTAMA",
+        "label": "AIMS INDO INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_IR_EFENDI_LEMAN",
+        "label": "IR EFENDI LEMAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_IR_EFENDI_LEMAN",
+        "label": "Ir. Efendi Leman",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_AIMS_SH_DELTA_WIBAWA_BERSAMA",
+        "source": "EM_AIMS",
+        "target": "SH_DELTA_WIBAWA_BERSAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AIMS_KP_AFILIASI_PANIN",
+        "source": "EM_AIMS",
+        "target": "KP_AFILIASI_PANIN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AIMS_SH_AIMS_INDO_INVESTAMA",
+        "source": "EM_AIMS",
+        "target": "SH_AIMS_INDO_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AIMS_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_AIMS",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AIMS_SH_IR_EFENDI_LEMAN",
+        "source": "EM_AIMS",
+        "target": "SH_IR_EFENDI_LEMAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_AIMS_KP_IR_EFENDI_LEMAN",
+        "source": "EM_AIMS",
+        "target": "KP_IR_EFENDI_LEMAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_ELSA",
+        "label": "ELSA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PERTAMINA_HULU_ENERGI",
+        "label": "PERTAMINA HULU ENERGI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HAIYANTO",
+        "label": "HAIYANTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAIYANTO",
+        "label": "Haiyanto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_ELSA_SH_PERTAMINA_HULU_ENERGI",
+        "source": "EM_ELSA",
+        "target": "SH_PERTAMINA_HULU_ENERGI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ELSA_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_ELSA",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ELSA_SH_HAIYANTO",
+        "source": "EM_ELSA",
+        "target": "SH_HAIYANTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_ELSA_KP_HAIYANTO",
+        "source": "EM_ELSA",
+        "target": "KP_HAIYANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

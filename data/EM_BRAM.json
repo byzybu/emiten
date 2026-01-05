@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_BRAM",
+        "label": "BRAM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_RISJADSON_SURYATAMA",
+        "label": "PT. RISJADSON SURYATAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_RISJAD",
+        "label": "Keluarga Risjad",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_KORDSA_TEKNIK_TEKSTIL_A_S_",
+        "label": "KORDSA TEKNIK TEKSTIL A.S.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SABANCI_HOLDING_TURKI_",
+        "label": "Sabanci Holding (Turki)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ENDANG_LESTARI_PUJIASTUTI",
+        "label": "ENDANG LESTARI PUJIASTUTI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ENDANG_LESTARI_PUJIASTUTI",
+        "label": "Endang Lestari Pujiastuti",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_BRAM_SH_PT_RISJADSON_SURYATAMA",
+        "source": "EM_BRAM",
+        "target": "SH_PT_RISJADSON_SURYATAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRAM_KP_KELUARGA_RISJAD",
+        "source": "EM_BRAM",
+        "target": "KP_KELUARGA_RISJAD",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRAM_SH_KORDSA_TEKNIK_TEKSTIL_A_S_",
+        "source": "EM_BRAM",
+        "target": "SH_KORDSA_TEKNIK_TEKSTIL_A_S_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRAM_KP_SABANCI_HOLDING_TURKI_",
+        "source": "EM_BRAM",
+        "target": "KP_SABANCI_HOLDING_TURKI_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRAM_SH_ENDANG_LESTARI_PUJIASTUTI",
+        "source": "EM_BRAM",
+        "target": "SH_ENDANG_LESTARI_PUJIASTUTI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_BRAM_KP_ENDANG_LESTARI_PUJIASTUTI",
+        "source": "EM_BRAM",
+        "target": "KP_ENDANG_LESTARI_PUJIASTUTI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

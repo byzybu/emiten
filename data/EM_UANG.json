@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_UANG",
+        "label": "UANG",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BHINEKA_ABADI_INVESTAMA",
+        "label": "BHINEKA ABADI INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SIRIUS_SURYA_SENTOSA",
+        "label": "SIRIUS SURYA SENTOSA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AGNUS_SURYADI",
+        "label": "Agnus Suryadi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BASIS_UTAMA_PRIMA",
+        "label": "BASIS UTAMA PRIMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAPPY_HAPSORO",
+        "label": "Happy Hapsoro",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ARSJAD_RASJID",
+        "label": "Arsjad Rasjid",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HAPSORO",
+        "label": "HAPSORO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HAPSORO_SUKMONOHADI",
+        "label": "Hapsoro Sukmonohadi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_UANG_SH_BHINEKA_ABADI_INVESTAMA",
+        "source": "EM_UANG",
+        "target": "SH_BHINEKA_ABADI_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_UANG",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_SH_SIRIUS_SURYA_SENTOSA",
+        "source": "EM_UANG",
+        "target": "SH_SIRIUS_SURYA_SENTOSA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_KP_AGNUS_SURYADI",
+        "source": "EM_UANG",
+        "target": "KP_AGNUS_SURYADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_SH_BASIS_UTAMA_PRIMA",
+        "source": "EM_UANG",
+        "target": "SH_BASIS_UTAMA_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_KP_HAPPY_HAPSORO",
+        "source": "EM_UANG",
+        "target": "KP_HAPPY_HAPSORO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_SH_BASIS_UTAMA_PRIMA",
+        "source": "EM_UANG",
+        "target": "SH_BASIS_UTAMA_PRIMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_KP_ARSJAD_RASJID",
+        "source": "EM_UANG",
+        "target": "KP_ARSJAD_RASJID",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_SH_HAPSORO",
+        "source": "EM_UANG",
+        "target": "SH_HAPSORO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UANG_KP_HAPSORO_SUKMONOHADI",
+        "source": "EM_UANG",
+        "target": "KP_HAPSORO_SUKMONOHADI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

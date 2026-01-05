@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_CLPI",
+        "label": "CLPI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DB_AG_SG_A_C_NOMINEE",
+        "label": "DB AG SG A/C NOMINEE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CHANDRA_NATALIE_WIDJAJA",
+        "label": "CHANDRA NATALIE WIDJAJA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CHANDRA_NATALIE_WIDJAJA",
+        "label": "Chandra Natalie Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_CLPI_SH_DB_AG_SG_A_C_NOMINEE",
+        "source": "EM_CLPI",
+        "target": "SH_DB_AG_SG_A_C_NOMINEE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CLPI_KP_INVESTOR_INSTITUSI",
+        "source": "EM_CLPI",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CLPI_SH_CHANDRA_NATALIE_WIDJAJA",
+        "source": "EM_CLPI",
+        "target": "SH_CHANDRA_NATALIE_WIDJAJA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_CLPI_KP_CHANDRA_NATALIE_WIDJAJA",
+        "source": "EM_CLPI",
+        "target": "KP_CHANDRA_NATALIE_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

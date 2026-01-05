@@ -1,0 +1,163 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_DAVO",
+        "label": "DAVO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_SHERIUTAMA_RAYA",
+        "label": "PT.SHERIUTAMA RAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_OEMAR",
+        "label": "Keluarga Oemar",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MELIAWATI_OEMAR",
+        "label": "MELIAWATI OEMAR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MELIAWATI_OEMAR",
+        "label": "Meliawati Oemar",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NICHOLAS_SENJAYA",
+        "label": "NICHOLAS SENJAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NICHOLAS_SENJAYA",
+        "label": "Nicholas Senjaya",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JENNIFER",
+        "label": "JENNIFER",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JENNIFER",
+        "label": "Jennifer",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CLSA_LTD",
+        "label": "CLSA LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CITIC_SECURITIES_CHINA_",
+        "label": "CITIC Securities (China)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_DAVO_SH_PT_SHERIUTAMA_RAYA",
+        "source": "EM_DAVO",
+        "target": "SH_PT_SHERIUTAMA_RAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_KP_KELUARGA_OEMAR",
+        "source": "EM_DAVO",
+        "target": "KP_KELUARGA_OEMAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_SH_MELIAWATI_OEMAR",
+        "source": "EM_DAVO",
+        "target": "SH_MELIAWATI_OEMAR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_KP_MELIAWATI_OEMAR",
+        "source": "EM_DAVO",
+        "target": "KP_MELIAWATI_OEMAR",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_SH_NICHOLAS_SENJAYA",
+        "source": "EM_DAVO",
+        "target": "SH_NICHOLAS_SENJAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_KP_NICHOLAS_SENJAYA",
+        "source": "EM_DAVO",
+        "target": "KP_NICHOLAS_SENJAYA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_SH_JENNIFER",
+        "source": "EM_DAVO",
+        "target": "SH_JENNIFER",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_KP_JENNIFER",
+        "source": "EM_DAVO",
+        "target": "KP_JENNIFER",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_SH_CLSA_LTD",
+        "source": "EM_DAVO",
+        "target": "SH_CLSA_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_DAVO_KP_CITIC_SECURITIES_CHINA_",
+        "source": "EM_DAVO",
+        "target": "KP_CITIC_SECURITIES_CHINA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

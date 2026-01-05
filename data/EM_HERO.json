@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_HERO",
+        "label": "HERO",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CLSA_LTD",
+        "label": "CLSA LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_CITIC_SECURITIES_CHINA_",
+        "label": "CITIC Securities (China)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_HERO_SH_CLSA_LTD",
+        "source": "EM_HERO",
+        "target": "SH_CLSA_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_HERO_KP_CITIC_SECURITIES_CHINA_",
+        "source": "EM_HERO",
+        "target": "KP_CITIC_SECURITIES_CHINA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

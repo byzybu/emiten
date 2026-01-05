@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_VICI",
+        "label": "VICI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUKSES_SEJATI_SEJAHTERA",
+        "label": "SUKSES SEJATI SEJAHTERA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BEAUTY_BRANDS_INTERNATIONAL",
+        "label": "BEAUTY BRANDS INTERNATIONAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_VICI_SH_SUKSES_SEJATI_SEJAHTERA",
+        "source": "EM_VICI",
+        "target": "SH_SUKSES_SEJATI_SEJAHTERA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VICI_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_VICI",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VICI_SH_BEAUTY_BRANDS_INTERNATIONAL",
+        "source": "EM_VICI",
+        "target": "SH_BEAUTY_BRANDS_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VICI_KP_INVESTASI_ASING",
+        "source": "EM_VICI",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
