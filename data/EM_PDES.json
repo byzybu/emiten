@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PDES",
+        "label": "PDES",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PANORAMA_SENTRAWISATA",
+        "label": "PANORAMA SENTRAWISATA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_TIRTAWISATA",
+        "label": "Keluarga Tirtawisata",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_AMAN_DHITYA_INVESTAMA",
+        "label": "PT. AMAN DHITYA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_GOLDEN_SPICE",
+        "label": "PT GOLDEN SPICE",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PDES_SH_PANORAMA_SENTRAWISATA",
+        "source": "EM_PDES",
+        "target": "SH_PANORAMA_SENTRAWISATA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PDES_KP_KELUARGA_TIRTAWISATA",
+        "source": "EM_PDES",
+        "target": "KP_KELUARGA_TIRTAWISATA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PDES_SH_PT_AMAN_DHITYA_INVESTAMA",
+        "source": "EM_PDES",
+        "target": "SH_PT_AMAN_DHITYA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PDES_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PDES",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PDES_SH_PT_GOLDEN_SPICE",
+        "source": "EM_PDES",
+        "target": "SH_PT_GOLDEN_SPICE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PDES_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_PDES",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

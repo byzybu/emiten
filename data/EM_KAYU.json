@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KAYU",
+        "label": "KAYU",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DARBE_PUTRA_MAKMUR",
+        "label": "DARBE PUTRA MAKMUR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_DARBE",
+        "label": "Keluarga Darbe",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WAWAN_SETYAWAN_SE",
+        "label": "WAWAN SETYAWAN SE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WAWAN_SETYAWAN",
+        "label": "Wawan Setyawan",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ALDO_PRATAMA_PURNOMO",
+        "label": "ALDO PRATAMA PURNOMO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ALDO_PRATAMA_PURNOMO",
+        "label": "Aldo Pratama Purnomo",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KAYU_SH_DARBE_PUTRA_MAKMUR",
+        "source": "EM_KAYU",
+        "target": "SH_DARBE_PUTRA_MAKMUR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KAYU_KP_KELUARGA_DARBE",
+        "source": "EM_KAYU",
+        "target": "KP_KELUARGA_DARBE",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KAYU_SH_WAWAN_SETYAWAN_SE",
+        "source": "EM_KAYU",
+        "target": "SH_WAWAN_SETYAWAN_SE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KAYU_KP_WAWAN_SETYAWAN",
+        "source": "EM_KAYU",
+        "target": "KP_WAWAN_SETYAWAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KAYU_SH_ALDO_PRATAMA_PURNOMO",
+        "source": "EM_KAYU",
+        "target": "SH_ALDO_PRATAMA_PURNOMO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KAYU_KP_ALDO_PRATAMA_PURNOMO",
+        "source": "EM_KAYU",
+        "target": "KP_ALDO_PRATAMA_PURNOMO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TBLA",
+        "label": "TBLA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BUDIANTO",
+        "label": "BUDIANTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BUDIANTO",
+        "label": "Budianto",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TJONG_DEDY_T",
+        "label": "TJONG DEDY T",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_TJONG_DEDY_T",
+        "label": "Tjong Dedy T",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TBLA_SH_BUDIANTO",
+        "source": "EM_TBLA",
+        "target": "SH_BUDIANTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TBLA_KP_BUDIANTO",
+        "source": "EM_TBLA",
+        "target": "KP_BUDIANTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TBLA_SH_TJONG_DEDY_T",
+        "source": "EM_TBLA",
+        "target": "SH_TJONG_DEDY_T",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TBLA_KP_TJONG_DEDY_T",
+        "source": "EM_TBLA",
+        "target": "KP_TJONG_DEDY_T",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

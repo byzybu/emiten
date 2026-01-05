@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RELF",
+        "label": "RELF",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASIA_INTRAINVESTA",
+        "label": "ASIA INTRAINVESTA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PATRALAND_MULIA_JAYA",
+        "label": "PATRALAND MULIA JAYA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_NUSA_PERKASA_INTERNATIONAL",
+        "label": "NUSA PERKASA INTERNATIONAL",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RELF_SH_ASIA_INTRAINVESTA",
+        "source": "EM_RELF",
+        "target": "SH_ASIA_INTRAINVESTA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RELF_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_RELF",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RELF_SH_PATRALAND_MULIA_JAYA",
+        "source": "EM_RELF",
+        "target": "SH_PATRALAND_MULIA_JAYA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RELF_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_RELF",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RELF_SH_NUSA_PERKASA_INTERNATIONAL",
+        "source": "EM_RELF",
+        "target": "SH_NUSA_PERKASA_INTERNATIONAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RELF_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_RELF",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

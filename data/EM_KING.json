@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KING",
+        "label": "KING",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SUHALI",
+        "label": "SUHALI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SUHALI",
+        "label": "Suhali",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KING_SH_SUHALI",
+        "source": "EM_KING",
+        "target": "SH_SUHALI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KING_KP_SUHALI",
+        "source": "EM_KING",
+        "target": "KP_SUHALI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

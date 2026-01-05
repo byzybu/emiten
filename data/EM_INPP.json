@@ -1,0 +1,156 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_INPP",
+        "label": "INPP",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PROPERTINDO_PRIMA_INVESTAMA",
+        "label": "PROPERTINDO PRIMA INVESTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GRAHATAMA_KREASIBARU",
+        "label": "GRAHATAMA KREASIBARU",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_AFILIASI_PROPERTI",
+        "label": "Afiliasi Properti",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ELYSIUM_INVESTMENT_PARTNERS",
+        "label": "ELYSIUM INVESTMENT PARTNERS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TREE_OF_BLESSING_PTE_LTD_",
+        "label": "TREE OF BLESSING PTE. LTD.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CGS_INTERNATIONAL_SECS",
+        "label": "CGS INTERNATIONAL SECS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_INPP_SH_PROPERTINDO_PRIMA_INVESTAMA",
+        "source": "EM_INPP",
+        "target": "SH_PROPERTINDO_PRIMA_INVESTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_INPP",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_SH_GRAHATAMA_KREASIBARU",
+        "source": "EM_INPP",
+        "target": "SH_GRAHATAMA_KREASIBARU",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_KP_AFILIASI_PROPERTI",
+        "source": "EM_INPP",
+        "target": "KP_AFILIASI_PROPERTI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_SH_ELYSIUM_INVESTMENT_PARTNERS",
+        "source": "EM_INPP",
+        "target": "SH_ELYSIUM_INVESTMENT_PARTNERS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_KP_INVESTASI_ASING",
+        "source": "EM_INPP",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_SH_TREE_OF_BLESSING_PTE_LTD_",
+        "source": "EM_INPP",
+        "target": "SH_TREE_OF_BLESSING_PTE_LTD_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_KP_INVESTASI_ASING",
+        "source": "EM_INPP",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_SH_CGS_INTERNATIONAL_SECS",
+        "source": "EM_INPP",
+        "target": "SH_CGS_INTERNATIONAL_SECS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_INPP_KP_INVESTOR_INSTITUSI",
+        "source": "EM_INPP",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

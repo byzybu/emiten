@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MABA",
+        "label": "MABA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_CITIBANK_NEW_YORK",
+        "label": "CITIBANK NEW YORK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAP_AKTIF_ADIPERKASA_TBK",
+        "label": "MAP AKTIF ADIPERKASA TBK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_SALIM_GROUP",
+        "label": "Salim Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MITRA_ADIPERKASA_TBK",
+        "label": "MITRA ADIPERKASA TBK",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MABA_SH_CITIBANK_NEW_YORK",
+        "source": "EM_MABA",
+        "target": "SH_CITIBANK_NEW_YORK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MABA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_MABA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MABA_SH_MAP_AKTIF_ADIPERKASA_TBK",
+        "source": "EM_MABA",
+        "target": "SH_MAP_AKTIF_ADIPERKASA_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MABA_KP_SALIM_GROUP",
+        "source": "EM_MABA",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MABA_SH_MITRA_ADIPERKASA_TBK",
+        "source": "EM_MABA",
+        "target": "SH_MITRA_ADIPERKASA_TBK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MABA_KP_SALIM_GROUP",
+        "source": "EM_MABA",
+        "target": "KP_SALIM_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

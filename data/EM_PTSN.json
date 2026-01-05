@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PTSN",
+        "label": "PTSN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_INDITECK_TECHNOLOGY_HK",
+        "label": "INDITECK TECHNOLOGY HK",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASUS_INVESTMENT_CO_LTD",
+        "label": "ASUS INVESTMENT CO., LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ASUSTEK_COMPUTER_TAIWAN_",
+        "label": "ASUSTeK Computer (Taiwan)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ABIDIN_FAN",
+        "label": "ABIDIN FAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ABIDIN_FAN",
+        "label": "Abidin Fan",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PTSN_SH_INDITECK_TECHNOLOGY_HK",
+        "source": "EM_PTSN",
+        "target": "SH_INDITECK_TECHNOLOGY_HK",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSN_KP_INVESTASI_ASING",
+        "source": "EM_PTSN",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSN_SH_ASUS_INVESTMENT_CO_LTD",
+        "source": "EM_PTSN",
+        "target": "SH_ASUS_INVESTMENT_CO_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSN_KP_ASUSTEK_COMPUTER_TAIWAN_",
+        "source": "EM_PTSN",
+        "target": "KP_ASUSTEK_COMPUTER_TAIWAN_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSN_SH_ABIDIN_FAN",
+        "source": "EM_PTSN",
+        "target": "SH_ABIDIN_FAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PTSN_KP_ABIDIN_FAN",
+        "source": "EM_PTSN",
+        "target": "KP_ABIDIN_FAN",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

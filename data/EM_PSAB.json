@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_PSAB",
+        "label": "PSAB",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JIMMY_BUDIARTO",
+        "label": "JIMMY BUDIARTO",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_JIMMY_BUDIARTO",
+        "label": "Jimmy Budiarto",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_PSAB_SH_JIMMY_BUDIARTO",
+        "source": "EM_PSAB",
+        "target": "SH_JIMMY_BUDIARTO",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_PSAB_KP_JIMMY_BUDIARTO",
+        "source": "EM_PSAB",
+        "target": "KP_JIMMY_BUDIARTO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

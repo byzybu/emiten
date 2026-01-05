@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_STAA",
+        "label": "STAA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GOVERNMENT_OF_SINGAPORE",
+        "label": "GOVERNMENT OF SINGAPORE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PEMERINTAH_SINGAPURA",
+        "label": "Pemerintah Singapura",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_STAA_SH_GOVERNMENT_OF_SINGAPORE",
+        "source": "EM_STAA",
+        "target": "SH_GOVERNMENT_OF_SINGAPORE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_STAA_KP_PEMERINTAH_SINGAPURA",
+        "source": "EM_STAA",
+        "target": "KP_PEMERINTAH_SINGAPURA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

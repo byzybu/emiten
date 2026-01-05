@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KBRI",
+        "label": "KBRI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "label": "JAKSA AGUNG MUDA (KEJAGUNG)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KBRI_SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "source": "EM_KBRI",
+        "target": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KBRI_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_KBRI",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

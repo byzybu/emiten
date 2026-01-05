@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RONY",
+        "label": "RONY",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_HONOUR_ACCORD_LIMITED",
+        "label": "HONOUR ACCORD LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RONY_SH_HONOUR_ACCORD_LIMITED",
+        "source": "EM_RONY",
+        "target": "SH_HONOUR_ACCORD_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RONY_KP_INVESTASI_ASING",
+        "source": "EM_RONY",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

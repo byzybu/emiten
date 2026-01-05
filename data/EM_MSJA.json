@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MSJA",
+        "label": "MSJA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MAJU_SELARAS_JAYAMERTA",
+        "label": "MAJU SELARAS JAYAMERTA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MSJA_SH_MAJU_SELARAS_JAYAMERTA",
+        "source": "EM_MSJA",
+        "target": "SH_MAJU_SELARAS_JAYAMERTA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MSJA_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MSJA",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

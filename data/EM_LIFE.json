@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_LIFE",
+        "label": "LIFE",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SINAR_MAS_MULTIARTHA_TBK_",
+        "label": "SINAR MAS MULTIARTHA TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MITSUI_SUMITOMO_INSURANCE",
+        "label": "MITSUI SUMITOMO INSURANCE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MS_AD_INSURANCE_JEPANG_",
+        "label": "MS&AD Insurance (Jepang)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_LIFE_SH_SINAR_MAS_MULTIARTHA_TBK_",
+        "source": "EM_LIFE",
+        "target": "SH_SINAR_MAS_MULTIARTHA_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LIFE_KP_KELUARGA_WIDJAJA",
+        "source": "EM_LIFE",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LIFE_SH_MITSUI_SUMITOMO_INSURANCE",
+        "source": "EM_LIFE",
+        "target": "SH_MITSUI_SUMITOMO_INSURANCE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_LIFE_KP_MS_AD_INSURANCE_JEPANG_",
+        "source": "EM_LIFE",
+        "target": "KP_MS_AD_INSURANCE_JEPANG_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

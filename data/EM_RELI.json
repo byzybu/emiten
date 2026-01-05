@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_RELI",
+        "label": "RELI",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_RELIANCE_CAPITAL_MANAGEMENT",
+        "label": "PT RELIANCE CAPITAL MANAGEMENT",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_ANTON_BUDIDJAJA",
+        "label": "Anton Budidjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_RELI_SH_PT_RELIANCE_CAPITAL_MANAGEMENT",
+        "source": "EM_RELI",
+        "target": "SH_PT_RELIANCE_CAPITAL_MANAGEMENT",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_RELI_KP_ANTON_BUDIDJAJA",
+        "source": "EM_RELI",
+        "target": "KP_ANTON_BUDIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

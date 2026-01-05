@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_SGER",
+        "label": "SGER",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_VIVI_RAMALYATI_HUTAMA",
+        "label": "VIVI RAMALYATI HUTAMA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_VIVI_RAMALYATI_HUTAMA",
+        "label": "Vivi Ramalyati Hutama",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_WELLY_THOMAS",
+        "label": "WELLY THOMAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_WELLY_THOMAS",
+        "label": "Welly Thomas",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_SGER_SH_VIVI_RAMALYATI_HUTAMA",
+        "source": "EM_SGER",
+        "target": "SH_VIVI_RAMALYATI_HUTAMA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SGER_KP_VIVI_RAMALYATI_HUTAMA",
+        "source": "EM_SGER",
+        "target": "KP_VIVI_RAMALYATI_HUTAMA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SGER_SH_WELLY_THOMAS",
+        "source": "EM_SGER",
+        "target": "SH_WELLY_THOMAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_SGER_KP_WELLY_THOMAS",
+        "source": "EM_SGER",
+        "target": "KP_WELLY_THOMAS",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MSIN",
+        "label": "MSIN",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MEDIA_NUSANTARA_CITRA",
+        "label": "MEDIA NUSANTARA CITRA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_HARY_TANOESOEDIBJO",
+        "label": "Hary Tanoesoedibjo",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_GLOBAL_MEDIACOM_TBK_",
+        "label": "GLOBAL MEDIACOM TBK.",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MNC_SEKURITAS",
+        "label": "MNC SEKURITAS",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MSIN_SH_MEDIA_NUSANTARA_CITRA",
+        "source": "EM_MSIN",
+        "target": "SH_MEDIA_NUSANTARA_CITRA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MSIN_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_MSIN",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MSIN_SH_GLOBAL_MEDIACOM_TBK_",
+        "source": "EM_MSIN",
+        "target": "SH_GLOBAL_MEDIACOM_TBK_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MSIN_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_MSIN",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MSIN_SH_MNC_SEKURITAS",
+        "source": "EM_MSIN",
+        "target": "SH_MNC_SEKURITAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MSIN_KP_HARY_TANOESOEDIBJO",
+        "source": "EM_MSIN",
+        "target": "KP_HARY_TANOESOEDIBJO",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

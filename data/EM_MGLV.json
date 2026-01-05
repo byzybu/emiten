@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_MGLV",
+        "label": "MGLV",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_TRIJAYA_WISESA_MAKMUR",
+        "label": "TRIJAYA WISESA MAKMUR",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_MGLV_SH_TRIJAYA_WISESA_MAKMUR",
+        "source": "EM_MGLV",
+        "target": "SH_TRIJAYA_WISESA_MAKMUR",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_MGLV_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_MGLV",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

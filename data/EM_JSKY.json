@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_JSKY",
+        "label": "JSKY",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "label": "JAKSA AGUNG MUDA (KEJAGUNG)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_MIRAE_ASSET_SEKURITAS",
+        "label": "MIRAE ASSET SEKURITAS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_MIRAE_ASSET_KOREA_",
+        "label": "Mirae Asset (Korea)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_JSKY_SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "source": "EM_JSKY",
+        "target": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSKY_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_JSKY",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSKY_SH_MIRAE_ASSET_SEKURITAS",
+        "source": "EM_JSKY",
+        "target": "SH_MIRAE_ASSET_SEKURITAS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_JSKY_KP_MIRAE_ASSET_KOREA_",
+        "source": "EM_JSKY",
+        "target": "KP_MIRAE_ASSET_KOREA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

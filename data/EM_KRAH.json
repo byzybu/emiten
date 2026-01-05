@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_KRAH",
+        "label": "KRAH",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_PT_PRIMA_LANGGENG",
+        "label": "PT PRIMA LANGGENG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "label": "Perusahaan (Perlu Cek AHU)",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "label": "UOB KAY HIAN PRIVATE LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AXIATA_INVESTMENTS",
+        "label": "AXIATA INVESTMENTS",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KHAZANAH_NASIONAL_MALAYSIA_",
+        "label": "Khazanah Nasional (Malaysia)",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_KRAH_SH_PT_PRIMA_LANGGENG",
+        "source": "EM_KRAH",
+        "target": "SH_PT_PRIMA_LANGGENG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRAH_KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "source": "EM_KRAH",
+        "target": "KP_PERUSAHAAN_PERLU_CEK_AHU_",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRAH_SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "source": "EM_KRAH",
+        "target": "SH_UOB_KAY_HIAN_PRIVATE_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRAH_KP_INVESTOR_INSTITUSI",
+        "source": "EM_KRAH",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRAH_SH_AXIATA_INVESTMENTS",
+        "source": "EM_KRAH",
+        "target": "SH_AXIATA_INVESTMENTS",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_KRAH_KP_KHAZANAH_NASIONAL_MALAYSIA_",
+        "source": "EM_KRAH",
+        "target": "KP_KHAZANAH_NASIONAL_MALAYSIA_",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
