@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_UCID",
+        "label": "UCID",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_APP_PURINUSA_EKAPERSADA",
+        "label": "APP PURINUSA EKAPERSADA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_KELUARGA_WIDJAJA",
+        "label": "Keluarga Widjaja",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_UCID_SH_APP_PURINUSA_EKAPERSADA",
+        "source": "EM_UCID",
+        "target": "SH_APP_PURINUSA_EKAPERSADA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_UCID_KP_KELUARGA_WIDJAJA",
+        "source": "EM_UCID",
+        "target": "KP_KELUARGA_WIDJAJA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TOWR",
+        "label": "TOWR",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_DWIMURIA_INVESTAMA_ANDALAN",
+        "label": "DWIMURIA INVESTAMA ANDALAN",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GRUP_DJARUM",
+        "label": "Grup Djarum",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TOWR_SH_DWIMURIA_INVESTAMA_ANDALAN",
+        "source": "EM_TOWR",
+        "target": "SH_DWIMURIA_INVESTAMA_ANDALAN",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TOWR_KP_GRUP_DJARUM",
+        "source": "EM_TOWR",
+        "target": "KP_GRUP_DJARUM",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

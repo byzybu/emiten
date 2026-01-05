@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_APEX",
+        "label": "APEX",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASERRA_CAPITAL",
+        "label": "ASERRA CAPITAL",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_GRUP_ASERRA",
+        "label": "Grup Aserra",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_AUGUSTA_INVESTMENTS_I_PTE_LTD",
+        "label": "AUGUSTA INVESTMENTS I PTE LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UOB_KAY_HIAN_HONG_KONG_LTD",
+        "label": "UOB KAY HIAN (HONG KONG) LTD",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_APEX_SH_ASERRA_CAPITAL",
+        "source": "EM_APEX",
+        "target": "SH_ASERRA_CAPITAL",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APEX_KP_GRUP_ASERRA",
+        "source": "EM_APEX",
+        "target": "KP_GRUP_ASERRA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APEX_SH_AUGUSTA_INVESTMENTS_I_PTE_LTD",
+        "source": "EM_APEX",
+        "target": "SH_AUGUSTA_INVESTMENTS_I_PTE_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APEX_KP_INVESTASI_ASING",
+        "source": "EM_APEX",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APEX_SH_UOB_KAY_HIAN_HONG_KONG_LTD",
+        "source": "EM_APEX",
+        "target": "SH_UOB_KAY_HIAN_HONG_KONG_LTD",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_APEX_KP_INVESTOR_INSTITUSI",
+        "source": "EM_APEX",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

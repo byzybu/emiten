@@ -1,0 +1,149 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_VIVA",
+        "label": "VIVA",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BAKRIE_GLOBAL_VENTURA",
+        "label": "BAKRIE GLOBAL VENTURA",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_BAKRIE_GROUP",
+        "label": "Bakrie Group",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_SURYA_GANESA_AMANI",
+        "label": "SURYA GANESA AMANI",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_BANQUE_PICTET_CIE",
+        "label": "BANQUE PICTET & CIE",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTOR_INSTITUSI",
+        "label": "Investor Institusi",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_UBS_AG_HONG_KONG",
+        "label": "UBS AG HONG KONG",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_OL_MASTER_LIMITED",
+        "label": "OL MASTER LIMITED",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_INVESTASI_ASING",
+        "label": "Investasi Asing",
+        "type": "keyperson"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_VIVA_SH_BAKRIE_GLOBAL_VENTURA",
+        "source": "EM_VIVA",
+        "target": "SH_BAKRIE_GLOBAL_VENTURA",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_KP_BAKRIE_GROUP",
+        "source": "EM_VIVA",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_SH_SURYA_GANESA_AMANI",
+        "source": "EM_VIVA",
+        "target": "SH_SURYA_GANESA_AMANI",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_KP_BAKRIE_GROUP",
+        "source": "EM_VIVA",
+        "target": "KP_BAKRIE_GROUP",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_SH_BANQUE_PICTET_CIE",
+        "source": "EM_VIVA",
+        "target": "SH_BANQUE_PICTET_CIE",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_VIVA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_SH_UBS_AG_HONG_KONG",
+        "source": "EM_VIVA",
+        "target": "SH_UBS_AG_HONG_KONG",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_KP_INVESTOR_INSTITUSI",
+        "source": "EM_VIVA",
+        "target": "KP_INVESTOR_INSTITUSI",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_SH_OL_MASTER_LIMITED",
+        "source": "EM_VIVA",
+        "target": "SH_OL_MASTER_LIMITED",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_VIVA_KP_INVESTASI_ASING",
+        "source": "EM_VIVA",
+        "target": "KP_INVESTASI_ASING",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}

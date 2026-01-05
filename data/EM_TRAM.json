@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "EM_TRAM",
+        "label": "TRAM",
+        "type": "emiten"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_ASABRI_PERSERO_",
+        "label": "ASABRI (PERSERO)",
+        "type": "shareholder"
+      }
+    },
+    {
+      "data": {
+        "id": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "label": "Negara Republik Indonesia",
+        "type": "keyperson"
+      }
+    },
+    {
+      "data": {
+        "id": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "label": "JAKSA AGUNG MUDA (KEJAGUNG)",
+        "type": "shareholder"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "EM_TRAM_SH_ASABRI_PERSERO_",
+        "source": "EM_TRAM",
+        "target": "SH_ASABRI_PERSERO_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRAM_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_TRAM",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRAM_SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "source": "EM_TRAM",
+        "target": "SH_JAKSA_AGUNG_MUDA_KEJAGUNG_",
+        "relation": "HAS_SHAREHOLDER"
+      }
+    },
+    {
+      "data": {
+        "id": "EM_TRAM_KP_NEGARA_REPUBLIK_INDONESIA",
+        "source": "EM_TRAM",
+        "target": "KP_NEGARA_REPUBLIK_INDONESIA",
+        "relation": "HAS_KEYPERSON"
+      }
+    }
+  ]
+}
